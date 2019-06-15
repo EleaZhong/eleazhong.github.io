@@ -7,6 +7,6 @@ Congradulate me!
 
 ## SSR setup
 
-(Go to that page now)[ssr.md]
+[Go to that page now](ssr.md)
 
 
