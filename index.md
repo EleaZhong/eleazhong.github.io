@@ -1,12 +1,13 @@
-
 # My new github pages
 
-	by Dazhi
+    by Dazhi
 
 Congradulate me!
 
-## SSR setup
+## dino
 
-[Go to that page now](ssr.md)
+[go to that page now!](https://dazhizhong.github.io/dino)
 
+## ssr
 
+[go to that page now!](https://dazhizhong.github.io/ssr)
