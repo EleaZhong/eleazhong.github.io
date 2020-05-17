@@ -75,6 +75,11 @@ function animate() {
 
 animate();
 
+function togglerotate() {
+  var element = document.getElementById("rot");
+  element.classList.toggle("paused");
+}
+
 
 
 
@@ -100,4 +105,5 @@ function playpause(){
     audioMp3.play();
   }
   isPlaying = !isPlaying;
+  togglerotate();
 }
