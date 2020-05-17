@@ -88,6 +88,7 @@ audioMp3.addEventListener('loadeddata', () => {
 })
 
 document.addEventListener('DOMContentLoaded', function() {
+  // alert('click for audio ~');
    audioMp3.play();
    isPlaying = false;
 }, false);
