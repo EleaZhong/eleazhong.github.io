@@ -11,7 +11,7 @@ let illo = new Zdog.Illustration({
   resize: 'fullscreen',
   // stop spinning when drag starts
   onDragStart: function() {
-    isSpinning = false;
+    // isSpinning = false;
   },
 });
 
@@ -89,7 +89,7 @@ audioMp3.addEventListener('loadeddata', () => {
 
 document.addEventListener('DOMContentLoaded', function() {
    audioMp3.play();
-   isPlaying = true;
+   isPlaying = false;
 }, false);
 
 function playpause(){
