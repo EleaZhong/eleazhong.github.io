@@ -64,17 +64,6 @@ var text = new Zdog.Text({
   stroke: 4,
 });
 
-// Creating a darker duplicate of the text and pushing it backwards can help make it look like the text has depth
-// (This is entirely optional!)
-// var shadow = text.copy({
-//   addTo: illo,
-//   translate: {z: -6, y:50},
-//   rotate: {y: PI/2},
-//   color: '#aab',
-// });
-
-
-
 
 
 
@@ -85,3 +74,29 @@ function animate() {
 }
 
 animate();
+
+
+
+
+var isPlaying = true;
+var audioMp3 = new Audio();
+audioMp3.src = 'https://dazhizhong.github.io/inlove.mp3';
+audioMp3.addEventListener('loadeddata', () => {
+  let duration = audioMp3.duration;
+  console.log(duration);
+  // The duration variable now holds the duration (in seconds) of the audio clip 
+})
+
+document.addEventListener('DOMContentLoaded', function() {
+   audioMp3.play();
+   isPlaying = true;
+}, false);
+
+function playpause(){
+  if (isPlaying){
+    audioMp3.pause();
+  } else {
+    audioMp3.play();
+  }
+  isPlaying = !isPlaying;
+}
