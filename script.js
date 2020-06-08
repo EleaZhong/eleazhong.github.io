@@ -53,7 +53,7 @@ var font = new Zdog.Font({
 var text = new Zdog.Text({
   addTo: illo,
   font: font,
-  value: "I <3 Programming",
+  value: "HFIP",
   fontSize: 50,
   translate: {y:50},
   rotate: {y: PI/2},
@@ -85,7 +85,7 @@ function togglerotate() {
 
 var isPlaying = true;
 var audioMp3 = new Audio();
-audioMp3.src = 'https://dazhizhong.github.io/inlove.mp3';
+audioMp3.src = 'https://dazhizhong.github.io/ringleader.webm';
 audioMp3.addEventListener('loadeddata', () => {
   let duration = audioMp3.duration;
   console.log(duration);
