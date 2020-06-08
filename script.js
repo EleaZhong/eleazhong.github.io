@@ -53,7 +53,7 @@ var font = new Zdog.Font({
 var text = new Zdog.Text({
   addTo: illo,
   font: font,
-  value: "HFIP",
+  value: "H F I P",
   fontSize: 50,
   translate: {y:50},
   rotate: {y: PI/2},
