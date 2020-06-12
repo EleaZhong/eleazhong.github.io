@@ -11,13 +11,15 @@ let illo = new Zdog.Illustration({
   resize: 'fullscreen',
   // stop spinning when drag starts
   onDragStart: function() {
-    // isSpinning = false;
+    isSpinning = false;
   },
 });
 
 
+
+
 // square
-new Zdog.Rect({
+let left = new Zdog.Rect({
   addTo: illo,
   width: 0,
   height: 28,
@@ -28,7 +30,7 @@ new Zdog.Rect({
   fill: true,
 });
 
-new Zdog.Rect({
+let right = new Zdog.Rect({
   addTo: illo, 
   width: 0,
   height: 28,
@@ -44,7 +46,7 @@ new Zdog.Rect({
 // You can use pretty much any .ttf or .otf font!
 // https://github.com/jaames/zfont#zdogfont
 var font = new Zdog.Font({
-  src: 'https://cdn.jsdelivr.net/gh/jaames/zfont/demo/fredokaone.ttf'
+  src: 'https://dazhizhong.github.io/Aloja-Light.otf'
 });
 
 // Create a Text object
@@ -53,7 +55,7 @@ var font = new Zdog.Font({
 var text = new Zdog.Text({
   addTo: illo,
   font: font,
-  value: "H F I P",
+  value: "HFIP",
   fontSize: 50,
   translate: {y:50},
   rotate: {y: PI/2},
@@ -65,10 +67,12 @@ var text = new Zdog.Text({
 });
 
 
-
+illo.rotate.y += -PI/2;
 
 function animate() {
-  illo.rotate.y += isSpinning ? -0.03 : 0;
+  illo.rotate.y += isSpinning ? -0.01 : 0;
+  // illo.rotate.y += isSpinning ? -0.015 : 0;
+  // illo.rotate.y += isSpinning ? -0.025 : 0;
   illo.updateRenderGraph();
   requestAnimationFrame( animate );
 }
