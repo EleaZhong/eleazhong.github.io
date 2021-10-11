@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Popos on Waterbuffalo News</title>
+    <link>/popo/</link>
+    <description>Recent content in Popos on Waterbuffalo News</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Jun 2020 18:53:17 +0800</lastBuildDate>
+    
+        <atom:link href="/popo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Geththe</title>
+      <link>/popo/geththe/</link>
+      <pubDate>Sun, 07 Jun 2020 18:53:17 +0800</pubDate>
+      
+      <guid>/popo/geththe/</guid>
+      <description>some body one old me That
+​	asdjas
+ adsljasdjladlakjd
+Asdajdlakj
+ </description>
+      
+      <content:encoded><![CDATA[<h2 id="some-body-one-old-me">some body one old me</h2>
+<p>That</p>
+<p>​	asdjas</p>
+<blockquote>
+<p>adsljasdjladlakjd</p>
+<p>Asdajdlakj</p>
+</blockquote>
+]]></content:encoded>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Waterbuffalo Posts</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on Waterbuffalo Posts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Jun 2020 15:49:30 +0800</lastBuildDate>
+    
+        <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2019-2020 HFI Programming Club Summary</title>
+      <link>/clubsum/</link>
+      <pubDate>Sat, 13 Jun 2020 15:49:30 +0800</pubDate>
+      
+      <guid>/clubsum/</guid>
+      <description>▾	2019-2020 HFI Programming Club Summary
+​	▾	Main Summary
+​	•	The HFI Programming Club is an ambitious and academically achieving club that have been and will be thriving in the rich and opulent soil of HFI. Since the initial imagination and creation of it, it has been a place of education and higher development of academic skill, it is safe to say: this administration has not failed to any standard.</description>
+      
+      <content:encoded><![CDATA[<p>▾	2019-2020 HFI Programming Club Summary</p>
+<p>​	▾	Main Summary</p>
+<p>​		•	The HFI Programming Club is an ambitious and academically achieving club that have been and will be thriving in the rich and opulent soil of HFI. Since the initial imagination and creation of it, it has been a place of education and higher development of academic skill, it is safe to say: this administration has not failed to any standard. In this year, despite difficulties in both human resources, school support, and the unfortunate occurrence of COVID-19, this club has continued, as always, to deliver, perhaps even more prolific and bountiful than previous years.</p>
+<p>​		•	In this administration, there are two presidents: Zhong Dazhi and Chen Marin.</p>
+<p>​		•	In this administration, there are two presidents: Zhong Dazhi and Chen Marin. These two presidents both managing separate but integral roles in the club. Dazhi&rsquo;s role is primarily academic and major managing, from the coding, teaching of the students, to the planning and supervising of project flows, Dazhi&rsquo;s role extensively guides the flow of the club. While Marin guides, teaches, and inspires the students, as well as planning, meeting, and managing relations with other clubs and programming clubs in other schools.</p>
+<p>​		•	There are 27 club members in the HFI Programming Club, 8 of which are core members. Normal club members participate in club meetings, engage in club projects, but have limited ability to code, and are learning throughout the year. Core members, however, engage in all projects, and provide major contributions to the codebase, and spend sufficient time in development.</p>
+<p>​		•	Two major routes have been formulated in the club, one of which is project development, while another is academic competitions, both having people pursuing, but the major route that this club is going for is project development. The philosophy behind this is that only throughout hand-to-hand developing, can members truly develop a passion, and obtain experience in the vast field of programming. While pursuing academic wins are thrilling and enthralling, and can obtain knowledge more efficiently than otherwise, it is only for die-hard lovers, and only core members pursue such achievements.</p>
+<p>​		•	In project development, we achieved many results, often making</p>
+<p>​		•	In a more statistical sense, sinked in project development are more than 30 meetings consisting orienting, coding, and discussing projects, 100+ man hours put in development, and at least 40 man hours from the two presidents preparing and coding for meetings and projects.</p>
+<p>​		•	Academically, we stay straight on the road that our past precedents paved, yet with little modifications and renovations during. Throughout the year, we have accomplished multiple projects, numerous meetings and lecturing lessons, and attended academic contests. Yet, we marched into previously untapped grounds, seeking novelty in &ldquo;Arduino&rdquo; microprocessors, with the goodwill that it would bring lifeblood to our club — to our relief, it did.</p>
+<p>​		•	Yet, despite these achievements, we still find inspiration from successes and failures from ourselves and others, and plan in the next year to put forth a stronger call for members, a more down-to-earth style, and more school-wide activities that people with less computer programming ability can partake. We hope that with more time and delicate planning, we can withhold more attention and achieve much, much more.</p>
+<p>​		•	In summary, with proud results but also deliberate internal and external reflection, we march into the next year with confidence and preparation.</p>
+<p>​		•	A list of our achievements is listed below.</p>
+<p>Unfortunately, us being coders that seek truth in actual development and constructive participation, do not dwell on useless and formalist activities such as photo-shooting every single meeting, so forgive me when photographic documentation is rare.</p>
+<p>​	▾	Major and Minor Events</p>
+<p>​		▾	Academic competition preparation and attending</p>
+<p>​			▾	Overview</p>
+<p>​				•	The two major events (USACO and ACSL) were held mainly during the COVID-19 quarantine, in zoom meetings. We aim from the meetings to make more people love the subject, and score a higher score in these academically challenging contests. Most importantly, we wish that through the challenges, people would gradually love the subject, just as I do.</p>
+<p>​				•	Yet, our adherence in exams and contests is not yet high enough, many other schools have similar programs, and have bi-weekly mocks. Thus, to address the problem, we plan to add a division that aims more on exams, with the past and present presidents monitoring and tutoring. I believe HFIP next year would be more academically amazing!</p>
+<p>​			▾	ACSL preparation and attending (8 meetings)</p>
+<p>​				▾	Images</p>
+<p>​					•	<img  src="https://dazhizhong.github.io/club/Pasted_Graphic_11.png"
+        alt="Pasted_Graphic_11"/></p>
+<p>​					•	<img  src="https://dazhizhong.github.io/club/download-2.png"
+        alt="download-2"/></p>
+<p>​				•	ACSL competition had four separate sections, and our meeting of five, <strong>(Dazhi, Marin, Jason, Charlie, Peter),</strong> prepared for each, and attended each (which is 4*2 <strong>8 meetings in total)</strong>. The dates are: <strong>19th, 20th,&amp; 21st December, 5th&amp;8th March, 17th&amp;22nd March, and 23rd&amp;25th April. (Including test dates)</strong></p>
+<p>​				•	Meetings from before the holiday (19th, 20th,&amp; 21st December) are held at 603, at 7:00-9:30pm. And meetings after the holiday are less time consuming, and only role is to share questions and resources. They are most commonly held at 8:00-8:30pm.</p>
+<p>​			▾	CCC and USACO preparation and attending (6 meetings)</p>
+<p>​				▾	Images</p>
+<p>​					•	<img  src="https://dazhizhong.github.io/club/download-3.png"
+        alt="download-3"/></p>
+<p>​					•	<img  src="https://dazhizhong.github.io/club/image-20200609172154169_copy.png"
+        alt="image-20200609172154169_copy"/></p>
+<p>​				•	Unfortunately, CCC was withheld from attending due to COVID-19, but the USACO meetings were held 2 days before and at the date of the contest. And the USACO holds a total of 3 intermediate contests at December, January, and February. The specific dates are <strong>14&amp;16th December, 18&amp;20th January, and 21&amp;24th February</strong>. The attending of these six meetings are limited, because of the difficult nature of the USACO contest. Specifically, <strong>Dazhi, Marin, and Jason.</strong> These meetings are held in Istudy, in private (sofa area), and after the quarantine in zoom, often 8 or 9 in the evening.</p>
+<p>​		▾	Tutoring and meetings (20+ meetings)</p>
+<p>​			▾	Overview</p>
+<p>​				•	Because HFIP (as mentioned above) is not exactly an exam-oriented club, we love to develop amazing and beautiful websites and programs that benefit people. Yet, with many newcomers, we have a tutoring program that helps each person learn while developing, and as they have developed a full-blown website, they would have already known a huge amount of knowledge on programming.</p>
+<p>​				•	Under this philosophy, we hold meetings that consist of equal amounts of tutoring and project development.</p>
+<p>​			▾	Web dev and Arduino tutoring (15 meetings)</p>
+<p>​				▾	Images</p>
+<p>​					•	<img  src="/clubsum/WechatIMG139_1.jpeg"
+        alt="WechatIMG139"/>					•	!<img  src="/clubsum/1381577115548_.pic1_copy.jpg"
+        alt="1381577115548_.pic1_copy"/></p>
+<p>​				•	During the span from August to December, there were a total of 15 weekly lectures held. The dates are: <strong>16,22,29 August, 5,21,26 September, 11,17,31 October, 6,13 November, 17,18,19,21 December.</strong></p>
+<p>​				•	Attendance are mainly split into two groups, in an more advanced meeting, the only required personnel are Dazhi, Marin and Jason, but in other lectures that intend to teach, the attendance is for all main memebers.</p>
+<p>​				▾	In the 1,4,5,15 meetings the attending people are :</p>
+<p>​					•	钟达之Dazhi 陈志聪Marin 刘睿臻Jason</p>
+<p>​				▾	In the rest, attending people are:</p>
+<p>​					•	Bob 杨文博，Cecilia 熊子琦，Charlie 张唯嘉，Elaina 邵怡然，Mike 陈子昊，Peter 江昊，Wendy 吴卓仪，Wesley赵鹏</p>
+<p>​				•	Only one person has consistent late/absent issues, which is Bill 何传志, but others are 90% attending.</p>
+<p>​				•	These lectures, by which I mean the less advanced ones, are mainly split into WebDev and Arduino. In web dev, the students learn how to develop websites using python, and learning python skills on the way. During the lectures, the students shown great improvements in their skills and are able to build their own responsive, and back-end-supported websites. In Arduino, which is a newly found common interest, many people showed passion towards the subject. Though further plans for it were stopped by the quarantine, it is has been a great success during the few classes that have been taken, and we plan to focus more next year.</p>
+<p>​			▾	Online Java (5 meetings)</p>
+<p>​				▾	images</p>
+<p>​					•	<img  src="/clubsum/Pasted_Graphic_9.png"
+        alt="Pasted_Graphic_9"/></p>
+<p>​				•	Due to difficulties the quarantine, many plans were canceled. However, we managed to make the most out of this challenging times with online-taught classes. During this time, we mainly focused on meetings that are oriented towards tests and competitions. But to better orient the members of HFIP to next year&rsquo;s AP CS class, we held a total of 5 online Java Classes that focused on <strong>java basics, java OOP development, java algorithms 1&amp; 2, and java common classes.</strong> Held on dates: <strong>6,8,13,15,20 April.</strong> Although the attendance was not the best, there were still a solid of 6-7 people attending, <strong>Marin, Jason, Dazhi, Bill,</strong> <strong>Bob, and Mike,</strong> being the main people and most consistent.</p>
+<p>​		▾	Website project development (150+ man hours)</p>
+<p>​			▾	Overview</p>
+<p>​				•	As stated above, many websites were developed as a group effort, and many have shown tremendous results. I believe that this method of managingg devlopments would grow to become better next year.</p>
+<p>​				•	The split-and-conquer method has worked out this year, and through continuous improvement, I believe it would work out net year as well.</p>
+<p>​				•	Again, we would like to emphasis that software development is not simply a meeting-and-finish structure, and requires continuous input and effort. Thus, we record in estimated man hours.</p>
+<p>​			▾	Financial contest website</p>
+<p>​				▾	Images</p>
+<p>​					•	<img  src="/clubsum/Pasted_Graphic_12.png"
+        alt="Pasted_Graphic_12"/></p>
+<p>​					•	<img  src="/clubsum/Pasted_Graphic_13.png"
+        alt="Pasted_Graphic_13"/></p>
+<p>​				•	During <strong>September 9 - 21</strong>, we developed an Online Financial Contest Backend for the HFI Financial Club.</p>
+<p>​				•	This site was not only assigned to us for only development, but we were also major agents in discussing, passing, and creating ideas for the contest itself. In which, we placed a huge amount of work to assure that there was a functional and easy-to use bidding, marketing, trading, exchange system. In addition to a solid financial basis for the website, we also spent a huge amount of hours to refine its ui, and make many things like the posting of information, logging in, and editing specific details simple.</p>
+<p>​				•	https://github.com/DazhiZhong/hfifinancialsystem</p>
+<p>​			▾	Wakeroo</p>
+<p>​				▾	Images</p>
+<p>​					•	<img  src="/clubsum/Pasted_Graphic_2.png"
+        alt="Pasted_Graphic_2"/></p>
+<p>​				•	The development period is <strong>March 8 - April 20</strong>, main contributors are <strong>Dazhi, Marin, and Bill, and Charlie.</strong></p>
+<p>​				•	This was designed to make more people wake up earlier in the morning. You can be able to log your name on the activity logger, and the earliest person would have a golden crown, the second a silver, and third a bronze. By incentivizing more people to sign up and say wacky things on the website, we could allow more people to be more productive in the morning.</p>
+<p>​				•	https://github.com/DazhiZhong/ClubManagementFrontEnd</p>
+<p>​				•	https://github.com/DazhiZhong/ClubManagement</p>
+<p>​			▾	Shuffle</p>
+<p>​				▾	Images</p>
+<p>​					•	<img  src="/clubsum/Pasted_Graphic_16.png"
+        alt="Pasted_Graphic_16"/></p>
+<p>​					•	<img  src="/clubsum/Pasted_Graphic_17.png"
+        alt="Pasted_Graphic_17"/></p>
+<p>​					•	<img  src="/clubsum/Pasted_Graphic_18.png"
+        alt="Pasted_Graphic_18"/></p>
+<p>​				•	The development period is <strong>December 21 to March 7</strong>, main contributors are <strong>Mike, Jason, and Dazhi.</strong></p>
+<p>​				•	The creation of this website was because of a widespread unsuitableness of modern to-do apps to meet an audience of increasingly lowering attention span nowadays. Thus, Mike, Jason and I set up to a journey to create an webapp that allowed people to be focusing on one thing per time. Thus, they would need to divert attention elsewhere.</p>
+<p>​				•	https://github.com/DazhiZhong/ServerShuffle</p>
+<p>​			▾	HFIP website front page</p>
+<p>​				▾	Images</p>
+<p>​					•	<img  src="/clubsum/Pasted_Graphic_8.png"
+        alt="Pasted_Graphic_8"/></p>
+<p>​				•	The development period is <strong>May 10 to May 17</strong>, main contributors are <strong>Dazhi, and Marin.</strong></p>
+<p>​				•	This we an aesthetic choice, and we like the idea that our club having a webpage that could face the general public.</p>
+<p>​				•	<a href="https://dazhizhong.github.io/I%3c3programming.html"target="_blank">https://dazhizhong.github.io/I%3C3programming.html</a></p>
+<p>​			▾	Easy WordFinder</p>
+<p>​				▾	Images</p>
+<p>​					•	<img  src="/clubsum/Pasted_Graphic_3.png"
+        alt="Pasted_Graphic_3"/></p>
+<p>​				•	The development period is <strong>February 3 to February 14</strong>, main contributors are <strong>Peter, Wendy, and Marin.</strong></p>
+<p>​				•	This was created because of many websites with their increasingly growing advertisements were annoying and generally unpleasant to deal with. Thus, our development team made a simple database/scraper that allowed easy access to *<strong>English*</strong>, rather than ads.</p>
+<p>​				•	<a href="https://github.com/DazhiZhong/ServerShuffle"target="_blank">https://github.com/DazhiZhong/ServerShuffle/blob/master/cards/reqview.py</a></p>
+<p>​			▾	Google-This-For-Me</p>
+<p>​				▾	Images</p>
+<p>​					•	<img  src="/clubsum/Pasted_Graphic_4.png"
+        alt="Pasted_Graphic_4"/></p>
+<p>​				•	The development period is <strong>February 3 to February 14</strong>, main contributors are <strong>Jason, Bob, and Cecelia.</strong></p>
+<p>​				•	Seeing that in China, googling things was increasingly difficult, yet many websites in the front page were not blocked. Thus, out team made a simple google mirror that allowed the general public a wider choice of results and answers.</p>
+<p>​				•	https://github.com/DazhiZhong/ServerShuffle/blob/master/cards/reqview.py</p>
+<p>​			▾	Fileuploader</p>
+<p>​				▾	Images</p>
+<p>​					•	<img  src="/clubsum/Pasted_Graphic_5.png"
+        alt="Pasted_Graphic_5"/></p>
+<p>​				•	The development period is <strong>November 20 to January 11</strong>, main contributors are <strong>Dazhi, and Marin.</strong></p>
+<p>​				•	Seeing the many difficulties in the printers, and the annoyance of transferring files through strange ways, this team set off to develop a simple way of transferring files.</p>
+<p>​				•	https://github.com/DazhiZhong/hfifinancialsystem/tree/master/src/blog_project</p>
+<p>​	▾	Meeting Documentation</p>
+<p>​		<em>Providing a timeline of events</em></p>
+<p>​		▾	Meetings</p>
+<p>​			•	ACSL: <strong>19th, 20th,&amp; 21st December, 5th&amp;8th March, 17th&amp;22nd March, and 23rd&amp;25th April. (Including test dates)</strong></p>
+<p>​			•	USACO: <strong>14&amp;16th December, 18&amp;20th January, and 21&amp;24th February</strong>.</p>
+<p>​			•	Web Dev &amp; Arduino: <strong>16,22,29 August, 5,21,26 September, 11,17,31 October, 6,13 November, 17,18,19,21 December.</strong></p>
+<p>​			•	Online Java: <strong>6,8,13,15,20 April.</strong></p>
+<p>​		▾	Development periods</p>
+<p>​			•	Financial contest website: <strong>September 9 - 21</strong></p>
+<p>​			•	Wakeroo: <strong>March 8 - April 20</strong></p>
+<p>​			•	Shuffle: <strong>December 21 to March 7</strong></p>
+<p>​			•	HFIP frontpage: <strong>May 10 to May 17</strong></p>
+<p>​			•	Easy WordFinder: <strong>February 3 to February 14</strong></p>
+<p>​			•	Google-This-For-Me: <strong>February 3 to February 14</strong></p>
+<p>​			•	Fileuploader: <strong>November 20 to January 11</strong></p>
+<p>​	▾	Media (In-School and Out School)</p>
+<p>​		▾	Dino</p>
+<p>​			•	https://dazhizhong.github.io/dino</p>
+<p>​			▾	Images</p>
+<p>​				•	<img  src="/clubsum/Pasted_Graphic_19.png"
+        alt="Pasted_Graphic_19"/></p>
+<p>​			•	This is a blog post from HFIP to the general public. It documented a game that our club developed through the months.</p>
+<p>​		▾	Django tutorial one</p>
+<p>​			▾	images</p>
+<p>​				•	<img  src="/clubsum/Pasted_Graphic_20.png"
+        alt="Pasted_Graphic_20"/></p>
+<p>​			•	https://mp.weixin.qq.com/s/UMT-Xk7Vw7E78Vo4fSJe8A</p>
+<p>​		▾	Django tutorial two</p>
+<p>​			▾	images</p>
+<p>​				•	<img  src="/clubsum/Pasted_Graphic_21.png"
+        alt="Pasted_Graphic_21"/></p>
+<p>​			•	https://mp.weixin.qq.com/s/csOQhwA1CDUceT2cToJLjQ</p>
+<p>​		▾	Django tutorial three</p>
+<p>​			▾	images</p>
+<p>​				•	<img  src="/clubsum/Pasted_Graphic_22.png"
+        alt="Pasted_Graphic_22"/></p>
+<p>​			•	https://mp.weixin.qq.com/s/D6PTw-BmR1suRuwGb0w3GQ</p>
+]]></content:encoded>
+      
+    </item>
+    
+    <item>
+      <title>Protesters clash with London police as anti-racism demonstrations spread around world</title>
+      <link>/againstuff/</link>
+      <pubDate>Mon, 08 Jun 2020 13:49:03 +0800</pubDate>
+      
+      <guid>/againstuff/</guid>
+      <description>Waterbuffalo Posts - in London turned violent Sunday as protesters and police clashed near Downing Street.
+Officers were seen pushing and using their batons with some even punching and grabbing protesters as they approached the line of police.
+People were scattered between three areas &amp;ndash; Parliament Square, Whitehall and Downing Street &amp;ndash; while protesters could be seen in videos on social media climbing walls, statues and traffic lights.
+This comes as activists** **filled public spaces in huge numbers for the second consecutive weekend to commemorate the death of George Floyd and demand an end to systemic racism &amp;ndash; staging &amp;ldquo;die-ins&amp;rdquo; outside US embassies and even tearing down a statue of a former slave trader in the British town of Bristol.</description>
+      
+      <content:encoded><![CDATA[<p><strong>Waterbuffalo Posts -</strong> in London turned violent Sunday as protesters and police clashed near Downing Street.</p>
+<p>Officers were seen pushing and using their batons with some even punching and grabbing protesters as they approached the line of police.</p>
+<p>People were scattered between three areas &ndash; Parliament Square, Whitehall and Downing Street &ndash; while protesters could be seen in videos on social media climbing walls, statues and traffic lights.</p>
+<p>This comes as activists** **filled public spaces <a href="https://cnn.com/us/live-news/george-floyd-protests-06-07-20/index.html"target="_blank">in huge numbers</a> for the second consecutive weekend to commemorate the death of George Floyd and demand an end to systemic racism &ndash; staging &ldquo;die-ins&rdquo; outside US embassies and even tearing down a statue of a former slave trader in the British town of Bristol.</p>
+<p>In London, Rome, Madrid, Warsaw, Sydney, Hong Kong and countless other cities, protesters packed streets that have laid deserted for months to tell governments around the world that &ldquo;<a href="https://cnn.com/us/live-news/george-floyd-protests-06-07-20/index.html"target="_blank">Black Lives Matter</a>.&rdquo;</p>
+<p>Some defied coronavirus lockdowns and warnings from politicians to do so. Many protesters wore masks during the weekend&rsquo;s rallies, while some carried messages that racial inequality is also a public health crisis.</p>
+<p>They marched in solidarity with tens of thousands in the US, whose <a href="https://cnn.com/2020/06/06/us/us-george-floyd-protests-saturday/index.html"target="_blank">protests on Saturday were the biggest yet </a>since video of Floyd&rsquo;s death at the hands of a white police officer ignited a wave of anger and action.</p>
+<p>But they turned out to draw attention to racial injustice in their own nations, too.</p>
+<h3 id="colonial-era-statues-ripped-down-with-ropes">Colonial-era statues ripped down with ropes</h3>
+<p>In London, thousands congregated outside the US Embassy on Sunday despite British ministers saying that public protests ran the risk of increasing the spread of Covid-19.</p>
+<p>Chants of &ldquo;No Justice, No Peace&rdquo; and &ldquo;Black Lives Matter&rdquo; bounced off the building in the Vauxhall region of the city, with a jubilant atmosphere for much of the day.</p>
+<p>&ldquo;Together, we will let our voices be heard. Enough is Enough. Black people cannot keep suffering,&rdquo; one protester addressed the crowd.</p>
+<p>At times, the activists chanted &ldquo;The UK is not innocent.&rdquo; Others had messages for the US President, with one sign reading: &ldquo;Black lives trump your ego, Mr. President.&rdquo;</p>
+<p><img  src="https://cdn.cnn.com/cnnnext/dam/assets/200607162229-london-protest-0706-exlarge-169.jpg"
+        alt="An activist addresses the crowd near the US Embassy in London."/></p>
+<p>An activist addresses the crowd near the US Embassy in London.</p>
+<p>The previous day, activists had descended onto Parliament Square in the center of the city. Protests were peaceful for several hours, but turned heated in the evening when police and crowds faced off outside Downing Street.</p>
+<p>In one incident, video posted online showed a police horse suddenly bolting, causing its officer to crash into a street light and fall to the ground. The loose horse then caused panic as it ran through groups of protesters, before making its way back to police stables.</p>
+<p>&ldquo;I stand with you. George Floyd&rsquo;s brutal killing must lead to immediate and lasting change everywhere,&rdquo; London Mayor Sadiq Khan said in a Sunday message to protesters, while condemning the minority who turned violent and reminding activists to try to limit physical interactions.</p>
+<p><img  src="https://cdn.cnn.com/cnnnext/dam/assets/200607035515-0606-intl-protests-london-exlarge-169.jpg"
+        alt="Demonstrators kneel facing police officers during another Black Lives Matter march in London on Saturday."/></p>
+<p>Demonstrators kneel facing police officers during another Black Lives Matter march in London on Saturday.</p>
+<p>A number of Boris Johnson&rsquo;s government ministers had previously urged protesters to avoid gathering at all for public health reasons, with Home Secretary Priti Patel saying on Saturday: &ldquo;I would say to those that want to protest, please don&rsquo;t.&rdquo;</p>
+<p>Similar protests took place in Edinburgh, Scotland &ndash; and a dramatic scene unfolded in Bristol, southwest England, where activists tore down a statue of 17th century slave owner Edward Colston.</p>
+<p><img  src="https://cdn.cnn.com/cnnnext/dam/assets/200607124835-01-edward-colston-bristol-statue-0607-exlarge-169.jpg"
+        alt="Protesters throw statue of Edward Colston into Bristol harbour during a Black Lives Matter protest rally, Sunday June 7."/></p>
+<p>Protesters throw statue of Edward Colston into Bristol harbour during a Black Lives Matter protest rally, Sunday June 7.</p>
+<p><img  src="https://cdn.cnn.com/cnnnext/dam/assets/200607124927-02-edward-colston-bristol-statue-0607-exlarge-169.jpg"
+        alt="Protesters pull down a statue of slave trader Edward Colston during a Black Lives Matter protest rally on College Green, Bristol, England, Sunday June 7, 2020. "/></p>
+<p>Protesters pull down a statue of slave trader Edward Colston during a Black Lives Matter protest rally on College Green, Bristol, England, Sunday June 7, 2020.</p>
+<p>The monument had stood in the city center since 1895 but had become increasingly controversial, with petitions created to demand its removal. On Sunday it was ripped down with ropes to loud cheers from a crowd of demonstrators.</p>
+<h3 id="europes-streets-filled-after-months-of-lockdown">Europe&rsquo;s streets filled after months of lockdown</h3>
+<p>The messages of those protesters were echoed by thousands more around the world.</p>
+<p>In Spain, permission was given for demonstrators to assemble outside the US Embassy but, after defying orders from the government, protesters marched through the city to Puerta del Sol &ndash; one of the best-known and busiest places in the city.</p>
+<p>Demonstrators were seen holding placards and chanting phrases including &ldquo;Donald Trump is a criminal.&rdquo;</p>
+<p>According to figures released by the government&rsquo;s delegation in Madrid, approximately 2,000 protesters were in attendance; organizers say 4,000 people attended.</p>
+<p><img  src="https://cdn.cnn.com/cnnnext/dam/assets/200607162120-spain-protest-0706-exlarge-169.jpg"
+        alt="In Madrid, a protester warns that &amp;quot;Systemic racism is a pandemic.&amp;quot; "/></p>
+<p>In Madrid, a protester warns that &ldquo;Systemic racism is a pandemic.&rdquo;</p>
+<p><img  src="https://cdn.cnn.com/cnnnext/dam/assets/200607162601-rome-protests-0706-exlarge-169.jpg"
+        alt="Protesters kneel holding placards in Rome."/></p>
+<p>Protesters kneel holding placards in Rome.</p>
+<p>Lisa Okpala, a spokeswoman for CNAAEB &ndash; an anti-racism platform in Spain &ndash; told CNN that the purpose of the demonstration was to show support for the Black Lives Matter movement in the US and to &ldquo;denounce and demonstrate against structural and institutional racism&rdquo; in the country.</p>
+<p>&ldquo;We felt not only sad because, as I said, racism is a problem here also, but also we felt the rage that the people in the United States are feeling now, especially the black community. So, there is a mix between sadness and rage,&rdquo; Okpala said.</p>
+<p>Thousands more gathered in Rome&rsquo;s Piazza del Popolo &ndash; the major square that just weeks ago had sat empty, a defining image of Italy&rsquo;s devastating coronavirus outbreak.</p>
+<p><img  src="https://cdn.cnn.com/cnnnext/dam/assets/200607162412-rome-protests-0706-exlarge-169.jpg"
+        alt="Protesters hold an upside-down US flag in Rome."/></p>
+<p>Protesters hold an upside-down US flag in Rome.</p>
+<p>Activists there took a knee in silence for a full eight minutes in a symbolic tribute to Floyd, who died after police officer Derek Chauvin pressed his knee on his neck for 8 minutes and 46 seconds.</p>
+<p>During the demonstration, the protesters were addressed by representatives of Italy&rsquo;s migrant community and American expatriates; the names of all those killed in the US as a result of police brutality were listed and commemorated by the crowd.</p>
+<p>While the large gathering made it difficult for protesters to adhere to the government&rsquo;s social distancing guidelines, those demonstrating in the piazza were seen to be attempting to maintain a one-meter gap between themselves, with many also wearing masks and face coverings.</p>
+<p>Meanwhile in Warsaw, streets were lined outside the American embassy. The previous day, crowds have swarmed through Paris and other French cities like Lille, Marseille, and Nice.</p>
+<p><img  src="https://cdn.cnn.com/cnnnext/dam/assets/200607163007-warsaw-protests-0706-exlarge-169.jpg"
+        alt="Crowds outside the US Embassy in Warsaw, Poland."/></p>
+<p>Crowds outside the US Embassy in Warsaw, Poland.</p>
+<p><img  src="https://cdn.cnn.com/cnnnext/dam/assets/200607162324-germany-bundesliga-protest-0706-exlarge-169.jpg"
+        alt="Players from both teams take a knee in protest prior to the Bundesliga match between SV Werder Bremen and VfL Wolfsburg in Germany on Sunday."/></p>
+<p>Players from both teams take a knee in protest prior to the Bundesliga match between SV Werder Bremen and VfL Wolfsburg in Germany on Sunday.</p>
+<h3 id="court-allows-sydney-protests-to-go-ahead">Court allows Sydney protests to go ahead</h3>
+<p>Hours earlier, cities in Australia had been similarly active.</p>
+<p>A court in the country overturned an injunction that banned a march and rally in Sydney on Saturday, allowing thousands to gather in the city.</p>
+<p>Performances from Aboriginal protesters took place, and demonstrators held banners calling for an end to deaths in police custody both in the US and in Australia.</p>
+<p><img  src="https://cdn.cnn.com/cnnnext/dam/assets/200607162156-brisbane-aus-protest-0706-exlarge-169.jpg"
+        alt="Activists in Brisbane on Saturday."/></p>
+<p>Activists in Brisbane on Saturday.</p>
+<p><img  src="https://cdn.cnn.com/cnnnext/dam/assets/200607162635-hong-kong-protests-0706-exlarge-169.jpg"
+        alt="Small crowds gather outside the US Embassy in Hong Kong."/></p>
+<p>Small crowds gather outside the US Embassy in Hong Kong.</p>
+<p>New South Wales state officials had sought to ban the protest due to social distancing concerns and received an injunction Friday night. The New South Wales Court of Appeals overturned it in time for the actions to take place.</p>
+<p>Another rally took place in Brisbane and Melbourne.</p>
+<p>In Hong Kong, smaller crowds gathered outside the Consulate General of the United States. And in Seoul, South Korea, activists in face masks held up signs on Saturday to commemorate Floyd&rsquo;s death.</p>
+]]></content:encoded>
+      
+    </item>
+    
+    <item>
+      <title>Interview with Chatroulette Founder Andrey Ternovskiy</title>
+      <link>/interview/</link>
+      <pubDate>Mon, 08 Jun 2020 12:52:24 +0800</pubDate>
+      
+      <guid>/interview/</guid>
+      <description>Waterbuffalo Posts - the “dick problem” // virtual reality for cats // the stupidity of going to mars // mathematical machines of evil // why being a god would be boring // creating your own country in the ocean
+In November 2009, the Great Recession was at its peak, I Gotta Feeling by the Black Eyed Peas graced the airwaves (&amp;ldquo;I got my money! Let&amp;rsquo;s spend it up!), and Chatroulette burst onto the scene.</description>
+      
+      <content:encoded><![CDATA[<p><img  src="https://hackernoon.com/drafts/9pbv3yd3.png"
+        alt/></p>
+<p><strong>Waterbuffalo Posts -</strong> <em>the “dick problem” // virtual reality for cats // the stupidity of going to mars // mathematical machines of evil // why being a god would be boring // creating your own country in the ocean</em></p>
+<p>In November 2009, the Great Recession was at its peak, I Gotta Feeling by the Black Eyed Peas graced the airwaves (&ldquo;I got my money! Let&rsquo;s spend it up!), and Chatroulette burst onto the scene.</p>
+<p>Created by a 17-year-old Russian in his bedroom, the site’s premise is simple: users are paired randomly for webcam chats (they can either talk or type into a chat box, but you can always see their video). The option is available at any point to click a “next” button and jump to another random pairing.</p>
+<p>Founder Andrey Ternovskiy described Chatroulette to the German newspaper _Der Spiegel _at the time as</p>
+<blockquote>
+<p>“like the street in some big city, where you see all kinds of unknown faces. Some of those faces appeal to you, some disgust you. Chatroulette is a street that you walk along where you can chat to whomever you like.”</p>
+</blockquote>
+<p>Upon launching, Chatroulette immediately blew up, with 50,000 users per day in December 2009, and 1.5 million users by May of 2010. As a sign of its standing in popular culture, the site earned ridicule on mainstream comedy shows like South Park and The Daily Show with Jon Stewart. Its legacy continues today—the site is responsible for originating “next” as a verb.</p>
+<p>I used Chatroulette once or twice in 2010, always in a group setting and always shitfaced. I remember one night we talked to a guy from France who was sitting at his kitchen table smoking a cigarette. He was smoking inside! I also think he was wearing a black beret?</p>
+<p>I couldn’t get over how he was smoking inside and wearing a beret! “YOU ARE SO FRENCH!!” I think I screamed at him. He responded with a demure, closed-lip smile.</p>
+<p>Chatroulette is crazy, is my point. It can be anything, which is its beauty. It is anonymous. You can do any sort of video performance art you want. You can ask the random strangers any question on your mind. You can make confessions. Think about PostSecret. The things people create when given an interesting constraint and the condition of anonymity are pretty cool.</p>
+<p>But all anyone wanted to do on Chatroulette was take out their dick, it turned out.</p>
+<p>The users were “89% male and 13% perverts,” according to a study done by an analytics startup. Chatroulette was quickly overrun by dudes wanting to masturbate with someone. Predictably, that got old fast, and Chatroulette all but disappeared from culture ten years ago, mere months after it launched. A shooting star.</p>
+<p>Until now.</p>
+<p>The night the shelter-in-place order came into effect in my city, I thought about Chatroulette for the first time in a decade. Apparently, I wasn’t the only one. It turns out Chatroulette’s usage has tripled with the world in Quarantine (lol why did I capitalize that? I’m gonna leave it) and people hungry for connection.</p>
+<p>Ternovskiy, who says he never gave up on Chatroulette, is working with a team to breathe new life into the site. One of the changes is that there are now three different chat options: Random (anything), Filtered (“No adult or sexual content”), and Unfiltered (“18+, no children or minors”).</p>
+<p>I talked to Ternovskiy, who grew up in Moscow but currently lives in Switzerland, for a couple hours about Chatroulette and some of his other thoughts about various matters concerning technology and society.</p>
+<p>**Georgia Perry: **Chatroulette is back because of Coronavirus. Usage has tripled from this same time last year. How are you feeling? What do you make of Chatroulette’s resurgence?</p>
+<p><strong>Andrey Ternovskiy:</strong> It was a surprise. I did not expect it. Normally you don’t expect miracles. It’s nice. Not nice, I guess, for people who have to stay at home, but nice for me.</p>
+<p>It just goes to show how everything can change overnight.</p>
+<p>I cannot expect that numbers that are obtained because people are forced to stay at home is truly representative. It’s not my achievement. People have to stay at home so every online service is used more. But again, still it’s very positive. It’s inspiring for me, for the users. Regardless of how it came to be, which I think is luck and, again, it’s a borrowed kind of time.</p>
+<p>All this gives it a new breath. Society gave it a second chance and I have to do something with it. Not really sure what, but apparently yeah, someone needs it. Unless we use this momentum to do something positive for this project there is no miracle, right?</p>
+<p><strong>GP:</strong> So what have the past ten years been like for you, running Chatroulette?</p>
+<p>**AT: **It was an amazing blessing. I really appreciate. It’s just a brain training in every aspect. It’s multi-dimensional. In the past I loved to program, I loved to code. And I built Chatroulette. And, by the way, I don’t think I was the absolute best developer out there. My friends were better developers. But I love to work with computer anyhow. Well, actually I don’t know—“love,” but the point is I made it and it went, as you know, apeshit.</p>
+<p>It was super popular in 2010 and then yeah, it was a viral sensation and it was hard to retain that. The statistics were declining every year because it was not in vogue. Every year it was declining but I never gave up.</p>
+<p>I was, for a long time, alone working on it. Until 2017 I was alone on the project. I loved it because I loved the challenge and it was kind of fun to do with yourself alone because you are responsible for the outcome. Everything that’s in your mind is integrated. And when you have an idea you can just go and make it, you don’t have to go through some bureaucracy, approvals, you can just go and do it. It’s amazing. Until 2017 I was one with my project, I was just living and thinking Chatroulette.</p>
+<p>The problem is, it’s incompatible with reality. It’s hard, you want a break. You need help. You need sometimes help. I couldn’t take a vacation.</p>
+<p>For me, the challenge was how to transition from being a programmer to running a business. Normally when you’re an entrepreneur you’re supposed to work with people.</p>
+<p>To meet people you have to go out or whatever and it’s just a hard transition to make. When you’re in code you do not think about this real life at all.</p>
+<p>That was one challenge. Also this young age kind of made me unconfident to hire people, I felt like they wouldn’t listen to me because I’m so young. Bossing people around, also. That’s still uncomfortable to me today.</p>
+<p>This whole concept of managers and telling people what to do, I have a problem with it.</p>
+<p>One of the reasons I started Chatroulette was I never—I wanted freedom. My mindset was always to make my own project so people don’t tell me what to do. That, to me, would be nightmare. I had problem with authority and I hate to be an authority to others, which also makes it hard to run a business.</p>
+<p>This year is the first year where I have actually a proper team.</p>
+<p>It’s trial and error. It’s interesting. At this stage, when your project is successful, it’s not so important if you can program, because now people can program for you, they just ask you what do you want. You have to explain it to them in a convincing way, an inspiring way.</p>
+<p>And this is new skills. People like their own ideas. It’s more important that you let people come up with their own idea, even if it’s different than what you would have done.</p>
+<p>**GP: **If Chatroulette itself was like, an entity, or if it had a personality, how would you describe that? And what was your relationship with it like, being on your own with it for seven years?</p>
+<p>**AT: **I can say it’s a love-hate relationship.</p>
+<p>It’s a machine. It’s in different dimensions. It’s a machine, many machines. It’s a system.</p>
+<p>Chatroulette is also its users. All their personalities is the personality—is Chatroulette. Tends to be not so nice, sometimes. Yeah, actually, it’s users. In the end, it’s all users. It’s all users.</p>
+<p>User generated content is both a problem and a blessing because people made amazing content. Funny people who make other people happy—this is really super good. But there is opposite end of the spectrum. Inappropriate content problem. It’s anonymous.</p>
+<p>People can do what they want. You’re at the mercy of whatever other person wants to do.</p>
+<p><strong>GP:</strong> Right. Chatroulette pretty quickly got a reputation for just being used for uh, adult purposes.</p>
+<p>So just to be clear you think people using Chatroulette for that is like, a no? Not good, as far as you’re concerned?</p>
+<p><strong>AT:</strong> It’s a problem, in my view. Adult content problem. One million users a month and you have thousands of people who do this whatever, things that break rules. Because during development I had to use my own site. I sold 10,000 gigs. I’m personally fed up with that. I had spammers. Porn spam. I had this moment where I was like, if I just relax the whole entire site will be taken over by spammers.</p>
+<p>That was one challenge in the project and it all connected to the first problem of, I did not have a team. When dicks started I was embarrassed to ask for help with the business in general. Basically the dick problem was preventing me from assembling a team because I kind of thought OK, it’s not a serious company, cannot be a serious company, anyhow.</p>
+<p>I go on my own site and I see dicks, you know, it’s not very inspiring.</p>
+<p><strong>GP:</strong> A lot of articles from around 2010 when Chatroulette was super popular talk about it being this agent of chaos in the internet that was, at the time, trending towards being more orderly. Like, those articles said social networking sites such as Facebook and Myspace, for instance, they only let you connect with people you already knew. They were more orderly. But Chatroulette was just completely random and chaotic.</p>
+<p><strong>AT:</strong> Makes me proud. <em>[Laughs]</em></p>
+<p>**GP: **That was 2010, though. I feel like now it could be argued that on a site like Facebook things are more chaotic, or at least out of control. I’m curious what you think is the most disturbing development that has happened in the social media / internet world in the last ten years?</p>
+<p><strong>AT:</strong> I think the main topic that you have today in society is the boredom. And we just need to know what we want. What to build, basically. I think everyone’s just bored. And the social media fills the gaps. It’s understandable. I know the game that developers are playing—wow, it’s almost incredible. It’s like mathematical machine of evil. They make sure that you spend the most amount of time on the page.</p>
+<p>For example, they’re discovering what shade of blue to use so they divide users into ten groups and give everyone slightly different shade of blue and see which group has most amount of retention. And then cycle repeats. With everything. They are just evolving towards making it most addictive.</p>
+<p>Addictiveness is a big problem. And I see it on Chatroulette. The problem is, it’s not easy to make it not addictive because you want users. You want your product to be successful, so you have to make it addictive. This whole addictive nature is incredible because every way you can measure your success of your product—it’s addictiveness. How many users? What’s the attention rate? It’s measured by addictiveness. The way I resolve this cognitive dissonance is by saying, “OK you just have to make it addictive, that’s the only way to succeed, but you have to make it good because then they’re addicted to something good at least.” Everything is a digital drug. I don’t see a way to stop it.</p>
+<p>It’s mathematics. There is no way around it, unfortunately. Either the site grows or dies and to grow you have to use these methods. That’s why if you’re a smart developer you put a prompt, “Are you sure you want to exit?” Make the exit button smaller and stuff, god damn it.</p>
+<p>But then maybe it’s ok. You just have to know what you’re actually making people do…But users have no chance. The users have no agency. There’s no chance. If you go on YouTube there is no way you have agency. The machine learning algorithm will give you the videos you are most likely going to watch. Basically with a digital drug, you have to be wary.</p>
+<p>We are kind of lost. Users and developers are kind of like, we don’t know what we want anymore. Also developers, I don’t trust them hundred percent. Because for them users is just traffic, you know, just numbers, so.</p>
+<p>Try to contact Google. They’ll give you a robot response. That shows their attitudes, actually.</p>
+<p>That’s why I like hackers. Because hackers can really bust the egos of developers. Because developers think they’re so smart and hackers can fuck everything up.</p>
+<p>**GP: **I read somewhere that you were a hacker when you were a teenager, before Chatroulette.</p>
+<p>**AT: **Yeah. Now the fun I’m doing, I found this programmatic way to send SMS verification codes and it’s basically a protocol. I have, I can fuck with the phone system. Basically what I did, you can send a text message from any phone number to any phone number. It’s amazing pranking, and I was sending—it’s so funny—you can call people from any phone numbers. I send to my friend a text message, TransferWise. It’s like a bank and I know my friend was using that, and I sent him a text message from TransferWise saying, “Your $40,000 wire transfer to Romanian National Bank has completed.” _[Laughing.] _And it’s just crazy. It’s all system.</p>
+<p>**GP: **Did you prank the Chatroulette users? “The dicks?”</p>
+<p>**AT: **Long time ago I put their picture. “You’re banned and here’s your picture.” _[Laughing hysterically] _People were using it from college dorms, where a bunch of people in the building have the same IP address they all see it. “You’re banned!” Somebody went Chatroulette from work, say, and work has all same IP address. I put picture.</p>
+<p>One thing I had was community service. If they wanted to be unbanned, they should snitch on other dicks. “If you help me to find other dicks, you will be granted pardon.” It’s basically the same principle of how governments contract with drug dealers. I had maybe hundreds volunteers— I called them volunteers! <em>[BUSTS UP LAUGHING]</em></p>
+<p>I put a fax number in there at some point. The fax is amazing torture. Say, “Yeah, contact me, here’s my fax number.”</p>
+<p><strong>GP:</strong> It’s SO ANNOYING.</p>
+<p><strong>AT:</strong> Yeah, that’s the point. It was good.</p>
+<p>**GP: **How do you feel about Chatroulette’s users in general?</p>
+<p>**AT: **I think every programmer wants his program to work good and users to be happy. So you look at the statistics and see numbers go up, you do something right. If you made it more addictive for them you get happy. I saw it that you can move a button, change color, and the statistics go up so much. It’s amazing this feedback of people. Chatroulette itself is a machine—it’s a community of, it’s like experimental subjects and you get feedback of how well you’ve done. This is very addictive. You get this rush. It’s like a game. It’s like playing Lego, but it is used by a lot of people and also makes money. It’s practical Lego.</p>
+<p>It was kind of a problem solving, engineering, learning as well. There’s so many users. You’re not always in control. If the site crashes you just have to bring it up. It’s also amazing. Just amazing. It’s all a challenge. When the site crashed I was like, why it crashed? I’m reading, learning, and then I make it stronger and then fix something else as well.</p>
+<p>But I do have to say that I always loved my users. I actually do always love them. I always respected my users. Because what I noticed is other companies in the entertainment sector think users are dumb. “Yay, we’re your friends.” It’s bullshit. All this fake positivity like what Google brings—this fake positivity. It’s almost creepy, actually.</p>
+<p>I always respected my users. I approached them as smart people. I’m not trying to manipulate them, pretend to be their friend so they could use my site more. Yeah, I love my users. And I love them for purely egotistical reasons. Because happy users, they tell the site to their friends, they use it more. For pure rational reasons loving users is amazing. You don’t need to love them for big reasons, just love so you can be successful.</p>
+<p>**GP: **During the past ten years running Chatroulette were you thinking much about like, society at large?</p>
+<p>**AT: **No, I actually do not think about people. That’s what I’m learning now, ten years later. For me I was, I think, focused on the game. Just OK, it’s a chat site. I did not care about people. I cared about my users that used my site because they used my products and I wanted to make them happy, my users specifically. But I did not think about society as a whole. Not, “Chatroulette is my gift to the world.” I was not like that.</p>
+<p>But now I’m actually feeling it, now I should do something amazing. I’m feeling goosebumps when I think about it. Yeah, Chatroulette is people meeting people. I’m getting goosebumps about.</p>
+<p>Maybe I’ll get to that stage where I’m gonna think about people.</p>
+<p>This is my challenge now. I already figured out to love users. Now I am trying to love society and use Chatroulette to make society better.</p>
+<p>**GP: **That attitude you describe of, “this is my gift to the world”—there can be some hubris to that attitude that is pretty common in the Silicon Valley tech world. Earlier you said you have problems with authority. Could you say more about that?</p>
+<p><strong>AT:</strong> Silicon Valley, many people move there because they think it’s like tech mecca. People think [<em>he puts on an American hippie voice accent here</em>] “Yo change the world,” blah blah blah. “Not in it for the money”— that’s the standard. But what they don’t realize is they just moved to a country with one trillion dollars with military budget per year and their quote unquote save the world startup is gonna be feeding that system.</p>
+<p>Outside people from other countries who move there I think don’t realize what they’re signing up for. No, Silicon Valley is still part of a larger system—a system that might not have the same value as your little hippie startup.</p>
+<p>That’s the whole thing. A scam. That’s like everything. Every place on the Earth carries some kind of cultural stuff from it. There is no place on Earth fully meritocratic. “You come here, work, you are welcome. You just have to be awesome if you live here.” There is no place like this. Everywhere is some bullshit.</p>
+<p>I actually want to make my own country. <em>[Laughs]</em></p>
+<p>This is important. When you run an online business, online website, you actually don’t depend on any country at all. You’re so online. You don’t depend on anyone. You sit on your computer, you can do it from anywhere. Digital businesses are completely independent from the real world. When you are online business, for me makes no sense to pay taxes to any country because I can take it to anywhere I want. I can charter a helicopter with whatever supplies I want, it will be still cheaper than paying taxes. If I have my servers on there and everything I have absolute freedom.</p>
+<p>What I hate about taxation is not even paying money. I hate the accounting, it’s boring to death. Like, I want to program. Now I can use accountants, it’s actually a lifesaver. But when I was on my own—<em>[brrbrrbrr’s lips, sighs]</em>. Anyway. When you’re on a business it’s forms, more forms, this expense and that expensive. Calculate numbers, god damn it.</p>
+<p>When you run online platform there’s only you and your users and government has nothing to do with it. And the government can only create trouble, they can never help, for sure. They can help if you’re a farmer maybe, but if you’re a programmer they can only harm. “Oh yeah yeah did you check whether this blah blah blah?” You know? It’s a headache, right? I never know what people can stream and then somebody might be unhappy about it, some organization or whatever.</p>
+<p>Developers make a product but product is in conflict with the law. It’s not even in the sense of like, a real law, nobody’s harmed basically—just some legalization. It happens to everything. File sharing. Cryptocurrency exchanges. For cryptocurrency it’s like, you’re doing “terrorist financing.” You make online platform and you have users on it and the users can do all sorts of things, they can stream content, they can share information, receive information…</p>
+<p>People want to do all sorts of things. There’s many, many things. All I’m saying is for the tech people you have no business living with the rest of the world. I have nothing to do with the rest of society.</p>
+<p>There is also like, real world. For instance, I live in Switzerland now. At first, for me to even move from Russia it was amazing paperwork, incredible, because blah blah blah, paperwork paperwork paperwork. Now, for instance, for me to hire person I have to have a Visa for the person if it’s outside of Europe. Even opening a bank account was a big deal because to open a bank account you have to have a corporation, it’s like, BLAH, it’s incredible. It’s difficult, even opening a bank account. Anyways. B</p>
+<p>asically and then there is all this— &hellip;</p>
+<p>I want a fucking country in the ocean. On kind of an oil rig—at the beginning. Because it’s owned by no one, there’s no territory on it. There’s no jurisdiction. It’s completely no man’s land. It’s incredible freedom. I want to be in that country. I want my own country and I want to live on there.</p>
+<p>It just goes hand in hand with internet which is also no man’s land. So basically what I’m saying is that I hate authority in general, actually. And I will just love to be in the ocean with my servers. [<em>Laughs.]</em> Absolute independence. Absolute freedom. You have no idea how amazing it will be.</p>
+<p>**GP: **I’ve actually heard of that concept. “Seasteading.” Until you can have your own country what other developments in the internet / tech world that have come up over the past decade are you most excited about?</p>
+<p>**AT: **I love virtual reality. You put the headset on, you see this this whole presence of feeling and depth. When you’re talking to another person on virtual reality it’s a crazy feeling, it’s next level. That’s the future. It’s deep. To me webcams is already the yesterday because it’s 2D, it’s a fucking flat screen on the paper. I’m very excited about virtual reality as something I want to do.</p>
+<p>I want a Chatroulette in virtual reality. So that’s what I want to do. I want to do basically Chatroulette in virtual reality—meet strangers in virtual reality. I’m as excited about virtual reality as I was about webcam. You won’t have a dick problem there, that’s a benefit.</p>
+<p>**GP: **Do you ever worry about virtual reality becoming popular and then everybody like, only using virtual reality and just kind of escaping and neglecting the real world?</p>
+<p>**AT: **Firstly, for me, using computer all day, virtual reality would actually be a step up into reality. One of the problems I had as a programmer was when you sit and don’t move for a long time it feels like shit. And that’s the problem. A computer is incompatible with real world, with your body. Virtual reality is more compatible. You can move, you can stand, you can dance, you can walk. It’s so much more natural. You feel your body. I had interactions with people in virtual reality chats. I was talking for real, very interested.</p>
+<p>I think there are problems with virtual reality, UX problems. It’s not easy to use it for a long time, you get sick and stuff, but I see potential in it. Notwithstanding general problems with addictiveness. I’d say virtual reality definitely is the future. It’s amazing future. And super cool.</p>
+<p>There is this whole apprehension in society about virtual reality. People think it’s creepy, it’s dystopian, but I think that’s narrow mind. They’re like, “Oh I like to go outside,” blah blah blah. I think it’s actually egoistic to say that I prefer outside. That you can go outside, you can think how many people actually make it possible you can go outside. All the cleaners, the police, crowd control, even that you have to fly somewhere to do vacation. Like how much waste, how much waste. And it’s OK to do if we have enough for people, which now we don’t have enough.</p>
+<p>People are undernourished and live under $2 a day, or under $10 a day. And most people are wasting their life away doing bullshit when they could be exploring space. They’re basically doing bullshit. Just spending hours of their time to get this wage.</p>
+<p>It’s totally fine to me if people just put their headset and go to their shoebox apartment or like, capsule hotel and go have all the entertainment there. So they don’t go buy expensive cars and crash them. All this stuff is ridiculous. All the extreme sports. I understand it’s fun but it’s risky as well. People get injured and somebody has to heal them, treat them.</p>
+<p>Virtual reality world is a world you can copy, destroy, add, delete, everything. And you don’t have to build. You’ll eliminate so much resources you can put into medicine, science, helping the poor.</p>
+<p>I don’t even know what people do in real life, to be honest. But you don’t need all this stuff, to build buildings, to fly planes, buy planes. Just click a button on virtual reality and boom. It’s efficiency. Think about all the people who can’t move or poor people who can’t travel—about everyone.</p>
+<p>Cool if you like your life but what about all the other people, maybe old people who are not so well anymore, kids, or even animals actually. I really want virtual reality for cats. I actually care for animals more than people because they can’t complain, they don’t have a voice at all. The problem is, cats, it’s just boring. If you’re a cat in an apartment, you can’t even catch mice. All you have to do is sleep. Honestly it’s terrible. That’s why virtual reality for cats where a cat could hunt mice, you know, run in the jungle. It’s so important.</p>
+<p><strong>GP:</strong> What do you think about the idea that the life we’re experiencing here on Earth is a computer simulation?</p>
+<p>**AT: **I would say that’s just another way to describe God. I think it’s just different words to describe ultimately the same concept. There is outer system out there and we are kind of a small bubble in this bigger bubble, essentially.</p>
+<p>I guess it’s important for people but for me it’s actually not terribly important. For instance, Chatroulette is hosted on a server and you can technically be God of Chatroulette by logging into the server. But the thing is—there’s no fun. It’s a black screen with console. If you get access to Chatroulette server it’s gonna be very boring experience. Because the actual fun is in the product, on the lower level. And what good does it do me to know there’s outer reality where servers are humming and processing? What good does it do if there’s no fun in there?</p>
+<p>From the perspective of developers or God, there is not fun. When you’re actually administrator you’re not fun because there is no challenge, so actually if you are a developer of this system I am actually sorry for you.</p>
+<p>The point is: I love my cats. And my cats, I love them in this reality. And I’m sure they’re real in the sense they exist. Even if they’re simulated, I hope they still exist. If I had a choice to go up into the data center but my cats would still be in this world that would be pretty sad.</p>
+<p>I don’t think it’s that important whether it’s a simulation because it doesn’t change anything in that sense. Because the feelings are real. The emotions are real. And the consciousness is real. It doesn’t matter where this consciousness is. It’s about consciousness. It’s about us. And that we are here, that’s what is important. And even if it’s all fraud and fake who cares? The people are still real and the animals, they are still real. That’s what’s important.</p>
+<p>What really disappoints me is how far away the stars are.</p>
+<p>**GP: **Would you go to Mars?</p>
+<p><strong>AT:</strong> No. Because there’s nothing. We know what it is. It’s just a piece of rock. I would go there and make selfie and then I would go back to checking news of the world. I wouldn’t care. I can’t really stand behind that cause. I don’t really care about this sending giant rocks into space burning billions of dollars. I don’t understand this, to be honest.</p>
+<p>We sent robots. We have soil samples. Pretty boring. No gold there. Not that excited about Mars. I think it’s inefficient use of funds and I think it’s populism. The politicians say, “Yeah space, space,” but again — it’s not space, it’s a piece of rock. And the next cool stuff is like one million years away. I’m not so interested.</p>
+<p>There’s a difference between something that’s cool and something that is really cool. Cool is superficial. I think sending giant rockets to space is cool—on superficial level. I stand behind the cause of life extension, personally. Any dollar we can spend towards that is more important than dollars we could spend burning fuel to go to Mars. I mean, honestly just give money to scientists, they’ll figure out what to do, if you have excess money.</p>
+<p>**GP: **What’s next for Chatroulette? Do you have ideas for how you are going to go forward from this surge of increased popularity?</p>
+<p><strong>AT:</strong> I would say actually the first answer is, I don’t know. And that in itself is kind of an achievement because it kind of makes me open to whatever. Makes me more open to ideas. I don’t know, and that’s in itself kind of liberating. Because I used to know, and now I don’t know, and yet it feels more clear for me in that sense. I know that I know nothing.</p>
+<p>I just have this asset in my hands, this Chatroulette. People want something, apparently they like Chatroulette. They’re meeting people, apparently meeting people is important. I am trying to think honestly what can I do with it?</p>
+<p>I want to do something, you know, something cool and big, and something that is good for the world blah blah blah and whole nine yards. That’s main thing I want to do. It’s gonna be amazing. I’m really happy. I feel like I can do something cool. I’m just bored. I’m bored to death, actually. And I want to just do big things.</p>
+<p>_Previously published at _<a href="https://georgiaperry.substack.com/p/maybe-ill-get-to-that-stage-where?ref=hackernoon.com"target="_blank"><em>https://georgiaperry.substack.com/p/maybe-ill-get-to-that-stage-where</em></a></p>
+]]></content:encoded>
+      
+    </item>
+    
+    <item>
+      <title>French ISPs Block Dozens of Pirate Sites Following Movie Industry Action</title>
+      <link>/french-isps/</link>
+      <pubDate>Mon, 08 Jun 2020 12:52:05 +0800</pubDate>
+      
+      <guid>/french-isps/</guid>
+      <description>Waterbuffalo Posts - For several weeks, French Internet users have reported difficulty accessing dozens of unlicensed streaming and torrent sites. It now transpires that
+following legal action by several movie industry groups, a Paris court handed down a ruling ordering some of the country&amp;rsquo;s top ISPs to prevent their customers from accessing around 36 platforms.
+In common with at least 30 countries all around the world, France is becoming ever more receptive of site-blocking as a means to mitigate copyright infringement.</description>
+      
+      <content:encoded><![CDATA[<p><img  src="https://images.unsplash.com/photo-1541336744128-c4b211d13087?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEwMDk2Mn0"
+        alt/></p>
+<p><strong>Waterbuffalo Posts -</strong> <em>For several weeks, French Internet users have reported difficulty accessing dozens of unlicensed streaming and torrent sites. It now transpires that<br>
+following legal action by several movie industry groups, a Paris court handed down a ruling ordering some of the country&rsquo;s top ISPs to prevent their customers from accessing around 36 platforms.</em></p>
+<p><img  src="https://hackernoon.com/photos/RNrx5pnl6RZYIv9etWzhJ84VDNb2-ostc2ef7"
+        alt/></p>
+<p><a href="https://torrentfreak.com/images/franceflag.png?ref=hackernoon.com"target="_blank"></a>In common with at least 30 countries all around the world, France is becoming ever more receptive of site-blocking as a means to mitigate copyright infringement.</p>
+<p>France has been blocking ‘pirate’ sites for more than five years on behalf of the music and movie industries but last year academic publishers Elsevier and Springer Nature also got involved. As a result, a court in Paris <a href="https://torrentfreak.com/court-orders-french-isps-to-block-sci-hub-and-libgen-190331/?ref=hackernoon.com"target="_blank">ordered</a> several of the largest French ISPs to block access to 57 domain names related to pirate scientific libraries LibGen and Sci-Hub.</p>
+<p>Later that year, France broke fresh ground again. Following a complaint from anti-piracy group SCPP, a court handed down the <a href="https://torrentfreak.com/french-court-orders-isps-to-block-torrent-sites-and-file-hosters-191122/?ref=hackernoon.com"target="_blank">very first European order</a> compelling local ISPs to block file-hosting services.</p>
+<p>Several weeks ago, Internet users in France reported fresh difficulties accessing many ‘pirate’ sites, mainly platforms that in some way offer access to streaming movies and TV shows. It now transpires that a new wave of blocking has hit the country following legal action initiated by movie industry groups.</p>
+<p>According to NextInpact <em>(</em><a href="https://www.nextinpact.com/news/108752-le-cinema-obtient-blocage-dizaines-sites-streaming-dont-time2watch.htm?ref=hackernoon.com"target="_blank"><em>paywall</em></a><em>)</em>, the National Federation of Film Publishers (FNEF), the Syndicate of Digital Video Editing (SEVN), the Union of Film Producers (UPC) and the National Cinema Center (CNC) teamed up back in October 2019 to request the blocking of dozens of pirate sites.</p>
+<p>Reports on the sites’ activities were compiled by local anti-piracy group ALPA, which noted that torrent site YTS reportedly made available 11,676 movies without permission from rightsholders, “the vast majority of which are legally available in theaters, digital or online.” TV torrent index EZTV was accused of offering 4,781 on the same basis.</p>
+<p>Streaming platform Allostream reportedly offered more than 1,300 movies and close to 900 TV shows. Overall, it was estimated that almost three-quarters of the content on the site was pirated. When compared to the other sites this was relatively low, however, with most others clocking up 85% unlicensed copyrighted content. This evidence was enough to convince the court.</p>
+<p>“[The rightsholders] have established with sufficient evidence that the disputed sites allow internet users, via the aforementioned paths, to download or continuously access works protected works via hypertext links, without having the authorization of the rights holders, which constitutes an infringement of copyright or neighboring rights,” the court ruling reads, per NextInpact.</p>
+<p>In common with similar blocking applications around Europe, the French court considered not only the intellectual property rights of the movie companies but also the rights of the Internet service providers to do business and their customers’ rights to send and receive information on the Internet. In the end, the rights of the content companies outweighed the interests of the other parties.</p>
+<p>As a result, the Paris court handed down an order on January 16, 2020, which compelled ISPs including Bouygues Télécom, Free, Orange, and SFR to prevent their users from accessing 36 platforms listed in the complaint. The vast majority appear to be streaming-related sites with the addition of torrent indexes YTS and EZTV.<em>(full list below)</em></p>
+<p>While there are 36 headline sites, the court recognized that these platforms can operate from many more domains. In respect of TV torrent<br>
+platform EZTV, for example, the site’s .io, .it, .ch, .re and .ag domains are listed for blocking. For movie index YTS, three domains appear – yts.lt, .am and .ag. As a result, 79 domains are detailed overall in the order handed down by the Paris court, which is valid for 18 months.</p>
+<p>Despite the comprehensive attempt at covering all domains, it’s likely the platforms will seek out new ones in response to the order. Should evasive action be taken by the sites, the complainants will have to obtain permission from a judge to update the list of domains.</p>
+<p><em>The full list of sites blocked by ISPs following the latest order is as follows:</em></p>
+<ul>
+<li><em>Allostream</em></li>
+<li><em>Annuaire-telechargement-ec</em></li>
+<li><em>Annuaire-telechargement-fr</em></li>
+<li><em>ATFUT</em></li>
+<li><em>DivxTOP</em></li>
+<li><em>DPSTREAM</em></li>
+<li><em>DPStreaming</em></li>
+<li><em>ETOPOP</em></li>
+<li><em>EZTV</em></li>
+<li><em>Filme-Streaming</em></li>
+<li><em>Filmcomplet</em></li>
+<li><em>FilmStreamingg1</em></li>
+<li><em>FilmStreaming1FV</em></li>
+<li><em>Filmz</em></li>
+<li><em>FRStream</em></li>
+<li><em>Full-Serie</em></li>
+<li><em>HDS-Streaming</em></li>
+<li><em>HDSS</em></li>
+<li><em>LibertyVF</em></li>
+<li><em>N1Streaming</em></li>
+<li><em>Papystreaming</em></li>
+<li><em>Planet-Streaming1</em></li>
+<li><em>Radego</em></li>
+<li><em>Serie-Streaming</em></li>
+<li><em>Seriecomplete</em></li>
+<li><em>SKStream</em></li>
+<li><em>Streamcomplet</em></li>
+<li><em>Streamdirect</em></li>
+<li><em>Streaming-VOSTFR</em></li>
+<li><em>StreamingDIVX1</em></li>
+<li><em>Time2watch</em></li>
+<li><em>VKStreaming</em></li>
+<li><em>Voir-Films-Series</em></li>
+<li><em>VOSTFRSerie</em></li>
+<li><em>Wikiserie</em></li>
+<li><em>YTS</em></li>
+</ul>
+<p><em>The related court order can be found <em><a href="https://torrentfreak.com/images/France-Blocking-Order-200119.pdf?ref=hackernoon.com"target="_blank"><em>here</em></a></em> (pdf)</em></p>
+<p><em>Originally published as “</em><a href="https://torrentfreak.com/french-isps-block-dozens-of-pirate-sites-following-movie-industry-action-200305/?ref=hackernoon.com"target="_blank"><em>French ISPs Block Dozens of Pirate Sites Following Movie Industry Action</em></a><em>” with the Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0) license</em></p>
+]]></content:encoded>
+      
+    </item>
+    
+    <item>
+      <title>Ungoogled Chromium</title>
+      <link>/ungoogled-chromium/</link>
+      <pubDate>Mon, 08 Jun 2020 12:43:26 +0800</pubDate>
+      
+      <guid>/ungoogled-chromium/</guid>
+      <description>Waterbuffalo Posts - A lightweight approach to removing Google web service dependency
+Help is welcome! See the docs/contributing.md document for more information.
+Objectives In descending order of significance (i.e. most important objective first):
+ ungoogled-chromium is Google Chromium, sans dependency on Google web services. ungoogled-chromium retains the default Chromium experience as closely as possible. Unlike other Chromium forks that have their own visions of a web browser, ungoogled-chromium is essentially a drop-in replacement for Chromium.</description>
+      
+      <content:encoded><![CDATA[<p><strong>Waterbuffalo Posts -</strong> <em>A lightweight approach to removing Google web service dependency</em></p>
+<p><strong>Help is welcome!</strong> See the <a href="docs/contributing.md">docs/contributing.md</a> document for more information.</p>
+<h2 id="objectives">Objectives</h2>
+<p>In descending order of significance (i.e. most important objective first):</p>
+<ol>
+<li><strong>ungoogled-chromium is Google Chromium, sans dependency on Google web services</strong>.</li>
+<li><strong>ungoogled-chromium retains the default Chromium experience as closely as possible</strong>. Unlike other Chromium forks that have their own visions of a web browser, ungoogled-chromium is essentially a drop-in replacement for Chromium.</li>
+<li><strong>ungoogled-chromium features tweaks to enhance privacy, control, and transparency</strong>. However, almost all of these features must be manually activated or enabled. For more details, see <a href="#feature-overview">Feature Overview</a>.</li>
+</ol>
+<p>In scenarios where the objectives conflict, the objective of higher significance should take precedence.</p>
+<h2 id="content-overview">Content Overview</h2>
+<ul>
+<li><a href="#objectives">Objectives</a></li>
+<li><a href="#motivation-and-philosophy">Motivation and Philosophy</a></li>
+<li><a href="#feature-overview">Feature Overview</a></li>
+<li><a href="#downloads"><strong>Downloads</strong></a></li>
+<li><a href="#source-code">Source Code</a></li>
+<li><a href="#faq"><strong>FAQ</strong></a></li>
+<li><a href="#building-instructions">Building Instructions</a></li>
+<li><a href="#design-documentation">Design Documentation</a></li>
+<li><a href="#contributing-reporting-contacting"><strong>Contributing, Reporting, Contacting</strong></a></li>
+<li><a href="#credits">Credits</a></li>
+<li><a href="#related-projects">Related Projects</a></li>
+<li><a href="#license">License</a></li>
+</ul>
+<h2 id="motivation-and-philosophy">Motivation and Philosophy</h2>
+<p>Without signing in to a Google Account, Chromium does pretty well in terms of security and privacy. However, Chromium still has some dependency on Google web services and binaries. In addition, Google designed Chromium to be easy and intuitive for users, which means they compromise on transparency and control of internal operations.</p>
+<p>ungoogled-chromium addresses these issues in the following ways:</p>
+<ol>
+<li>Remove all remaining background requests to any web services while building and running the browser</li>
+<li>Remove all code specific to Google web services</li>
+<li>Remove all uses of pre-made binaries from the source code, and replace them with user-provided alternatives when possible.</li>
+<li>Disable features that inhibit control and transparency, and add or modify features that promote them (these changes will almost always require manual activation or enabling).</li>
+</ol>
+<p>These features are implemented as configuration flags, patches, and custom scripts. For more details, consult the <a href="docs/design.md">Design Documentation</a>.</p>
+<h2 id="feature-overview">Feature Overview</h2>
+<p><em>This section overviews the features of ungoogled-chromium. For more detailed information, it is best to consult the source code.</em></p>
+<p>Contents of this section:</p>
+<ul>
+<li><a href="#key-features">Key Features</a></li>
+<li><a href="#enhancing-features">Enhancing Features</a></li>
+<li><a href="#borrowed-features">Borrowed Features</a></li>
+<li><a href="#supported-platforms-and-distributions">Supported Platforms and Distributions</a></li>
+</ul>
+<h3 id="key-features">Key Features</h3>
+<p><em>These are the core features introduced by ungoogled-chromium.</em></p>
+<ul>
+<li>Replace many web domains in the source code with non-existent alternatives ending in <code>qjz9zk</code> (known as domain substitution; <a href="docs/design.md#source-file-processors">see docs/design.md</a> for details)</li>
+<li>Strip binaries from the source code (known as binary pruning; <a href="docs/design.md#source-file-processors">see docs/design.md</a> for details)</li>
+<li>Disable functionality specific to Google domains (e.g. Google Host Detector, Google URL Tracker, Google Cloud Messaging, Google Hotwording, etc.)
+<ul>
+<li>This includes disabling <a href="//en.wikipedia.org/wiki/Google_Safe_Browsing">Safe Browsing</a>. Consult <a href="//ungoogled-software.github.io/ungoogled-chromium-wiki/faq#why-is-safe-browsing-disabled">the FAQ for the rationale</a>.</li>
+</ul>
+</li>
+<li>Add many new command-line switches and <code>chrome://flags</code> entries to configure disabled-by-default features. See <a href="docs/flags.md">docs/flags.md</a> for the exhaustive list.</li>
+</ul>
+<h3 id="enhancing-features">Enhancing Features</h3>
+<p><em>These are the non-essential features introduced by ungoogled-chromium.</em></p>
+<ul>
+<li>Use HTTPS by default when a URL scheme is not provided (e.g. Omnibox, bookmarks, command-line)</li>
+<li>Add <em>Suggestions URL</em> text field in the search engine editor (<code>chrome://settings/searchEngines</code>) for customizing search engine suggestions.</li>
+<li>Add more URL schemes allowed to save page schemes.</li>
+<li>Add Omnibox search provider &ldquo;No Search&rdquo; to allow disabling of searching</li>
+<li>Add a custom cross-platform build configuration and packaging wrapper for Chromium. It currently supports many Linux distributions, macOS, and Windows. (See <a href="docs/design.md">docs/design.md</a> for details on the system.)</li>
+<li>Force all pop-ups into tabs</li>
+<li>Disable automatic formatting of URLs in Omnibox (e.g. stripping <code>http://</code>, hiding certain parameters)</li>
+<li>Disable intranet redirect detector (extraneous DNS requests)
+<ul>
+<li>This breaks captive portal detection, but captive portals still work.</li>
+</ul>
+</li>
+<li>(Iridium Browser feature change) Prevent URLs with the <code>trk:</code> scheme from connecting to the Internet
+<ul>
+<li>Also prevents any URLs with the top-level domain <code>qjz9zk</code> (as used in domain substitution) from attempting a connection.</li>
+</ul>
+</li>
+<li>(Iridium and Inox feature change) Prevent pinging of IPv6 address when detecting the availability of IPv6. See the <code>--set-ipv6-probe-false</code> flag above to adjust the behavior instead.</li>
+<li>(Windows-specific) Do not set the Zone Identifier on downloaded files</li>
+</ul>
+<h3 id="borrowed-features">Borrowed Features</h3>
+<p>In addition to the features introduced by ungoogled-chromium, ungoogled-chromium selectively borrows many features from the following projects (in approximate order of significance):</p>
+<ul>
+<li><a href="//github.com/gcarq/inox-patchset">Inox patchset</a></li>
+<li><a href="//github.com/bromite/bromite">Bromite</a></li>
+<li><a href="//tracker.debian.org/pkg/chromium-browser">Debian</a></li>
+<li><a href="//iridiumbrowser.de/">Iridium Browser</a></li>
+</ul>
+<h3 id="supported-platforms-and-distributions">Supported Platforms and Distributions</h3>
+<p><a href="docs/platforms.md">See docs/platforms.md for a list of supported platforms</a>.</p>
+<p>Other platforms are discussed and tracked in this repository&rsquo;s Issue Tracker. Learn more about using the Issue Tracker under the section <a href="#contributing-reporting-contacting">Contributing, Reporting, Contacting</a>.</p>
+<h2 id="downloads">Downloads</h2>
+<p><a href="//ungoogled-software.github.io/ungoogled-chromium-binaries/"><strong>Download binaries from here</strong></a></p>
+<p><em>NOTE: These binaries are provided by anyone who are willing to build and submit them. Because these binaries are not necessarily <a href="https://reproducible-builds.org/"target="_blank">reproducible</a>, authenticity cannot be guaranteed; In other words, there is always a non-zero probability that these binaries may have been tampered with. In the unlikely event that this has happened to you, please <a href="#contributing-reporting-contacting">report it in a new issue</a>.</em></p>
+<p>These binaries are known as <strong>contributor binaries</strong>.</p>
+<p>Also, ungoogled-chromium is available in several <strong>software repositories</strong>:</p>
+<ul>
+<li>Android: Available via a custom <a href="https://f-droid.org/"target="_blank">F-Droid</a> repo. <a href="https://github.com/wchen342/ungoogled-chromium-android#f-droid-repository"target="_blank">See instructions in ungoogled-chromium-android</a></li>
+<li>Arch: Available in <a href="https://aur.archlinux.org/"target="_blank">AUR</a> as <a href="https://aur.archlinux.org/packages/ungoogled-chromium/"target="_blank"><code>ungoogled-chromium</code></a></li>
+<li>Debian &amp; Ubuntu: Available in OBS as <a href="https://software.opensuse.org/download/package?package=ungoogled-chromium&amp;project=home:ungoogled_chromium"target="_blank"><code>ungoogled-chromium</code></a></li>
+<li>Fedora: Available in <a href="https://rpmfusion.org"target="_blank">RPM Fusion</a> as <code>chromium-browser-privacy</code></li>
+<li>Gentoo: Available in <a href="https://github.com/PF4Public/gentoo-overlay"target="_blank"><code>::pf4public</code></a> overlay as <a href="https://github.com/PF4Public/gentoo-overlay/tree/master/www-client/ungoogled-chromium"target="_blank"><code>ungoogled-chromium</code></a> ebuild</li>
+<li>GNU Guix: Available as <code>ungoogled-chromium</code></li>
+<li>macOS: Available in <a href="https://brew.sh/"target="_blank">Homebrew</a> as <a href="https://formulae.brew.sh/cask/eloston-chromium"target="_blank"><code>eloston-chromium</code></a>. Just run <code>brew cask fetch eloston-chromium</code> and <code>brew cask install eloston-chromium</code>. Chromium will appear in your <code>/Applications</code> directory.</li>
+<li>NixOS/nixpkgs: Available as <code>ungoogled-chromium</code></li>
+</ul>
+<h2 id="source-code">Source Code</h2>
+<p>This repository only contains the common code for all platforms; it does not contain all the configuration and scripts necessary to build ungoogled-chromium. Most users will want to use platform-specific repos, where all the remaining configuration and scripts are provided for specific platforms:</p>
+<p><a href="docs/platforms.md"><strong>Find the repo for a specific platform here</strong></a>.</p>
+<p>If you wish to include ungoogled-chromium code in your own build process, consider using <a href="//github.com/Eloston/ungoogled-chromium/tags">the tags in this repo</a>. These tags follow the format <code>{chromium_version}-{revision}</code> where</p>
+<ul>
+<li><code>chromium_version</code> is the version of Chromium used in <code>x.x.x.x</code> format, and</li>
+<li><code>revision</code> is a number indicating the version of ungoogled-chromium for the corresponding Chromium version.</li>
+</ul>
+<p>Additionally, most platform-specific repos extend their tag scheme upon this one.</p>
+<p><strong>Building the source code</strong>: <a href="docs/building.md">See docs/building.md</a></p>
+<h3 id="mirrors">Mirrors</h3>
+<p>List of mirrors:</p>
+<ul>
+<li><a href="https://codeberg.org"target="_blank">Codeberg</a>: <a href="https://codeberg.org/Eloston/ungoogled-chromium"target="_blank">main repo</a> and <a href="https://codeberg.org/ungoogled-software"target="_blank">ungoogled-software</a></li>
+</ul>
+<h2 id="faq">FAQ</h2>
+<p><a href="//ungoogled-software.github.io/ungoogled-chromium-wiki/faq">See the frequently-asked questions (FAQ) on the Wiki</a></p>
+<h2 id="building-instructions">Building Instructions</h2>
+<p><a href="docs/building.md">See docs/building.md</a></p>
+<h2 id="design-documentation">Design Documentation</h2>
+<p><a href="docs/design.md">See docs/design.md</a></p>
+<h2 id="contributing-reporting-contacting">Contributing, Reporting, Contacting</h2>
+<ul>
+<li>For reporting and contacting, see <a href="SUPPORT.md">SUPPORT.md</a></li>
+<li>For contributing (e.g. how to help, submitting changes, criteria for new features), see <a href="docs/contributing.md">docs/contributing.md</a></li>
+</ul>
+<h2 id="credits">Credits</h2>
+<ul>
+<li><a href="//www.chromium.org/">The Chromium Project</a></li>
+<li><a href="//github.com/gcarq/inox-patchset">Inox patchset</a></li>
+<li><a href="//tracker.debian.org/pkg/chromium-browser">Debian</a></li>
+<li><a href="//github.com/bromite/bromite">Bromite</a></li>
+<li><a href="//iridiumbrowser.de/">Iridium Browser</a></li>
+<li>The users for testing and debugging, <a href="//github.com/Eloston/ungoogled-chromium/graphs/contributors">contributing code</a>, providing feedback, or simply using ungoogled-chromium in some capacity.</li>
+</ul>
+<h2 id="related-projects">Related Projects</h2>
+<p>List of known projects that fork or use changes from ungoogled-chromium:</p>
+<ul>
+<li><a href="//github.com/bromite/bromite">Bromite</a> (Borrows some patches. Features builds for Android)</li>
+<li><a href="//github.com/leo-lb/ungoogled-chromium">ppc64le fork</a> (Fork with changes to build for ppc64le CPUs)</li>
+</ul>
+<h2 id="license">License</h2>
+<p>BSD-3-clause. See <a href="LICENSE">LICENSE</a></p>
+]]></content:encoded>
+      
+    </item>
+    
+    <item>
+      <title>MiniCouchDB in Rust</title>
+      <link>/minicouchdb-in-rust/</link>
+      <pubDate>Mon, 08 Jun 2020 12:43:11 +0800</pubDate>
+      
+      <guid>/minicouchdb-in-rust/</guid>
+      <description>Waterbuffalo Posts - Recently we had a Hack Week, where we could work on anything we liked for the week. Since I’m enjoying programming in Rust, I took some inspiration from mini-redis and tried to build a mini-CouchDB in Rust.
+In case you don’t know, the next big release of CouchDB, version 4.x, will be built on top of FoundationDB (FDB). FoundationDB is a distributed, transactional Key/Value store. For this hack week, I decided to follow the design of CouchDB implemented on FoundationDB and see if I could get my Rust implementation to read the data that CouchDB stores in FoundationDB.</description>
+      
+      <content:encoded><![CDATA[<p><strong>Waterbuffalo Posts -</strong> Recently we had a Hack Week, where we could work on anything we liked for the week. Since I’m enjoying programming in Rust, I took some inspiration from <a href="https://github.com/tokio-rs/mini-redis"target="_blank">mini-redis</a> and tried to build a <a href="https://github.com/garrensmith/couch_hack_week"target="_blank">mini-CouchDB</a> in Rust.</p>
+<p>In case you don’t know, the next big release of CouchDB, version 4.x, will be built on top of FoundationDB (FDB). FoundationDB is a distributed, transactional Key/Value store. For this hack week, I decided to follow the design of CouchDB implemented on FoundationDB and see if I could get my Rust implementation to read the data that CouchDB stores in FoundationDB.</p>
+<p>The code has three main sections. The Fdb layer, error handling, and the HTTP layer.</p>
+<h2 id="foundationdb-layer">FoundationDB Layer</h2>
+<p>The first step was to implement <a href="https://github.com/garrensmith/couch_hack_week/blob/master/src/couch.rs"target="_blank">reading</a> from FoundationDB (FDB). I was really interested to see how reading and unpacking the data from FoundationDB in Rust would compare to doing the same in Erlang.</p>
+<p>The <a href="https://github.com/Clikengo/foundationdb-rs"target="_blank">FoundationDB Rust client</a> doesn’t yet have support for the directory layer in FDB. However, it turned out to be quite trivial to read the directory layer section to determine how to read from CouchDB. What I found interesting was that packing/unpacking data from FoundationDB with the Rust client looked very similar yo Erlang. Below is the code to pack/unpack the database name in Erlang:</p>
+<pre><code>Prefix = erlfdb_tuple:pack({?ALL_DBS}, LayerPrefix), {DbName} = erlfdb_tuple:unpack(K, Prefix),
+</code></pre>
+<p>In Rust it would look like this:</p>
+<pre><code>let (start_key, end_key) = fdb::pack_key_range(&amp;ALL_DBS, couch_directory); let (_, _, db_bytes): (Element, Element, Bytes) = unpack(kv.key())?;
+</code></pre>
+<p>The obvious difference being that in Rust I have to specify a type for each field in the tuple. Initially doing it like this was fine, but it felt way to basic and I wanted to push my knowledge of types in Rust to see if I can implement a better unpacking design. This lead me to defining types that I could convert the FoundationDB <code>Bytes</code> type into. Here is an example:</p>
+<pre><code>type EncodedRev = (i16, Bytes); type EncodedChangeValue = (Bytes, bool, EncodedRev); #[derive(Serialize)] pub struct Rev(String); impl From&lt;(i16, Bytes)&gt; for Rev { fn from((num, str): (i16, Bytes)) -&gt; Self { Rev(format!(&quot;{}-{}&quot;, num, hex::encode(str.as_ref()))) } }
+</code></pre>
+<p>This meant that I could then take an <code>EncodedRev</code> variable and convert it straight into a Rev:</p>
+<pre><code>let rev_tuple: EncodedRev = unpack(kv.value())?; let rev: Rev = rev_tuple.into();
+</code></pre>
+<p>This worked quite well. The next step, which I unfortunately did not have time to do, would be to take the types a step further and instead of having the Tuple types defined above, rather implement the <code>Unpack</code> trait for the Rev so that the unpack would look like this:</p>
+<pre><code>let rev: Rev = unpack(kv.value())?;
+</code></pre>
+<p>This makes the code a lot simpler to read and would be making better use of Rust’s powerful type system.</p>
+<h2 id="http-layer">Http Layer</h2>
+<p>For the <a href="https://github.com/garrensmith/couch_hack_week/blob/master/src/http.rs"target="_blank">Http Layer</a> , I decided to use <a href="https://github.com/seanmonstar/warp/"target="_blank">warp.rs</a>. I’ve used Hyper before but wanted to use something with a bit more functionality. Warp is a functional web framework that handles requests by filtering the request to the correct route. It is well written and is very powerful. I found it was a pretty big learning curve in the beginning and I had to spend a good day and a bit to fully understand what I was doing. The community in the Tokio discord channel were incredibly patient and helped me overcome a few sticking points. I’m still a little bit on the fence on whether I would use it again. It is really powerful but is at times frustrating to get working.</p>
+<h2 id="error-handling">Error handling</h2>
+<p>The final part of miniCouchDB was to implement some <a href="https://github.com/garrensmith/couch_hack_week/blob/master/src/lib.rs"target="_blank">error handling</a>. Rust’s error handling is something that amazes me every time. It’s easy to set up and use throughout the app. I was able to quickly implement a common <code>CouchError</code> that all FDB errors, standard errors, and custom errors could be converted too. I then implemented a <code>handle_rejection</code> function that would map all <code>CouchError</code>’s into HTTP error codes and messages. This was all easy to do and I think the code is easy to read and maintain.</p>
+<p>In the end I managed to implement the <code>_all_dbs</code>, <code>db_info</code> , <code>_all_docs</code>, and <code>_changes</code> endpoint. For a week and a bit of time, I thought that was pretty good. I learnt a lot on how to use the FoundationDB-rs library and had a ton of fun writing code in Rust again. I did find I still need to learn more about Rust’s advanced topics like Trait objects and get a better understanding of lifetimes and borrowing.</p>
+<p>Rust is a language I would like to use more. The ecosystem is really good and the community is very welcoming. If you haven’t yet dipped your toes into exploring Rust. I can’t recommend it enough. There are plenty of great resources to get started and the Rust <a href="https://doc.rust-lang.org/book/"target="_blank">book</a> is really helpful.</p>
+]]></content:encoded>
+      
+    </item>
+    
+    <item>
+      <title>Zettelkasten Note Taking in 10 Minutes</title>
+      <link>/zettelkasten-note-taking-in-10-minutes/</link>
+      <pubDate>Mon, 08 Jun 2020 12:42:51 +0800</pubDate>
+      
+      <guid>/zettelkasten-note-taking-in-10-minutes/</guid>
+      <description>Waterbuffalo Posts -Reading is hard and books don’t work. Zettelkasten aka slip-box note-taking is the new cool kid on the block. Don’t go down the same rabbit hole as I did, researching the method for tens of hours. This article should be enough of the introduction to get you started.
+Why Slip-box method promises to prevent your notes from piling up deep within your note-taking app and being forgotten. Instead, using this method will improve the value of your notes as you create more of them.</description>
+      
+      <content:encoded><![CDATA[<p><strong>Waterbuffalo Posts -</strong><a href="https://blog.viktomas.com/posts/reading-is-hard"target="_blank">Reading is hard and books don’t work</a>. Zettelkasten aka slip-box note-taking is the new cool kid on the block. Don’t go down the same rabbit hole as I did, researching the method for tens of hours. This article should be enough of the introduction to get you started.</p>
+<h2 id="why">Why</h2>
+<p>Slip-box method promises to prevent your notes from piling up deep within your note-taking app and being forgotten. Instead, using this method will improve the value of your notes as you create more of them. This method also gives you better and quicker feedback than usual note-taking.</p>
+<blockquote>
+<p><strong>Advice #1</strong>: Don’t try to get this method perfect from the get go<a href="https://blog.viktomas.com/posts/slip-box/#fn:1"target="_blank">1</a>. The advanced practices are useful only when you’ve got close to 1000 notes<a href="https://blog.viktomas.com/posts/slip-box/#fn:2"target="_blank">2</a>.</p>
+</blockquote>
+<p>As with everything else you want to utilize <a href="https://blog.viktomas.com/posts/iteration/"target="_blank">iteration</a>. Read this article, use it to create your first couple hundred notes and then research more details if you feel like your current process should be improved.</p>
+<h2 id="the-slip-box-method">The slip-box method</h2>
+<p><em>The source for the method summary is Sönke Ahrens’ book <a href="https://blog.viktomas.com/books/sonke-ahrens-how-to-take-smart-notes/"target="_blank">How to Take Smart Notes</a>. I only added the technical aspects.</em></p>
+<p>You write notes with a clear purpose: <strong>your future self is going to be reorganizing them and using them to produce articles or books</strong>.</p>
+<p>You fill your slip-box with notes by following this process:</p>
+<h3 id="1-make-notes-as-you-read">1) make notes as you read</h3>
+<blockquote>
+<p><strong>Advice #2</strong>: Always use your own words. Copying doesn’t give you feedback on your understanding.</p>
+</blockquote>
+<p>Let’s call these <em>resource notes</em>. Writing resource notes is where you get the first feedback from the method: Are you paying attention and do you understand the text? At this step, you are not trying to predict how your notes are going to fit in the slip-box, you are just trying to capture the essence of the text.</p>
+<p>You can use a separate app like <a href="https://www.zotero.org/"target="_blank">Zotero</a> for these notes. But <strong>I recommend</strong> having them as Markdown files in a <code>Resources</code> folder</p>
+<p>Folder structure so far:</p>
+<pre><code>└── Resources    └── Sonke Ahrens - How to Take Smart Notes.md 
+</code></pre>
+<p>Reference note:</p>
+<pre><code>--- title: How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers author: Sönke Ahrens type: book link: https://www.goodreads.com/book/show/34507927-how-to-take-smart-notes --- # How to Take Smart Notes - **Short feedback loop** - Writing literary notes provides quick feedback on our understanding of the text. We double-check this understanding when we try to make permanent notes out of the literary notes. (p54) - Fleeting notes - they are supposed to capture an idea for a brief period before it is processed, 1 or 2 days max (p43) 
+</code></pre>
+<p><em>The file content format is arbitrary, I choose to use <a href="https://jekyllrb.com/docs/front-matter/"target="_blank">Frontmatter</a> for the metadata, but it’s not that important.</em></p>
+<h3 id="2-write-atomic-self-contained-permanent-notes">2) write atomic, self-contained, permanent notes</h3>
+<p>Remember, the purpose of slip-box is to aid your future self to make use of the notes for writing. The main unit of information within the method is a permanent note. This note is:</p>
+<ul>
+<li><strong>atomic</strong>: always focused on a single topic, that makes linking notes easier</li>
+<li><strong>self-contained</strong>: you will forget the context in a few weeks, the note needs to explain itself in separation from the fleeting context</li>
+<li><strong>permanent</strong>: you are never going to delete the note, it might just fade into the background if there aren’t many links to it</li>
+<li><strong>concise</strong>: few paragraphs maximum, restricting the size helps you get the gist and keep the note atomic</li>
+</ul>
+<p>You try to turn you reference notes into permanent notes whilst avoiding conflict of concepts and duplication, these problems show the clearest when you think “How am I going to link this note to the other of my slip-box notes?”</p>
+<p>Permanent notes are just markdown files in a separate folder. These files need to have a unique identifier so other notes can link to them unambiguously.</p>
+<p>Folder structure so far:</p>
+<pre><code>├── Resources │   └── Sonke Ahrens - How to Take Smart Notes.md └── Permanent notes    └── 20200605153129 Slip-box.md 
+</code></pre>
+<h3 id="3-link-permanent-notes-together">3) link permanent notes together</h3>
+<p>The purpose of linking is to give you feedback, avoid duplication and capture the context of the permanent note. Ask yourself: How does the piece of information fit into the network of my permanent notes? Does it complement, contradict or otherwise interfere with your current notes?</p>
+<p>The linking is done by placing links like these <code>[[20200606154308]]</code> into notes. Most of the slip-box software allows you to click on this link and opens a note with ID <code>20200606154308</code> for you.</p>
+<p>Folder structure so far:</p>
+<pre><code>├── Resources │   └── Sonke Ahrens - How to Take Smart Notes.md └── Permanent notes ├── 20200605145305 Slip-box software.md    └── 20200605153129 Slip-box.md 
+</code></pre>
+<p>File <code>20200606154308 Slip-box.md</code>:</p>
+<pre><code># Slip-box ... See also: - [[20200605145305]] Slip-box software 
+
+[[20200605145305]]
+
+20200605153129 Slip-box
+
+20200605145305 Slip-box software
+</code></pre>
+<h3 id="4-tag-permanent-notes">4) tag permanent notes</h3>
+<blockquote>
+<p><strong>Advice #3</strong>: Tag the notes by the context you would like to retrieve it by</p>
+</blockquote>
+<p>Example: You have a note on <a href="https://en.wikipedia.org/wiki/Stanford_prison_experiment"target="_blank">Stanford prison experiment</a><a href="https://blog.viktomas.com/posts/slip-box/#fn:3"target="_blank">3</a>. Using tags like <code>#psychology</code> <code>#experiment</code> is hardly going to aid you in finding this note when you are writing or thinking about a problem. Better would be <code>#&quot;power dynamics in groups&quot;</code> <code>#&quot;misuse of power&quot;</code></p>
+<h2 id="the-software">The software</h2>
+<p>This is the part that took me a long time to research. But it is simple.</p>
+<p>Use <a href="https://www.zettlr.com/"target="_blank">Zettlr</a>. It’s <a href="https://blog.viktomas.com/posts/foss/"target="_blank">Free and Open-Source</a>, uses Markdown files and it’s <a href="https://en.wiktionary.org/wiki/vendor-agnostic"target="_blank">vendor agnostic</a>. It’s the only app you need, <strong>you can migrate to other apps later if you decide to</strong>.</p>
+<h3 id="zettlr-in-2-minutes">Zettlr in 2 minutes</h3>
+<ol>
+<li><a href="https://www.zettlr.com/download"target="_blank">Download and install Zettlr</a> (on Mac <code>brew cask install Zettlr</code>)</li>
+<li><a href="https://docs.zettlr.com/en/guides/guide-zettelkasten/"target="_blank">Set it up for Zettelkasten</a></li>
+<li>Create a new note (<code>CMD</code>+<code>N</code>), add name the generated ID (e.g. <code>20200606154308 My first note.md</code>)</li>
+<li>Create a second note (e.g. <code>20200605145305 My second note.md</code>)</li>
+<li>Link from first note to second note by typing <code>[[</code> in the first note and using auto-complete</li>
+</ol>
+<h3 id="alternatives">Alternatives</h3>
+<ul>
+<li><a href="https://zettelkasten.de/the-archive/"target="_blank">Archive</a> - looks great, no vendor lock-in, but not open-source and it is macOS only</li>
+<li><a href="https://brettterpstra.com/projects/nvalt/"target="_blank">nvAlt</a> Famous notational velocity.</li>
+<li><a href="https://www.zotero.org/"target="_blank">Zotero</a> - you might want to add this to your toolbox if you plan on academic publication of your work. Overkill for anyone else.</li>
+</ul>
+<h2 id="example-slip-box">Example slip-box</h2>
+<p>The closest to a full slip-box example are <a href="https://notes.andymatuschak.org/About_these_notes"target="_blank">Andy Matuschak’s notes</a>.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>This should be enough detail to get you started. The critical idea is atomic notes linked together. That prevents the notes from being forgotten somewhere deep in your note-taking app.</p>
+<p><a href="https://www.zettlr.com/"target="_blank">Zettlr</a> is a good app to start with. The slip-box is just a few text files linked together with unique ids. Many other apps support the same linking style as Zettlr.</p>
+<p>Don’t do <a href="https://youtu.be/kXnR7qX3BDc?t=1602"target="_blank">a big migration of your current notes</a>. You can migrate them when you are planning to use them.</p>
+<hr>
+<ol>
+<li>
+<p><a href="https://youtu.be/kXnR7qX3BDc?t=1399"target="_blank">Sonke says it himself</a> <a href="https://blog.viktomas.com/posts/slip-box/#fnref:1"target="_blank">↩︎</a></p>
+</li>
+<li>
+<p><a href="https://zettelkasten.de/posts/three-layers-structure-zettelkasten/#bottom-layer-content"target="_blank">tags and links between the notes are going to be OK</a> <a href="https://blog.viktomas.com/posts/slip-box/#fnref:2"target="_blank">↩︎</a></p>
+</li>
+<li>
+<p>I changed the example from Sonke’s book a bit to make more sense to me. <a href="https://blog.viktomas.com/posts/slip-box/#fnref:3"target="_blank">↩︎</a></p>
+</li>
+</ol>
+]]></content:encoded>
+      
+    </item>
+    
+    <item>
+      <title>Dino Game</title>
+      <link>/dino/</link>
+      <pubDate>Fri, 27 Dec 2019 09:54:13 +0800</pubDate>
+      
+      <guid>/dino/</guid>
+      <description>Waterbuffalo Posts - Dazhi
+original Github link English Version there is a Chinese version in the back 后面有中文版  So this is some code I wrote just after I finished my finals.
+For clarification this is my ripoff version of Chrome&amp;rsquo;s easter egg Dinosaur game.
+I was trying to have some fun when i wrote it
+So uhhh I guess its not so much of a well written code but something one would have fun playing.</description>
+      
+      <content:encoded><![CDATA[<p><strong>Waterbuffalo Posts -</strong> Dazhi</p>
+<h2 id="original-github-linkhttpsgithubcomdazhizhongdino"><a href="https://github.com/DazhiZhong/Dino"target="_blank">original Github link</a></h2>
+<h2 id="english-version">English Version</h2>
+<pre><code>there is a Chinese version in the back
+
+后面有中文版
+</code></pre>
+<p>So this is some code I wrote just after I finished my finals.</p>
+<p>For clarification this is my ripoff version of Chrome&rsquo;s easter egg Dinosaur game.</p>
+<p>I was trying to <strong>have some fun</strong> when i wrote it</p>
+<p>So uhhh I guess its not so much of a <em>well written</em> code but something one would <em>have fun</em> playing.</p>
+<p>I wrote this in about 3 hours, I know its a bit much for a game as simple as the Dinosaur game in Chrome, but in my defense I&rsquo;m a bit of a starter and I just finished my finals</p>
+<p>also, its only written using python tkinter canvas. I know its kind of dumb, but I didn&rsquo;t feel like learning anything new.</p>
+<p>So after writing the code I put in another 3 hours of playing and testing, and I feel like it is well polished, at least in the eye of me : a person that does not expert in game design.</p>
+<p>so I guess you&rsquo;ll have some fun playing this somewhat absurd game.</p>
+<p>why absurd you may ask?</p>
+<p>Well great question chief let me explain.</p>
+<h2 id="special-features">Special “Features”</h2>
+<ol>
+<li>
+<p>So I guess I was <strong>extremely tired</strong> when I wrote the code, and I wrote some code so that after a cactus has spawned there would be one tenth or one eighth chance that there would be a slightly paler colored cactus that spawns right after it.</p>
+<p><img  src="https://github.com/DazhiZhong/Dino/raw/master/images/freakcactus.png"
+        alt="freak cactus"/></p>
+<p>kinda just like this, but the kind of cacti varies. I guess I tried to make the game harder? truly idk</p>
+<p>I wrote half of the code in extreme sleep deprivation</p>
+<p>lmao</p>
+</li>
+<li>
+<p>Also I used a random function for catus spawn, but I got kinda extreme and the map could generate viciously hard patterns, but I was just too tired to care, but don&rsquo;t think of it as a <em>bug</em>, think of it as a <em><strong>feature</strong></em>.</p>
+<p>So here you go</p>
+<p><img  src="https://github.com/DazhiZhong/Dino/raw/master/images/difficult.png"
+        alt="super difficult part"/></p>
+<p>see if you can jump over <em><strong>this</strong></em></p>
+</li>
+<li>
+<p>yeah so five minutes after I found out that it was generating damned maps I got fustrated and started mashing my keyboard, like all gamers would.</p>
+<p>nah jk</p>
+<p>so then I found out beacuse of my bad code, you could actually activate the <code>jump</code> function multiple times if you don&rsquo;t release the button initally pressed</p>
+<p>it&rsquo;s a small problem and easily fixed, yet it seems like the bug was the solution to the hard maps</p>
+<p>So <strong>again</strong> don&rsquo;t think of it as a <em>bug</em>, think of it as a <em><strong>feature</strong></em>.</p>
+<p>I also have a little indicator for how high the dinosaur has gone out of screen for my pleasure</p>
+<p><img  src="https://github.com/DazhiZhong/Dino/raw/master/images/toohigh.png"
+        alt="dino screen"/></p>
+</li>
+<li>
+<p>I made an <code>auto</code> mode for testing, and the secret key is <code>p</code>, the bot is stupid its just timed jumps, it was useful in early tests but not so much in this version.</p>
+<p>but have fun</p>
+<p>I would be flattered if someone would copy &amp; paste some machine learning code in my code, but I guess thats not happening, just like my relationship with this cute girl in class</p>
+<p>ahh now I&rsquo;m depressed again</p>
+</li>
+<li>
+<p>I didn&rsquo;t want to make you install another package that installs fonts, so I guess if you&rsquo;re a man of culture theres a <code>.ttf</code> pack in the repo, the code works fine without it, it&rsquo;s just for visual pleasure.</p>
+</li>
+<li>
+<p>aaaand folks thats it</p>
+</li>
+</ol>
+<h2 id="installing-and-playing">Installing and playing</h2>
+<pre><code>mkdir /path/to/the/code/
+
+pip install requirements.txt
+
+python Dino.py
+</code></pre>
+<p>I&rsquo;ve only tested it on my Mac so if it doesn&rsquo;t work on windows and linux&hellip;</p>
+<p>&hellip;f you then for making a bad choice of choosing systems</p>
+<p>nah just contact me and I&rsquo;ll try to make it work,</p>
+<p>Or you could do it yourself and tell me how, I&rsquo;d be flattered</p>
+<h2 id="some-extra-pictures">some extra pictures</h2>
+<p><img  src="https://github.com/DazhiZhong/Dino/raw/master/images/ss001.png"
+        alt="screenshot 1"/>
+<img  src="https://github.com/DazhiZhong/Dino/raw/master/images/ss002.png"
+        alt="screenshot 2"/>
+<img  src="https://github.com/DazhiZhong/Dino/raw/master/images/ss003.png"
+        alt="screenshot 3"/></p>
+<h2 id="前言">前言</h2>
+<p>首先，先说一下，这是一个满潦草的代码</p>
+<p>我自己也是本着能用，能看就行的心理写完的</p>
+<p><strong>没什么可读性</strong>，估计<strong>没什么可以借鉴的地方</strong>，就当看看小恐龙跳着看个乐吧</p>
+<p>如果不嫌弃，玩玩玩腻了可以顺便帮我改改代码hhh</p>
+<p>大致是如此。</p>
+<p>素材都是直接从Chrome上截图的，估计也不算侵权哈</p>
+<h2 id="说一下大概比较有特点的地方">说一下大概比较有特点的地方</h2>
+<ol>
+<li>
+<p>仙人掌会连着，大概就是体婴儿仙人掌</p>
+<p><img  src="https://github.com/DazhiZhong/Dino/raw/master/images/freakcactus.png"
+        alt="freak cactus"/></p>
+<p>后面那个颜色是浅一点的，我也不知道为啥这么设计</p>
+</li>
+<li>
+<p>会有诡异复杂的地形，虽然是微调难度没有调好的结果。。。</p>
+<p>我们姑且称之为特性。。。</p>
+<p><img  src="https://github.com/DazhiZhong/Dino/raw/master/images/difficult.png"
+        alt="super difficult part"/></p>
+</li>
+<li>
+<p>我亲切地设置了Auto模式，按<code>p</code>可以自动跳。虽然难的地方跳不过，毕竟只是为了方便测试。</p>
+</li>
+<li>
+<p>如果你(<del>像我一样</del>)是个有品位的人，可以自己安装我顺带的 <code>.ttf</code> 字体包</p>
+</li>
+<li>
+<p>大概就这样</p>
+</li>
+</ol>
+<h2 id="安装">安装</h2>
+<pre><code>mkdir /path/to/the/code/
+
+pip install requirements.txt
+
+python Dino.py
+</code></pre>
+]]></content:encoded>
+      
+    </item>
+    
+    <item>
+      <title>HOW to DESIGN, BUILD and TEST SMALL LIQUID-FUEL ROCKET ENGINES</title>
+      <link>/engines/</link>
+      <pubDate>Thu, 08 Jun 2017 13:49:03 +0800</pubDate>
+      
+      <guid>/engines/</guid>
+      <description>Waterbuffalo Posts -
+ROCKETLAB / CHINA LAKE, CALIF. NOTICE  Reprinted with permission. ROCKETLAB cannot assume responsibility, in any manner whatsoever, for the use readers make of the information presented herein or the device resulting therefrom. MIT, LCS, and the volunteers who have made this information available on the W3 likewise disclaim all responibility for whatever use readers make of this information. This document is provided on a strictly informational basis.</description>
+      
+      <content:encoded><![CDATA[<p><strong>Waterbuffalo Posts -</strong></p>
+<h3 id="rocketlab--china-lake-calif">ROCKETLAB / CHINA LAKE, CALIF.</h3>
+<p><img  src="./cover1.jpg"
+        alt="img"/> <img  src="./cover2-20200608152936866.jpg"
+        alt="img"/></p>
+<h3 id="notice">NOTICE</h3>
+<ul>
+<li>Reprinted with permission.</li>
+<li>ROCKETLAB cannot assume responsibility, in any manner whatsoever, for the use readers make of the information presented herein or the device resulting therefrom.</li>
+<li>MIT, LCS, and the volunteers who have made this information available on the W3 likewise disclaim all responibility for whatever use readers make of this information. This document is provided on a strictly informational basis.</li>
+<li>You can now download this entire book as a tarball (<a href="http://www.risacher.org/rocket/rocket.tar.gz"target="_blank">rocket.tar.gz</a>) or as a zipfile (<a href="http://www.risacher.org/rocket/rocket.zip"target="_blank">rocket.zip</a>). This can be decompressed with <em>gzip</em> and <em>tar</em> or with <em>WinZIP</em>. The tar/zip files contain the exact same html and.png files that you see here.</li>
+</ul>
+<p>Copyright 1967 by Leroy J. Krzycki
+Printed in the United States of America
+First Printing: March 1967
+Second Printing: March 1971
+First WWW Edition: June 1996
+SBN 9600-1980-4</p>
+<h3 id="contents">CONTENTS</h3>
+<ol>
+<li><a href="http://www.risacher.org/rocket/intro.html"target="_blank">Introduction</a></li>
+<li><a href="http://www.risacher.org/rocket/propellant.html"target="_blank">Propellant Choice and Properties</a></li>
+<li>Design Equations
+<ol>
+<li><a href="http://www.risacher.org/rocket/eqns.html#nozzle"target="_blank">Nozzle</a></li>
+<li><a href="http://www.risacher.org/rocket/eqns.html#cc"target="_blank">Combustion Chamber</a></li>
+<li><a href="http://www.risacher.org/rocket/eqns.html#cwt"target="_blank">Chamber Wall Thickness</a></li>
+<li><a href="http://www.risacher.org/rocket/eqns.html#cooling"target="_blank">Engine Cooling</a></li>
+<li><a href="http://www.risacher.org/rocket/eqns.html#transfer"target="_blank">Heat Transfer</a></li>
+<li><a href="http://www.risacher.org/rocket/eqns.html#materials"target="_blank">Materials</a></li>
+<li><a href="http://www.risacher.org/rocket/eqns.html#injectors"target="_blank">Injectors</a></li>
+</ol>
+</li>
+<li>Example Design Calculation
+<ol>
+<li><a href="http://www.risacher.org/rocket/example.html#design"target="_blank">Design</a></li>
+</ol>
+</li>
+<li><a href="http://www.risacher.org/rocket/fabrication.html"target="_blank">Fabrication</a></li>
+<li>Testing Equipment
+<ol>
+<li><a href="http://www.risacher.org/rocket/testing.html#fs"target="_blank">Feed System</a></li>
+<li><a href="http://www.risacher.org/rocket/testing.html#fsc"target="_blank">Feed System Components</a></li>
+</ol>
+</li>
+<li><a href="http://www.risacher.org/rocket/test_stand.html"target="_blank">Test Stand</a></li>
+<li><a href="http://www.risacher.org/rocket/safety.html"target="_blank">Safety</a></li>
+<li><a href="http://www.risacher.org/rocket/check_out.html"target="_blank">Engine Check-Out and Calibration</a></li>
+<li><a href="http://www.risacher.org/rocket/ignition.html"target="_blank">Ignition and Operation</a></li>
+<li><a href="http://www.risacher.org/rocket/law.html"target="_blank">The Law</a></li>
+<li><a href="http://www.risacher.org/rocket/bib.html"target="_blank">Bibliography</a></li>
+<li><a href="http://www.risacher.org/rocket/suppliers.html"target="_blank">List of Suppliers</a></li>
+<li><a href="http://www.risacher.org/rocket/conversions.html"target="_blank">Conversion Factors</a></li>
+</ol>
+<hr>
+<ol>
+<li><a href="http://www.risacher.org/rocket/tech_notes.html"target="_blank">Additions and Corrections</a></li>
+<li><a href="http://www.risacher.org/rocket/addendum.html"target="_blank">Other Notes</a></li>
+</ol>
+<iframe id="blockbyte-bs-sidebar" class="notranslate" data-pos="right" style="opacity: 0; pointer-events: none; position: fixed; top: 0px; left: auto; width: 350px; max-width: none; height: 0px; z-index: 2147483646; border: none; transform: translate3d(350px, 0px, 0px); transition: width 0s ease 0.3s, height 0s ease 0.3s, opacity 0.3s ease 0s, transform 0.3s ease 0s; background-color: rgba(255, 255, 255, 0.8) !important; display: block !important; right: 0px; color: rgb(0, 0, 0); font-family: Times; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"></iframe>]]></content:encoded>
+      
+    </item>
+    
+    <item>
+      <title>Printf Tac Toe</title>
+      <link>/printf-tac-toe/</link>
+      <pubDate>Sat, 17 Apr 2010 12:42:05 +0800</pubDate>
+      
+      <guid>/printf-tac-toe/</guid>
+      <description>Waterbuffalo Posts - A c implementation of tic-tac-toe in a single call to printf. Written for IOCCC 2020.
+#include &amp;lt;stdio.h&amp;gt;  #define N(a) &amp;#34;%&amp;#34;#a&amp;#34;$hhn&amp;#34; #define O(a,b) &amp;#34;%10$&amp;#34;#a&amp;#34;d&amp;#34;N(b) #define U &amp;#34;%10$.*37$d&amp;#34; #define G(a) &amp;#34;%&amp;#34;#a&amp;#34;$s&amp;#34; #define H(a,b) G(a)G(b) #define T(a) a a #define s(a) T(a)T(a) #define A(a) s(a)T(a)a #define n(a) A(a)a #define D(a) n(a)A(a) #define C(a) D(a)a #define R C(C(N(12)G(12))) #define o(a,b,c) C(H(a,a))D(G(a))C(H(b,b)G(b))n(G(b))O(32,c)R #define SS O(78,55)R &amp;#34;\n\033[2J\n%26$s&amp;#34;; #define E(a,b,c,d) H(a,b)G(c)O(253,11)R G(11)O(255,11)R H(11,d)N(d)O(253,35)R #define S(a,b) O(254,11)H(a,b)N(68)R G(68)O(255,68)N(12)H(12,68)G(67)N(67)  char* fmt = O(10,39)N(40)N(41)N(42)N(43)N(66)N(69)N(24)O(22,65)O(5,70)O(8,44)N( 45)N(46)N (47)N(48)N( 49)N( 50)N( 51)N(52)N(53 )O( 28, 54)O(5, 55) O(2, 56)O(3,57)O( 4,58 )O(13, 73)O(4, 71 )N( 72)O (20,59 )N(60)N(61)N( 62)N (63)N (64)R R E(1,2, 3,13 )E(4, 5,6,13)E(7,8,9 ,13)E(1,4 ,7,13)E (2,5,8, 13)E( 3,6,9,13)E(1,5, 9,13)E(3 ,5,7,13 )E(14,15, 16,23) E(17,18,19,23)E( 20, 21, 22,23)E (14,17,20,23)E(15, 18,21,23)E(16,19, 22 ,23)E( 14, 18, 22,23)E(16,18,20, 23)R U O(255 ,38)R G ( 38)O( 255,36) R H(13,23)O(255, 11)R H(11,36) O(254 ,36) R G( 36 ) O( 255,36)R S(1,14 )S(2,15)S(3, 16)S(4, 17 )S (5, 18)S(6, 19)S(7,20)S(8, 21)S(9 ,22)H(13,23 )H(36, 67 )N(11)R G(11)&amp;#34;&amp;#34;O(255, 25 )R s(C(G(11) ))n (G( 11) )G( 11)N(54)R C( &amp;#34;aa&amp;#34;) s(A( G(25)))T (G(25))N (69)R o (14,1,26)o( 15, 2, 27)o (16,3,28 )o( 17,4, 29)o(18 ,5,30)o(19 ,6,31)o( 20,7,32)o (21,8,33)o (22 ,9, 34)n(C(U) )N( 68)R H( 36,13)G(23) N(11)R C(D( G(11))) D(G(11))G(68)N(68)R G(68)O(49,35)R H(13,23)G(67)N(11)R C(H(11,11)G( 11))A(G(11))C(H(36,36)G(36))s(G(36))O(32,58)R C(D(G(36)))A(G(36))SS #define arg d+6,d+8,d+10,d+12,d+14,d+16,d+18,d+20,d+22,0,d+46,d+52,d+48,d+24,d\ +26,d+28,d+30,d+32,d+34,d+36,d+38,d+40,d+50,(scanf(d+126,d+4),d+(6\ -2)+18*(1-d[2]%2)+d[4]*2),d,d+66,d+68,d+70, d+78,d+80,d+82,d+90,d+\ 92,d+94,d+97,d+54,d[2],d+2,d+71,d+77,d+83,d+89,d+95,d+72,d+73,d+74\ ,d+75,d+76,d+84,d+85,d+86,d+87,d+88,d+100,d+101,d+96,d+102,d+99,d+\ 67,d+69,d+79,d+81,d+91,d+93,d+98,d+103,d+58,d+60,d+98,d+126,d+127,\ d+128,d+129  char d[538] = {1,0,10,0,10}; int main() { while(*d) printf(fmt, arg); } If this is the kind of thing that you enjoy, you might also like printbf.</description>
+      
+      <content:encoded><![CDATA[<p><strong>Waterbuffalo Posts -</strong> A c implementation of tic-tac-toe in a single call to printf. Written for IOCCC 2020.</p>
+<div class="highlight"><pre class="chroma"><code class="language-c" data-lang="c"><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt; </span><span class="cp">
+</span><span class="cp"></span>
+<span class="cp">#define N(a)       &#34;%&#34;#a&#34;$hhn&#34;
+</span><span class="cp">#define O(a,b)     &#34;%10$&#34;#a&#34;d&#34;N(b)
+</span><span class="cp">#define U          &#34;%10$.*37$d&#34;
+</span><span class="cp">#define G(a)       &#34;%&#34;#a&#34;$s&#34;
+</span><span class="cp">#define H(a,b)     G(a)G(b)
+</span><span class="cp">#define T(a)       a a 
+</span><span class="cp">#define s(a)       T(a)T(a)
+</span><span class="cp">#define A(a)       s(a)T(a)a
+</span><span class="cp">#define n(a)       A(a)a
+</span><span class="cp">#define D(a)       n(a)A(a)
+</span><span class="cp">#define C(a)       D(a)a
+</span><span class="cp">#define R          C(C(N(12)G(12)))
+</span><span class="cp">#define o(a,b,c)   C(H(a,a))D(G(a))C(H(b,b)G(b))n(G(b))O(32,c)R
+</span><span class="cp">#define SS         O(78,55)R &#34;\n\033[2J\n%26$s&#34;;
+</span><span class="cp">#define E(a,b,c,d) H(a,b)G(c)O(253,11)R G(11)O(255,11)R H(11,d)N(d)O(253,35)R
+</span><span class="cp">#define S(a,b)     O(254,11)H(a,b)N(68)R G(68)O(255,68)N(12)H(12,68)G(67)N(67)
+</span><span class="cp"></span>
+<span class="kt">char</span><span class="o">*</span> <span class="n">fmt</span> <span class="o">=</span> <span class="n">O</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">39</span><span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">40</span><span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">41</span><span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">42</span><span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">43</span><span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">66</span><span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">69</span><span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">24</span><span class="p">)</span><span class="n">O</span><span class="p">(</span><span class="mi">22</span><span class="p">,</span><span class="mi">65</span><span class="p">)</span><span class="n">O</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">70</span><span class="p">)</span><span class="n">O</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span><span class="mi">44</span><span class="p">)</span><span class="n">N</span><span class="p">(</span>
+            <span class="mi">45</span><span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">46</span><span class="p">)</span><span class="n">N</span>    <span class="p">(</span><span class="mi">47</span><span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">48</span><span class="p">)</span><span class="n">N</span><span class="p">(</span>    <span class="mi">49</span><span class="p">)</span><span class="n">N</span><span class="p">(</span> <span class="mi">50</span><span class="p">)</span><span class="n">N</span><span class="p">(</span>     <span class="mi">51</span><span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">52</span><span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">53</span>    <span class="p">)</span><span class="n">O</span><span class="p">(</span> <span class="mi">28</span><span class="p">,</span>
+            <span class="mi">54</span><span class="p">)</span><span class="n">O</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span>        <span class="mi">55</span><span class="p">)</span> <span class="n">O</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span>    <span class="mi">56</span><span class="p">)</span><span class="n">O</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">57</span><span class="p">)</span><span class="n">O</span><span class="p">(</span>      <span class="mi">4</span><span class="p">,</span><span class="mi">58</span> <span class="p">)</span><span class="n">O</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span>    <span class="mi">73</span><span class="p">)</span><span class="n">O</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span>
+            <span class="mi">71</span> <span class="p">)</span><span class="n">N</span><span class="p">(</span>   <span class="mi">72</span><span class="p">)</span><span class="n">O</span>   <span class="p">(</span><span class="mi">20</span><span class="p">,</span><span class="mi">59</span>    <span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">60</span><span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">61</span><span class="p">)</span><span class="n">N</span><span class="p">(</span>       <span class="mi">62</span><span class="p">)</span><span class="n">N</span> <span class="p">(</span><span class="mi">63</span><span class="p">)</span><span class="n">N</span>    <span class="p">(</span><span class="mi">64</span><span class="p">)</span><span class="n">R</span> <span class="n">R</span>
+            <span class="n">E</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span>   <span class="mi">3</span><span class="p">,</span><span class="mi">13</span>   <span class="p">)</span><span class="n">E</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span>    <span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">13</span><span class="p">)</span><span class="n">E</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">9</span>        <span class="p">,</span><span class="mi">13</span><span class="p">)</span><span class="n">E</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">4</span>    <span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">13</span><span class="p">)</span><span class="n">E</span>
+            <span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span>        <span class="mi">13</span><span class="p">)</span><span class="n">E</span><span class="p">(</span>    <span class="mi">3</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">13</span><span class="p">)</span><span class="n">E</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span>         <span class="mi">9</span><span class="p">,</span><span class="mi">13</span><span class="p">)</span><span class="n">E</span><span class="p">(</span><span class="mi">3</span>    <span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">13</span>
+            <span class="p">)</span><span class="n">E</span><span class="p">(</span><span class="mi">14</span><span class="p">,</span><span class="mi">15</span><span class="p">,</span>    <span class="mi">16</span><span class="p">,</span><span class="mi">23</span><span class="p">)</span>    <span class="n">E</span><span class="p">(</span><span class="mi">17</span><span class="p">,</span><span class="mi">18</span><span class="p">,</span><span class="mi">19</span><span class="p">,</span><span class="mi">23</span><span class="p">)</span><span class="n">E</span><span class="p">(</span>          <span class="mi">20</span><span class="p">,</span> <span class="mi">21</span><span class="p">,</span>    <span class="mi">22</span><span class="p">,</span><span class="mi">23</span><span class="p">)</span><span class="n">E</span>
+            <span class="p">(</span><span class="mi">14</span><span class="p">,</span><span class="mi">17</span><span class="p">,</span><span class="mi">20</span><span class="p">,</span><span class="mi">23</span><span class="p">)</span><span class="n">E</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span>    <span class="mi">18</span><span class="p">,</span><span class="mi">21</span><span class="p">,</span><span class="mi">23</span><span class="p">)</span><span class="n">E</span><span class="p">(</span><span class="mi">16</span><span class="p">,</span><span class="mi">19</span><span class="p">,</span>    <span class="mi">22</span>     <span class="p">,</span><span class="mi">23</span><span class="p">)</span><span class="n">E</span><span class="p">(</span>    <span class="mi">14</span><span class="p">,</span> <span class="mi">18</span><span class="p">,</span>
+            <span class="mi">22</span><span class="p">,</span><span class="mi">23</span><span class="p">)</span><span class="n">E</span><span class="p">(</span><span class="mi">16</span><span class="p">,</span><span class="mi">18</span><span class="p">,</span><span class="mi">20</span><span class="p">,</span>    <span class="mi">23</span><span class="p">)</span><span class="n">R</span> <span class="n">U</span> <span class="n">O</span><span class="p">(</span><span class="mi">255</span> <span class="p">,</span><span class="mi">38</span><span class="p">)</span><span class="n">R</span>    <span class="n">G</span> <span class="p">(</span>     <span class="mi">38</span><span class="p">)</span><span class="n">O</span><span class="p">(</span>    <span class="mi">255</span><span class="p">,</span><span class="mi">36</span><span class="p">)</span>
+            <span class="n">R</span> <span class="n">H</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span><span class="mi">23</span><span class="p">)</span><span class="n">O</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span>    <span class="mi">11</span><span class="p">)</span><span class="n">R</span> <span class="n">H</span><span class="p">(</span><span class="mi">11</span><span class="p">,</span><span class="mi">36</span><span class="p">)</span> <span class="n">O</span><span class="p">(</span><span class="mi">254</span>    <span class="p">,</span><span class="mi">36</span><span class="p">)</span>     <span class="n">R</span> <span class="n">G</span><span class="p">(</span>    <span class="mi">36</span> <span class="p">)</span> <span class="n">O</span><span class="p">(</span>
+            <span class="mi">255</span><span class="p">,</span><span class="mi">36</span><span class="p">)</span><span class="n">R</span> <span class="n">S</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">14</span>    <span class="p">)</span><span class="n">S</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">15</span><span class="p">)</span><span class="n">S</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">16</span><span class="p">)</span><span class="n">S</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span>    <span class="mi">17</span> <span class="p">)</span><span class="n">S</span>     <span class="p">(</span><span class="mi">5</span><span class="p">,</span>    <span class="mi">18</span><span class="p">)</span><span class="n">S</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span>
+            <span class="mi">19</span><span class="p">)</span><span class="n">S</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span><span class="mi">20</span><span class="p">)</span><span class="n">S</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span>    <span class="mi">21</span><span class="p">)</span><span class="n">S</span><span class="p">(</span><span class="mi">9</span>    <span class="p">,</span><span class="mi">22</span><span class="p">)</span><span class="n">H</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span><span class="mi">23</span>    <span class="p">)</span><span class="n">H</span><span class="p">(</span><span class="mi">36</span><span class="p">,</span>     <span class="mi">67</span>    <span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">11</span><span class="p">)</span><span class="n">R</span>
+            <span class="n">G</span><span class="p">(</span><span class="mi">11</span><span class="p">)</span><span class="s">&#34;&#34;</span><span class="n">O</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span>    <span class="mi">25</span> <span class="p">)</span><span class="n">R</span>        <span class="n">s</span><span class="p">(</span><span class="n">C</span><span class="p">(</span><span class="n">G</span><span class="p">(</span><span class="mi">11</span><span class="p">)</span>    <span class="p">))</span><span class="n">n</span> <span class="p">(</span><span class="n">G</span><span class="p">(</span>          <span class="mi">11</span><span class="p">)</span> <span class="p">)</span><span class="n">G</span><span class="p">(</span>
+            <span class="mi">11</span><span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">54</span><span class="p">)</span><span class="n">R</span> <span class="n">C</span><span class="p">(</span>    <span class="s">&#34;aa&#34;</span><span class="p">)</span>   <span class="n">s</span><span class="p">(</span><span class="n">A</span><span class="p">(</span>   <span class="n">G</span><span class="p">(</span><span class="mi">25</span><span class="p">)))</span><span class="n">T</span>    <span class="p">(</span><span class="n">G</span><span class="p">(</span><span class="mi">25</span><span class="p">))</span><span class="n">N</span>         <span class="p">(</span><span class="mi">69</span><span class="p">)</span><span class="n">R</span> <span class="n">o</span>
+            <span class="p">(</span><span class="mi">14</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">26</span><span class="p">)</span><span class="n">o</span><span class="p">(</span>    <span class="mi">15</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span>   <span class="mi">27</span><span class="p">)</span><span class="n">o</span>   <span class="p">(</span><span class="mi">16</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">28</span>    <span class="p">)</span><span class="n">o</span><span class="p">(</span> <span class="mi">17</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span>        <span class="mi">29</span><span class="p">)</span><span class="n">o</span><span class="p">(</span><span class="mi">18</span>
+            <span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">30</span><span class="p">)</span><span class="n">o</span><span class="p">(</span><span class="mi">19</span>    <span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">31</span><span class="p">)</span><span class="n">o</span><span class="p">(</span>        <span class="mi">20</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">32</span><span class="p">)</span><span class="n">o</span>    <span class="p">(</span><span class="mi">21</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">33</span><span class="p">)</span><span class="n">o</span>       <span class="p">(</span><span class="mi">22</span> <span class="p">,</span><span class="mi">9</span><span class="p">,</span>
+            <span class="mi">34</span><span class="p">)</span><span class="n">n</span><span class="p">(</span><span class="n">C</span><span class="p">(</span><span class="n">U</span><span class="p">)</span>    <span class="p">)</span><span class="n">N</span><span class="p">(</span> <span class="mi">68</span><span class="p">)</span><span class="n">R</span> <span class="n">H</span><span class="p">(</span>    <span class="mi">36</span><span class="p">,</span><span class="mi">13</span><span class="p">)</span><span class="n">G</span><span class="p">(</span><span class="mi">23</span><span class="p">)</span>    <span class="n">N</span><span class="p">(</span><span class="mi">11</span><span class="p">)</span><span class="n">R</span> <span class="n">C</span><span class="p">(</span><span class="n">D</span><span class="p">(</span>      <span class="n">G</span><span class="p">(</span><span class="mi">11</span><span class="p">)))</span>
+            <span class="n">D</span><span class="p">(</span><span class="n">G</span><span class="p">(</span><span class="mi">11</span><span class="p">))</span><span class="n">G</span><span class="p">(</span><span class="mi">68</span><span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">68</span><span class="p">)</span><span class="n">R</span> <span class="n">G</span><span class="p">(</span><span class="mi">68</span><span class="p">)</span><span class="n">O</span><span class="p">(</span><span class="mi">49</span><span class="p">,</span><span class="mi">35</span><span class="p">)</span><span class="n">R</span> <span class="n">H</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span><span class="mi">23</span><span class="p">)</span><span class="n">G</span><span class="p">(</span><span class="mi">67</span><span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">11</span><span class="p">)</span><span class="n">R</span> <span class="n">C</span><span class="p">(</span><span class="n">H</span><span class="p">(</span><span class="mi">11</span><span class="p">,</span><span class="mi">11</span><span class="p">)</span><span class="n">G</span><span class="p">(</span>
+            <span class="mi">11</span><span class="p">))</span><span class="n">A</span><span class="p">(</span><span class="n">G</span><span class="p">(</span><span class="mi">11</span><span class="p">))</span><span class="n">C</span><span class="p">(</span><span class="n">H</span><span class="p">(</span><span class="mi">36</span><span class="p">,</span><span class="mi">36</span><span class="p">)</span><span class="n">G</span><span class="p">(</span><span class="mi">36</span><span class="p">))</span><span class="n">s</span><span class="p">(</span><span class="n">G</span><span class="p">(</span><span class="mi">36</span><span class="p">))</span><span class="n">O</span><span class="p">(</span><span class="mi">32</span><span class="p">,</span><span class="mi">58</span><span class="p">)</span><span class="n">R</span> <span class="n">C</span><span class="p">(</span><span class="n">D</span><span class="p">(</span><span class="n">G</span><span class="p">(</span><span class="mi">36</span><span class="p">)))</span><span class="n">A</span><span class="p">(</span><span class="n">G</span><span class="p">(</span><span class="mi">36</span><span class="p">))</span><span class="n">SS</span>
+
+<span class="cp">#define arg d+6,d+8,d+10,d+12,d+14,d+16,d+18,d+20,d+22,0,d+46,d+52,d+48,d+24,d\
+</span><span class="cp">            +26,d+28,d+30,d+32,d+34,d+36,d+38,d+40,d+50,(scanf(d+126,d+4),d+(6\
+</span><span class="cp">            -2)+18*(1-d[2]%2)+d[4]*2),d,d+66,d+68,d+70, d+78,d+80,d+82,d+90,d+\
+</span><span class="cp">            92,d+94,d+97,d+54,d[2],d+2,d+71,d+77,d+83,d+89,d+95,d+72,d+73,d+74\
+</span><span class="cp">            ,d+75,d+76,d+84,d+85,d+86,d+87,d+88,d+100,d+101,d+96,d+102,d+99,d+\
+</span><span class="cp">            67,d+69,d+79,d+81,d+91,d+93,d+98,d+103,d+58,d+60,d+98,d+126,d+127,\
+</span><span class="cp">            d+128,d+129
+</span><span class="cp"></span>
+<span class="kt">char</span> <span class="n">d</span><span class="p">[</span><span class="mi">538</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">10</span><span class="p">};</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">while</span><span class="p">(</span><span class="o">*</span><span class="n">d</span><span class="p">)</span> <span class="n">printf</span><span class="p">(</span><span class="n">fmt</span><span class="p">,</span> <span class="n">arg</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div><p>If this is the kind of thing that you enjoy, you might also like <a href="https://github.com/HexHive/printbf"target="_blank">printbf</a>.</p>
+<h2 id="usage">USAGE</h2>
+<pre><code>gcc -o prog prog.c
+./prog
+</code></pre>
+<p>Alternates between P1 and P2. Enter a digit [1-9] to move:</p>
+<pre><code>1 | 2 | 3
+---------
+4 | 5 | 6
+---------
+7 | 8 | 9
+</code></pre>
+<p>The game ends if:</p>
+<ul>
+<li>A player completes three in a row; that player wins</li>
+<li>All squares are taken; neither player wins</li>
+<li>A player makes an illegal move; their opponent wins</li>
+</ul>
+<h2 id="why">WHY?</h2>
+<p><a href="http://ioccc.org"target="_blank">IOCCC</a></p>
+<h2 id="obfuscation">OBFUSCATION</h2>
+<p>The entirety of the program consists of a single call to printf.</p>
+<pre><code>int main() {
+    while(*d) printf(fmt, arg);
+}
+</code></pre>
+<p>Here, <code>fmt</code> is a single string, and <code>arg</code> is a series of arguments to printf.</p>
+<p>While its primary purpose is to serve as The One True Debugger, printf also happens
+to be Turing complete. (See &ldquo;Control-Flow Bending: On the Effectiveness of Control-Flow
+Integrity&rdquo; where we introduced this in an actual, published, academic paper. The
+things you can get away with sometimes.)</p>
+<p>We ab^H^Huse this fact to implement a the logic of tic-tac-toe entirely within
+this one printf call (and a call to scanf() to read user input).</p>
+<p>Here&rsquo;s (briefly) how it works.</p>
+<h3 id="preliminaries">Preliminaries</h3>
+<p>This program uses three printf format specifiers.</p>
+<ul>
+<li><code>%d</code> takes an integer argument and prints it</li>
+<li><code>%s</code> takes a string argument and prints it</li>
+<li><code>%n</code> takes a pointer and writes (!!) the number of bytes printed so far.</li>
+</ul>
+<p>Okay, everyone probably knows this. Let&rsquo;s get a bit more advanced.</p>
+<p>Format specifiers can take extra &ldquo;arguments&rdquo;.</p>
+<ul>
+<li><code>&quot;%hhn&quot;</code>: store the number of bytes written mod 256 to the char pointer</li>
+<li><code>&quot;%2$d&quot;</code>: print argument 2 to printf (and not the sequentially next argument)</li>
+<li><code>&quot;%8d&quot;</code>: pad the printed integer to 8 characters</li>
+<li><code>&quot;%3$.*4$d&quot;</code>: print argument 3 to printf with as many zeros as in argument 4.</li>
+</ul>
+<p>For example, the following expression</p>
+<pre><code>printf(&quot;%1$.*2$d%3$hhn&quot;, 5, 10, &amp;x)
+</code></pre>
+<p>will have the same effect as if we had written</p>
+<pre><code>x = 10;
+</code></pre>
+<p>because it will print out <code>0000000005</code> (5 padded to size 10) and then write the
+number of bytes written to x.</p>
+<h3 id="printf-oriented-programming">Printf Oriented Programming</h3>
+<p>Alright, now we can get to the real fun.</p>
+<p>We perform arbitrary computation with printf treating memory as a binary
+array&mdash;one bit per pair of bytes:</p>
+<ul>
+<li>The zero bit is represented by the sequence <code>00 00</code></li>
+<li>The one-bit is represented by the sequence <code>xx 00</code> where <code>xx</code> is any non-zero byte.</li>
+</ul>
+<p>We can use format strings to compute the OR/NOT of arbitrary &ldquo;bits&rdquo;.</p>
+<p>We&rsquo;ll start with the simplest, OR:</p>
+<pre><code>printf(&quot;%1$s%2$s%3$hhn&quot;, a, b, c)
+</code></pre>
+<p>will compute</p>
+<pre><code>*c = strlen(a) + strlen(b)
+</code></pre>
+<p>but given that strlen(x) is 1 for a 1-bit and 0 for a 0-bit, we have</p>
+<pre><code>*c = a | b
+</code></pre>
+<p>Computing the NOT of a single value is also easy:</p>
+<pre><code>printf(&quot;%1$255d%1$s%hhn&quot;, a, b)
+</code></pre>
+<p>will compute</p>
+<pre><code>*b = (strlen(a)+255)%256 = strlen(a)-1
+</code></pre>
+<p>and again, because <code>strlen(x)</code> is either <code>1</code> or <code>0</code> we have</p>
+<pre><code>*c = !b
+</code></pre>
+<p>From here we can compute any binary circuit. Doing something efficient,
+though, still takes work.</p>
+<h3 id="tic-tac-toe">Tic-Tac-Toe</h3>
+<p>The game itself is represented as a board of 18 bits, 9 bits per player, along
+with a turn counter that alternates between player 1 and player 2.</p>
+<p>To detect who has won, we implement the following logic. Let A, B, and C be
+pointers to three squares in a row to test, and D be where to save if there is a
+win or not.</p>
+<pre><code>&quot;%A$s%B$s%C$s%1$253d%11$hhn&quot; // r11 = !(*A &amp; *B &amp; *C)
+ZERO
+&quot;%11$s%1$255d%11hhn&quot; // r11 = !r11
+ZERO
+&quot;%11$s%D$s%D$hhn&quot; // *D = *D | r11
+</code></pre>
+<p>That is, we set <code>*D</code> to <code>1</code> if there is a three-in-a-row. We repeat this for all
+possible three-in-a-row configurations, for both players.</p>
+<p>The ZERO macro ensures that the number of bytes written out is 0 mod 256 with
+the following expression</p>
+<pre><code>&quot;%1$hhn%1$s&quot; (repeated 256 times)
+</code></pre>
+<p>where argument 1 is a pointer to a temporary variable followed by a null byte.</p>
+<p>This works because if the current count is 0 mod 256, then &ldquo;%1$hhn&rdquo; will write
+zero to argument 1 and then &ldquo;%1$s&rdquo; will never emit any text. If, on the other
+hand, the count is not 0 mod 256, a length-1 string will be written to argument
+1, and then &ldquo;%1$s&rdquo; will increment the count by one. By repeating this 256
+times we&rsquo;re eventually going to reach 0 mod 256.</p>
+<p>Checking if there has been an invalid move is achieved similarly.</p>
+<p>In order to decide what to print out, we have to cast the &ldquo;in-memory&rdquo; array of
+bits to Xs and Os to print out. This is actually rather straightforward. Given
+in 1$ the pointer to player 1&rsquo;s square, and 2$ the pointer to player 2&rsquo;s, and
+in 3$ the pointer to the board string, we can compute</p>
+<pre><code>&quot;%1$s&quot; (repeated 47 times) &quot;%2$s&quot; (repeated 56 times) %1$32d%3$hhn&quot;
+</code></pre>
+<p>which will, in effect, compute</p>
+<pre><code>*r3 = (*r1) * 47 + (*r2) * 56 + 32
+</code></pre>
+<p>which will output ' ' if neither are true, &lsquo;X&rsquo; if r1 is, or &lsquo;O&rsquo; if r2 is.</p>
+<h3 id="further-obfuscations">Further Obfuscations</h3>
+<p>In order to be able to finally display the board, while still only using one
+printf statement, we finish the statement with</p>
+<pre><code>&quot;\n\033[2J\n%26$s&quot;
+</code></pre>
+<p>which is the escape sequence to clear the screen, and then prints argument 26.
+Argument 26 is a pointer to a char* in memory, that initially is undefined,
+but within the printf statement we will construct this string to look like a
+tic-tac-toe board.</p>
+<p>After the board, we need to print one of the following strings:</p>
+<pre><code>P1&gt;_
+P2&gt;_
+P1 WINS
+P2 WINS
+P1 TIES
+P2 TIES
+</code></pre>
+<p>Depending on if it&rsquo;s P1 or P2&rsquo;s turn to move, the game is over and someone
+won, or the game is over and it is a draw.</p>
+<p>This turns out not to be as hard as it might look. Using the same trick as
+before, we set byte for to be</p>
+<pre><code>*byte4 = is_win * 'W' + is_tie * 'T'
+</code></pre>
+<p>The byte <code>'I'</code> and <code>'S'</code> can always be the same, and we do the same for <code>'E'</code>/<code>'N'</code>.</p>
+<p>We do this same on-the-fly creation of the <code>scanf()</code> format string, but for a
+different reason. We first want to run <code>printf()</code> to show the first board, and
+then alternate between runs to <code>scanf()</code> and <code>printf()</code> reading and then displaying
+moves. importantly, we <em>do not</em> want a final scanf when the game ends. It should
+just exit.</p>
+<p>One option would be to implement the logic as</p>
+<pre><code>printf()
+while (*ok) {
+    scanf();
+    printf();
+}
+</code></pre>
+<p>but this would DOUBLE the number of calls to printf we require. So instead we
+implement it like this</p>
+<pre><code>while (*ok) {
+    scanf();
+    printf();
+}
+</code></pre>
+<p>(In reality we actually pass <code>scanf()</code> as an argument to avoid the extra
+statement, but it has the same effect.)</p>
+<p>Notice there is now no initial <code>printf()</code>. In order make sure the program doesn&rsquo;t
+block before the first <code>printf()</code>, but we initialize the <code>scanf()</code> format to the null
+string so that it returns right away without blocking. The first time the <code>printf()</code>
+call runs, it writes out <code>&quot;%hhd&quot;</code> to create the create the <code>scanf()</code> format string.</p>
+<h2 id="license">LICENSE</h2>
+<p>This program is clearly some groundbreaking achievement the likes of which have
+never been seen before. Therefore, if you would like to use this program in
+anything, it&rsquo;s licensed under the GPL v3.</p>
+<p>This program is free software: you can redistribute it and/or modify<br>
+it under the terms of the GNU General Public License as published by<br>
+the Free Software Foundation, version 3.</p>
+<p>This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details.</p>
+<p>You should have received a copy of the GNU General Public License
+along with this program. If not, see <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>.</p>
+]]></content:encoded>
+      
+    </item>
+    
+  </channel>
+</rss>

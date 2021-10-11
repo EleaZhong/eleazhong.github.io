@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en"><meta charset="utf-8"><meta name="generator" content="Hugo 0.72.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark"><title>Printf Tac Toe&nbsp;&ndash;&nbsp;Waterbuffalo Posts</title><link rel="stylesheet" href="/css/core.min.c208fa0587ec5fc82784f905103d462872daed7adcb50f71dbbd39818c904fcb5f0df067adf68e8049d68401a71f436e.css" integrity="sha384-wgj6BYfsX8gnhPkFED1GKHLa7XrctQ9x2705gYyQT8tfDfBnrfaOgEnWhAGnH0Nu"><meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Printf Tac Toe" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+<link href="/al.css" rel="stylesheet"><body><section id="header">
+    <div class="header wrap"><span class="header left-side"><a class="site home" href="/"><img class="site logo" src="/favicon.png" alt /><span class="site name">Waterbuffalo Posts</span></a></span>
+        <span class="header right-side"><div class="nav wrap"><nav class="nav"><a class="nav item" href="/categories/">Categories</a><a class="nav item" href="/tags/">Tags</a><a class="nav item" href="/about">About</a><a class="nav item" href="https://gohugo%2eio/"target="_blank">News</a><a class="nav item" href="/AI">AI</a><a class="nav item" href="/Crypto">Crypto</a><a class="nav item" href="/Coding">Coding</a><a class="nav item" href="/Startups">Startups</a><a class="nav item" href="/Coronavirus">Coronavirus</a><a class="nav item" href="/Learn">Learn</a><a class="nav item" href="/Future">Future</a><a class="nav item" href="/login">Login</a></nav></div></span></div></section><section id="content"><div class="article-container"><section class="article header">
+    <h1 class="article title">Printf Tac Toe</h1><p class="article date">Saturday, April 17, 2010<span class="reading-time"> • 8 minutes to read</span></p><style type="text/css">
+
+.resp-sharing-button__link,
+.resp-sharing-button__icon {
+  display: inline-block
+}
+
+.resp-sharing-button__link {
+  text-decoration: none;
+  color: #fff;
+  margin-top: 0.5em;
+}
+
+.resp-sharing-button {
+  border-radius: 5px;
+  transition: 25ms ease-out;
+  padding: 0.1em 0.5em 0.2em 0.5em;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif
+}
+
+.resp-sharing-button__icon svg {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.4em;
+  vertical-align: top
+}
+
+.resp-sharing-button--small svg {
+  margin: 0;
+  vertical-align: middle
+}
+
+ 
+.resp-sharing-button__icon {
+  stroke: #fff;
+  fill: none
+}
+
+ 
+.resp-sharing-button__icon--solid,
+.resp-sharing-button__icon--solidcircle {
+  fill: #fff;
+  stroke: none
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee
+}
+
+.resp-sharing-button--twitter:hover {
+  background-color: #2795e9
+}
+
+.resp-sharing-button--pinterest {
+  background-color: #bd081c
+}
+
+.resp-sharing-button--pinterest:hover {
+  background-color: #8c0615
+}
+
+.resp-sharing-button--facebook {
+  background-color: #3b5998
+}
+
+.resp-sharing-button--facebook:hover {
+  background-color: #2d4373
+}
+
+.resp-sharing-button--tumblr {
+  background-color: #35465C
+}
+
+.resp-sharing-button--tumblr:hover {
+  background-color: #222d3c
+}
+
+.resp-sharing-button--reddit {
+  background-color: #5f99cf
+}
+
+.resp-sharing-button--reddit:hover {
+  background-color: #3a80c1
+}
+
+.resp-sharing-button--google {
+  background-color: #dd4b39
+}
+
+.resp-sharing-button--google:hover {
+  background-color: #c23321
+}
+
+.resp-sharing-button--linkedin {
+  background-color: #0077b5
+}
+
+.resp-sharing-button--linkedin:hover {
+  background-color: #046293
+}
+
+.resp-sharing-button--email {
+  background-color: #777
+}
+
+.resp-sharing-button--email:hover {
+  background-color: #5e5e5e
+}
+
+.resp-sharing-button--xing {
+  background-color: #1a7576
+}
+
+.resp-sharing-button--xing:hover {
+  background-color: #114c4c
+}
+
+.resp-sharing-button--whatsapp {
+  background-color: #25D366
+}
+
+.resp-sharing-button--whatsapp:hover {
+  background-color: #1da851
+}
+
+.resp-sharing-button--hackernews {
+background-color: #FF6600
+}
+.resp-sharing-button--hackernews:hover, .resp-sharing-button--hackernews:focus {   background-color: #FB6200 }
+
+.resp-sharing-button--vk {
+  background-color: #507299
+}
+
+.resp-sharing-button--vk:hover {
+  background-color: #43648c
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee;
+  border-color: #55acee;
+}
+
+.resp-sharing-button--twitter:hover,
+.resp-sharing-button--twitter:active {
+  background-color: #2795e9;
+  border-color: #2795e9;
+}
+
+.resp-sharing-button--email {
+  background-color: #777777;
+  border-color: #777777;
+}
+
+.resp-sharing-button--email:hover,
+.resp-sharing-button--email:active {
+  background-color: #5e5e5e;
+  border-color: #5e5e5e;
+}
+
+.resp-sharing-button--reddit {
+  background-color: #5f99cf;
+  border-color: #5f99cf;
+}
+
+.resp-sharing-button--reddit:hover,
+.resp-sharing-button--reddit:active {
+  background-color: #3a80c1;
+  border-color: #3a80c1;
+}
+
+.resp-sharing-button--hackernews {
+  background-color: #FF6600;
+  border-color: #FF6600;
+}
+
+.resp-sharing-button--hackernews:hover
+.resp-sharing-button--hackernews:active {
+  background-color: #FB6200;
+  border-color: #FB6200;
+}
+
+
+
+</style>
+
+<div class="social-links">
+
+<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;url=http%3A%2F%2Fsharingbuttons.io" target="_blank" rel="noopener" aria-label="">
+  <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm5.26 9.38v.34c0 3.48-2.64 7.5-7.48 7.5-1.48 0-2.87-.44-4.03-1.2 1.37.17 2.77-.2 3.9-1.08-1.16-.02-2.13-.78-2.46-1.83.38.1.8.07 1.17-.03-1.2-.24-2.1-1.3-2.1-2.58v-.05c.35.2.75.32 1.18.33-.7-.47-1.17-1.28-1.17-2.2 0-.47.13-.92.36-1.3C7.94 8.85 9.88 9.9 12.06 10c-.04-.2-.06-.4-.06-.6 0-1.46 1.18-2.63 2.63-2.63.76 0 1.44.3 1.92.82.6-.12 1.95-.27 1.95-.27-.35.53-.72 1.66-1.24 2.04z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="mailto:?subject=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;body=http%3A%2F%2Fsharingbuttons.io" target="_self" rel="noopener" aria-label="">
+  <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm8 16c0 1.1-.9 2-2 2H6c-1.1 0-2-.9-2-2V8c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2v8z"/><path d="M17.9 8.18c-.2-.2-.5-.24-.72-.07L12 12.38 6.82 8.1c-.22-.16-.53-.13-.7.08s-.15.53.06.7l3.62 2.97-3.57 2.23c-.23.14-.3.45-.15.7.1.14.25.22.42.22.1 0 .18-.02.27-.08l3.85-2.4 1.06.87c.1.04.2.1.32.1s.23-.06.32-.1l1.06-.9 3.86 2.4c.08.06.17.1.26.1.17 0 .33-.1.42-.25.15-.24.08-.55-.15-.7l-3.57-2.22 3.62-2.96c.2-.2.24-.5.07-.72z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=http%3A%2F%2Fsharingbuttons.io&amp;resubmit=true&amp;title=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking." target="_blank" rel="noopener" aria-label="">
+  <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="9.391" cy="13.392" r=".978"/><path d="M14.057 15.814c-1.14.66-2.987.655-4.122-.004-.238-.138-.545-.058-.684.182-.13.24-.05.545.19.685.72.417 1.63.646 2.568.646.93 0 1.84-.228 2.558-.642.24-.13.32-.44.185-.68-.14-.24-.445-.32-.683-.18zM5 12.086c0 .41.23.78.568.978.27-.662.735-1.264 1.353-1.774-.2-.207-.48-.334-.79-.334-.62 0-1.13.507-1.13 1.13z"/><path d="M12 0C5.383 0 0 5.383 0 12s5.383 12 12 12 12-5.383 12-12S18.617 0 12 0zm6.673 14.055c.01.104.022.208.022.314 0 2.61-3.004 4.73-6.695 4.73s-6.695-2.126-6.695-4.74c0-.105.013-.21.022-.313C4.537 13.73 4 12.97 4 12.08c0-1.173.956-2.13 2.13-2.13.63 0 1.218.29 1.618.757 1.04-.607 2.345-.99 3.77-1.063.057-.803.308-2.33 1.388-2.95.633-.366 1.417-.323 2.322.085.302-.81 1.076-1.397 1.99-1.397 1.174 0 2.13.96 2.13 2.13 0 1.177-.956 2.133-2.13 2.133-1.065 0-1.942-.79-2.098-1.81-.734-.4-1.315-.506-1.716-.276-.6.346-.818 1.395-.88 2.087 1.407.08 2.697.46 3.728 1.065.4-.468.987-.756 1.617-.756 1.17 0 2.13.953 2.13 2.13 0 .89-.54 1.65-1.33 1.97z"/><circle cx="14.609" cy="13.391" r=".978"/><path d="M17.87 10.956c-.302 0-.583.128-.79.334.616.51 1.082 1.112 1.352 1.774.34-.197.568-.566.568-.978 0-.623-.507-1.13-1.13-1.13z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://news.ycombinator.com/submitlink?u=http%3A%2F%2Fsharingbuttons.io&amp;t=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking." target="_blank" rel="noopener" aria-label="">
+  <div class="resp-sharing-button resp-sharing-button--hackernews resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path fill-rule="evenodd" d="M128 256c70.692 0 128-57.308 128-128C256 57.308 198.692 0 128 0 57.308 0 0 57.308 0 128c0 70.692 57.308 128 128 128zm-9.06-113.686L75 60h20.08l25.85 52.093c.397.927.86 1.888 1.39 2.883.53.994.995 2.02 1.393 3.08.265.4.463.764.596 1.095.13.334.262.63.395.898.662 1.325 1.26 2.618 1.79 3.877.53 1.26.993 2.42 1.39 3.48 1.06-2.254 2.22-4.673 3.48-7.258 1.26-2.585 2.552-5.27 3.877-8.052L161.49 60h18.69l-44.34 83.308v53.087h-16.9v-54.08z"/></svg>
+    </div>
+  </div>
+</a>
+
+</div>
+</section><article class="article markdown-body"><p><strong>Waterbuffalo Posts -</strong> A c implementation of tic-tac-toe in a single call to printf. Written for IOCCC 2020.</p>
+<div class="highlight"><pre class="chroma"><code class="language-c" data-lang="c"><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt; </span><span class="cp">
+</span><span class="cp"></span>
+<span class="cp">#define N(a)       &#34;%&#34;#a&#34;$hhn&#34;
+</span><span class="cp">#define O(a,b)     &#34;%10$&#34;#a&#34;d&#34;N(b)
+</span><span class="cp">#define U          &#34;%10$.*37$d&#34;
+</span><span class="cp">#define G(a)       &#34;%&#34;#a&#34;$s&#34;
+</span><span class="cp">#define H(a,b)     G(a)G(b)
+</span><span class="cp">#define T(a)       a a 
+</span><span class="cp">#define s(a)       T(a)T(a)
+</span><span class="cp">#define A(a)       s(a)T(a)a
+</span><span class="cp">#define n(a)       A(a)a
+</span><span class="cp">#define D(a)       n(a)A(a)
+</span><span class="cp">#define C(a)       D(a)a
+</span><span class="cp">#define R          C(C(N(12)G(12)))
+</span><span class="cp">#define o(a,b,c)   C(H(a,a))D(G(a))C(H(b,b)G(b))n(G(b))O(32,c)R
+</span><span class="cp">#define SS         O(78,55)R &#34;\n\033[2J\n%26$s&#34;;
+</span><span class="cp">#define E(a,b,c,d) H(a,b)G(c)O(253,11)R G(11)O(255,11)R H(11,d)N(d)O(253,35)R
+</span><span class="cp">#define S(a,b)     O(254,11)H(a,b)N(68)R G(68)O(255,68)N(12)H(12,68)G(67)N(67)
+</span><span class="cp"></span>
+<span class="kt">char</span><span class="o">*</span> <span class="n">fmt</span> <span class="o">=</span> <span class="n">O</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">39</span><span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">40</span><span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">41</span><span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">42</span><span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">43</span><span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">66</span><span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">69</span><span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">24</span><span class="p">)</span><span class="n">O</span><span class="p">(</span><span class="mi">22</span><span class="p">,</span><span class="mi">65</span><span class="p">)</span><span class="n">O</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">70</span><span class="p">)</span><span class="n">O</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span><span class="mi">44</span><span class="p">)</span><span class="n">N</span><span class="p">(</span>
+            <span class="mi">45</span><span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">46</span><span class="p">)</span><span class="n">N</span>    <span class="p">(</span><span class="mi">47</span><span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">48</span><span class="p">)</span><span class="n">N</span><span class="p">(</span>    <span class="mi">49</span><span class="p">)</span><span class="n">N</span><span class="p">(</span> <span class="mi">50</span><span class="p">)</span><span class="n">N</span><span class="p">(</span>     <span class="mi">51</span><span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">52</span><span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">53</span>    <span class="p">)</span><span class="n">O</span><span class="p">(</span> <span class="mi">28</span><span class="p">,</span>
+            <span class="mi">54</span><span class="p">)</span><span class="n">O</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span>        <span class="mi">55</span><span class="p">)</span> <span class="n">O</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span>    <span class="mi">56</span><span class="p">)</span><span class="n">O</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">57</span><span class="p">)</span><span class="n">O</span><span class="p">(</span>      <span class="mi">4</span><span class="p">,</span><span class="mi">58</span> <span class="p">)</span><span class="n">O</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span>    <span class="mi">73</span><span class="p">)</span><span class="n">O</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span>
+            <span class="mi">71</span> <span class="p">)</span><span class="n">N</span><span class="p">(</span>   <span class="mi">72</span><span class="p">)</span><span class="n">O</span>   <span class="p">(</span><span class="mi">20</span><span class="p">,</span><span class="mi">59</span>    <span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">60</span><span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">61</span><span class="p">)</span><span class="n">N</span><span class="p">(</span>       <span class="mi">62</span><span class="p">)</span><span class="n">N</span> <span class="p">(</span><span class="mi">63</span><span class="p">)</span><span class="n">N</span>    <span class="p">(</span><span class="mi">64</span><span class="p">)</span><span class="n">R</span> <span class="n">R</span>
+            <span class="n">E</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span>   <span class="mi">3</span><span class="p">,</span><span class="mi">13</span>   <span class="p">)</span><span class="n">E</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span>    <span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">13</span><span class="p">)</span><span class="n">E</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">9</span>        <span class="p">,</span><span class="mi">13</span><span class="p">)</span><span class="n">E</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">4</span>    <span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">13</span><span class="p">)</span><span class="n">E</span>
+            <span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span>        <span class="mi">13</span><span class="p">)</span><span class="n">E</span><span class="p">(</span>    <span class="mi">3</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">13</span><span class="p">)</span><span class="n">E</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span>         <span class="mi">9</span><span class="p">,</span><span class="mi">13</span><span class="p">)</span><span class="n">E</span><span class="p">(</span><span class="mi">3</span>    <span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">13</span>
+            <span class="p">)</span><span class="n">E</span><span class="p">(</span><span class="mi">14</span><span class="p">,</span><span class="mi">15</span><span class="p">,</span>    <span class="mi">16</span><span class="p">,</span><span class="mi">23</span><span class="p">)</span>    <span class="n">E</span><span class="p">(</span><span class="mi">17</span><span class="p">,</span><span class="mi">18</span><span class="p">,</span><span class="mi">19</span><span class="p">,</span><span class="mi">23</span><span class="p">)</span><span class="n">E</span><span class="p">(</span>          <span class="mi">20</span><span class="p">,</span> <span class="mi">21</span><span class="p">,</span>    <span class="mi">22</span><span class="p">,</span><span class="mi">23</span><span class="p">)</span><span class="n">E</span>
+            <span class="p">(</span><span class="mi">14</span><span class="p">,</span><span class="mi">17</span><span class="p">,</span><span class="mi">20</span><span class="p">,</span><span class="mi">23</span><span class="p">)</span><span class="n">E</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span>    <span class="mi">18</span><span class="p">,</span><span class="mi">21</span><span class="p">,</span><span class="mi">23</span><span class="p">)</span><span class="n">E</span><span class="p">(</span><span class="mi">16</span><span class="p">,</span><span class="mi">19</span><span class="p">,</span>    <span class="mi">22</span>     <span class="p">,</span><span class="mi">23</span><span class="p">)</span><span class="n">E</span><span class="p">(</span>    <span class="mi">14</span><span class="p">,</span> <span class="mi">18</span><span class="p">,</span>
+            <span class="mi">22</span><span class="p">,</span><span class="mi">23</span><span class="p">)</span><span class="n">E</span><span class="p">(</span><span class="mi">16</span><span class="p">,</span><span class="mi">18</span><span class="p">,</span><span class="mi">20</span><span class="p">,</span>    <span class="mi">23</span><span class="p">)</span><span class="n">R</span> <span class="n">U</span> <span class="n">O</span><span class="p">(</span><span class="mi">255</span> <span class="p">,</span><span class="mi">38</span><span class="p">)</span><span class="n">R</span>    <span class="n">G</span> <span class="p">(</span>     <span class="mi">38</span><span class="p">)</span><span class="n">O</span><span class="p">(</span>    <span class="mi">255</span><span class="p">,</span><span class="mi">36</span><span class="p">)</span>
+            <span class="n">R</span> <span class="n">H</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span><span class="mi">23</span><span class="p">)</span><span class="n">O</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span>    <span class="mi">11</span><span class="p">)</span><span class="n">R</span> <span class="n">H</span><span class="p">(</span><span class="mi">11</span><span class="p">,</span><span class="mi">36</span><span class="p">)</span> <span class="n">O</span><span class="p">(</span><span class="mi">254</span>    <span class="p">,</span><span class="mi">36</span><span class="p">)</span>     <span class="n">R</span> <span class="n">G</span><span class="p">(</span>    <span class="mi">36</span> <span class="p">)</span> <span class="n">O</span><span class="p">(</span>
+            <span class="mi">255</span><span class="p">,</span><span class="mi">36</span><span class="p">)</span><span class="n">R</span> <span class="n">S</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">14</span>    <span class="p">)</span><span class="n">S</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">15</span><span class="p">)</span><span class="n">S</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">16</span><span class="p">)</span><span class="n">S</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span>    <span class="mi">17</span> <span class="p">)</span><span class="n">S</span>     <span class="p">(</span><span class="mi">5</span><span class="p">,</span>    <span class="mi">18</span><span class="p">)</span><span class="n">S</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span>
+            <span class="mi">19</span><span class="p">)</span><span class="n">S</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span><span class="mi">20</span><span class="p">)</span><span class="n">S</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span>    <span class="mi">21</span><span class="p">)</span><span class="n">S</span><span class="p">(</span><span class="mi">9</span>    <span class="p">,</span><span class="mi">22</span><span class="p">)</span><span class="n">H</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span><span class="mi">23</span>    <span class="p">)</span><span class="n">H</span><span class="p">(</span><span class="mi">36</span><span class="p">,</span>     <span class="mi">67</span>    <span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">11</span><span class="p">)</span><span class="n">R</span>
+            <span class="n">G</span><span class="p">(</span><span class="mi">11</span><span class="p">)</span><span class="s">&#34;&#34;</span><span class="n">O</span><span class="p">(</span><span class="mi">255</span><span class="p">,</span>    <span class="mi">25</span> <span class="p">)</span><span class="n">R</span>        <span class="n">s</span><span class="p">(</span><span class="n">C</span><span class="p">(</span><span class="n">G</span><span class="p">(</span><span class="mi">11</span><span class="p">)</span>    <span class="p">))</span><span class="n">n</span> <span class="p">(</span><span class="n">G</span><span class="p">(</span>          <span class="mi">11</span><span class="p">)</span> <span class="p">)</span><span class="n">G</span><span class="p">(</span>
+            <span class="mi">11</span><span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">54</span><span class="p">)</span><span class="n">R</span> <span class="n">C</span><span class="p">(</span>    <span class="s">&#34;aa&#34;</span><span class="p">)</span>   <span class="n">s</span><span class="p">(</span><span class="n">A</span><span class="p">(</span>   <span class="n">G</span><span class="p">(</span><span class="mi">25</span><span class="p">)))</span><span class="n">T</span>    <span class="p">(</span><span class="n">G</span><span class="p">(</span><span class="mi">25</span><span class="p">))</span><span class="n">N</span>         <span class="p">(</span><span class="mi">69</span><span class="p">)</span><span class="n">R</span> <span class="n">o</span>
+            <span class="p">(</span><span class="mi">14</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">26</span><span class="p">)</span><span class="n">o</span><span class="p">(</span>    <span class="mi">15</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span>   <span class="mi">27</span><span class="p">)</span><span class="n">o</span>   <span class="p">(</span><span class="mi">16</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">28</span>    <span class="p">)</span><span class="n">o</span><span class="p">(</span> <span class="mi">17</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span>        <span class="mi">29</span><span class="p">)</span><span class="n">o</span><span class="p">(</span><span class="mi">18</span>
+            <span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">30</span><span class="p">)</span><span class="n">o</span><span class="p">(</span><span class="mi">19</span>    <span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">31</span><span class="p">)</span><span class="n">o</span><span class="p">(</span>        <span class="mi">20</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">32</span><span class="p">)</span><span class="n">o</span>    <span class="p">(</span><span class="mi">21</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">33</span><span class="p">)</span><span class="n">o</span>       <span class="p">(</span><span class="mi">22</span> <span class="p">,</span><span class="mi">9</span><span class="p">,</span>
+            <span class="mi">34</span><span class="p">)</span><span class="n">n</span><span class="p">(</span><span class="n">C</span><span class="p">(</span><span class="n">U</span><span class="p">)</span>    <span class="p">)</span><span class="n">N</span><span class="p">(</span> <span class="mi">68</span><span class="p">)</span><span class="n">R</span> <span class="n">H</span><span class="p">(</span>    <span class="mi">36</span><span class="p">,</span><span class="mi">13</span><span class="p">)</span><span class="n">G</span><span class="p">(</span><span class="mi">23</span><span class="p">)</span>    <span class="n">N</span><span class="p">(</span><span class="mi">11</span><span class="p">)</span><span class="n">R</span> <span class="n">C</span><span class="p">(</span><span class="n">D</span><span class="p">(</span>      <span class="n">G</span><span class="p">(</span><span class="mi">11</span><span class="p">)))</span>
+            <span class="n">D</span><span class="p">(</span><span class="n">G</span><span class="p">(</span><span class="mi">11</span><span class="p">))</span><span class="n">G</span><span class="p">(</span><span class="mi">68</span><span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">68</span><span class="p">)</span><span class="n">R</span> <span class="n">G</span><span class="p">(</span><span class="mi">68</span><span class="p">)</span><span class="n">O</span><span class="p">(</span><span class="mi">49</span><span class="p">,</span><span class="mi">35</span><span class="p">)</span><span class="n">R</span> <span class="n">H</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span><span class="mi">23</span><span class="p">)</span><span class="n">G</span><span class="p">(</span><span class="mi">67</span><span class="p">)</span><span class="n">N</span><span class="p">(</span><span class="mi">11</span><span class="p">)</span><span class="n">R</span> <span class="n">C</span><span class="p">(</span><span class="n">H</span><span class="p">(</span><span class="mi">11</span><span class="p">,</span><span class="mi">11</span><span class="p">)</span><span class="n">G</span><span class="p">(</span>
+            <span class="mi">11</span><span class="p">))</span><span class="n">A</span><span class="p">(</span><span class="n">G</span><span class="p">(</span><span class="mi">11</span><span class="p">))</span><span class="n">C</span><span class="p">(</span><span class="n">H</span><span class="p">(</span><span class="mi">36</span><span class="p">,</span><span class="mi">36</span><span class="p">)</span><span class="n">G</span><span class="p">(</span><span class="mi">36</span><span class="p">))</span><span class="n">s</span><span class="p">(</span><span class="n">G</span><span class="p">(</span><span class="mi">36</span><span class="p">))</span><span class="n">O</span><span class="p">(</span><span class="mi">32</span><span class="p">,</span><span class="mi">58</span><span class="p">)</span><span class="n">R</span> <span class="n">C</span><span class="p">(</span><span class="n">D</span><span class="p">(</span><span class="n">G</span><span class="p">(</span><span class="mi">36</span><span class="p">)))</span><span class="n">A</span><span class="p">(</span><span class="n">G</span><span class="p">(</span><span class="mi">36</span><span class="p">))</span><span class="n">SS</span>
+
+<span class="cp">#define arg d+6,d+8,d+10,d+12,d+14,d+16,d+18,d+20,d+22,0,d+46,d+52,d+48,d+24,d\
+</span><span class="cp">            +26,d+28,d+30,d+32,d+34,d+36,d+38,d+40,d+50,(scanf(d+126,d+4),d+(6\
+</span><span class="cp">            -2)+18*(1-d[2]%2)+d[4]*2),d,d+66,d+68,d+70, d+78,d+80,d+82,d+90,d+\
+</span><span class="cp">            92,d+94,d+97,d+54,d[2],d+2,d+71,d+77,d+83,d+89,d+95,d+72,d+73,d+74\
+</span><span class="cp">            ,d+75,d+76,d+84,d+85,d+86,d+87,d+88,d+100,d+101,d+96,d+102,d+99,d+\
+</span><span class="cp">            67,d+69,d+79,d+81,d+91,d+93,d+98,d+103,d+58,d+60,d+98,d+126,d+127,\
+</span><span class="cp">            d+128,d+129
+</span><span class="cp"></span>
+<span class="kt">char</span> <span class="n">d</span><span class="p">[</span><span class="mi">538</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">10</span><span class="p">};</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">while</span><span class="p">(</span><span class="o">*</span><span class="n">d</span><span class="p">)</span> <span class="n">printf</span><span class="p">(</span><span class="n">fmt</span><span class="p">,</span> <span class="n">arg</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div><p>If this is the kind of thing that you enjoy, you might also like <a href="https://github.com/HexHive/printbf"target="_blank">printbf</a>.</p>
+<h2 id="usage">USAGE</h2>
+<pre><code>gcc -o prog prog.c
+./prog
+</code></pre>
+<p>Alternates between P1 and P2. Enter a digit [1-9] to move:</p>
+<pre><code>1 | 2 | 3
+---------
+4 | 5 | 6
+---------
+7 | 8 | 9
+</code></pre>
+<p>The game ends if:</p>
+<ul>
+<li>A player completes three in a row; that player wins</li>
+<li>All squares are taken; neither player wins</li>
+<li>A player makes an illegal move; their opponent wins</li>
+</ul>
+<h2 id="why">WHY?</h2>
+<p><a href="http://ioccc.org"target="_blank">IOCCC</a></p>
+<h2 id="obfuscation">OBFUSCATION</h2>
+<p>The entirety of the program consists of a single call to printf.</p>
+<pre><code>int main() {
+    while(*d) printf(fmt, arg);
+}
+</code></pre>
+<p>Here, <code>fmt</code> is a single string, and <code>arg</code> is a series of arguments to printf.</p>
+<p>While its primary purpose is to serve as The One True Debugger, printf also happens
+to be Turing complete. (See &ldquo;Control-Flow Bending: On the Effectiveness of Control-Flow
+Integrity&rdquo; where we introduced this in an actual, published, academic paper. The
+things you can get away with sometimes.)</p>
+<p>We ab^H^Huse this fact to implement a the logic of tic-tac-toe entirely within
+this one printf call (and a call to scanf() to read user input).</p>
+<p>Here&rsquo;s (briefly) how it works.</p>
+<h3 id="preliminaries">Preliminaries</h3>
+<p>This program uses three printf format specifiers.</p>
+<ul>
+<li><code>%d</code> takes an integer argument and prints it</li>
+<li><code>%s</code> takes a string argument and prints it</li>
+<li><code>%n</code> takes a pointer and writes (!!) the number of bytes printed so far.</li>
+</ul>
+<p>Okay, everyone probably knows this. Let&rsquo;s get a bit more advanced.</p>
+<p>Format specifiers can take extra &ldquo;arguments&rdquo;.</p>
+<ul>
+<li><code>&quot;%hhn&quot;</code>: store the number of bytes written mod 256 to the char pointer</li>
+<li><code>&quot;%2$d&quot;</code>: print argument 2 to printf (and not the sequentially next argument)</li>
+<li><code>&quot;%8d&quot;</code>: pad the printed integer to 8 characters</li>
+<li><code>&quot;%3$.*4$d&quot;</code>: print argument 3 to printf with as many zeros as in argument 4.</li>
+</ul>
+<p>For example, the following expression</p>
+<pre><code>printf(&quot;%1$.*2$d%3$hhn&quot;, 5, 10, &amp;x)
+</code></pre>
+<p>will have the same effect as if we had written</p>
+<pre><code>x = 10;
+</code></pre>
+<p>because it will print out <code>0000000005</code> (5 padded to size 10) and then write the
+number of bytes written to x.</p>
+<h3 id="printf-oriented-programming">Printf Oriented Programming</h3>
+<p>Alright, now we can get to the real fun.</p>
+<p>We perform arbitrary computation with printf treating memory as a binary
+array&mdash;one bit per pair of bytes:</p>
+<ul>
+<li>The zero bit is represented by the sequence <code>00 00</code></li>
+<li>The one-bit is represented by the sequence <code>xx 00</code> where <code>xx</code> is any non-zero byte.</li>
+</ul>
+<p>We can use format strings to compute the OR/NOT of arbitrary &ldquo;bits&rdquo;.</p>
+<p>We&rsquo;ll start with the simplest, OR:</p>
+<pre><code>printf(&quot;%1$s%2$s%3$hhn&quot;, a, b, c)
+</code></pre>
+<p>will compute</p>
+<pre><code>*c = strlen(a) + strlen(b)
+</code></pre>
+<p>but given that strlen(x) is 1 for a 1-bit and 0 for a 0-bit, we have</p>
+<pre><code>*c = a | b
+</code></pre>
+<p>Computing the NOT of a single value is also easy:</p>
+<pre><code>printf(&quot;%1$255d%1$s%hhn&quot;, a, b)
+</code></pre>
+<p>will compute</p>
+<pre><code>*b = (strlen(a)+255)%256 = strlen(a)-1
+</code></pre>
+<p>and again, because <code>strlen(x)</code> is either <code>1</code> or <code>0</code> we have</p>
+<pre><code>*c = !b
+</code></pre>
+<p>From here we can compute any binary circuit. Doing something efficient,
+though, still takes work.</p>
+<h3 id="tic-tac-toe">Tic-Tac-Toe</h3>
+<p>The game itself is represented as a board of 18 bits, 9 bits per player, along
+with a turn counter that alternates between player 1 and player 2.</p>
+<p>To detect who has won, we implement the following logic. Let A, B, and C be
+pointers to three squares in a row to test, and D be where to save if there is a
+win or not.</p>
+<pre><code>&quot;%A$s%B$s%C$s%1$253d%11$hhn&quot; // r11 = !(*A &amp; *B &amp; *C)
+ZERO
+&quot;%11$s%1$255d%11hhn&quot; // r11 = !r11
+ZERO
+&quot;%11$s%D$s%D$hhn&quot; // *D = *D | r11
+</code></pre>
+<p>That is, we set <code>*D</code> to <code>1</code> if there is a three-in-a-row. We repeat this for all
+possible three-in-a-row configurations, for both players.</p>
+<p>The ZERO macro ensures that the number of bytes written out is 0 mod 256 with
+the following expression</p>
+<pre><code>&quot;%1$hhn%1$s&quot; (repeated 256 times)
+</code></pre>
+<p>where argument 1 is a pointer to a temporary variable followed by a null byte.</p>
+<p>This works because if the current count is 0 mod 256, then &ldquo;%1$hhn&rdquo; will write
+zero to argument 1 and then &ldquo;%1$s&rdquo; will never emit any text. If, on the other
+hand, the count is not 0 mod 256, a length-1 string will be written to argument
+1, and then &ldquo;%1$s&rdquo; will increment the count by one. By repeating this 256
+times we&rsquo;re eventually going to reach 0 mod 256.</p>
+<p>Checking if there has been an invalid move is achieved similarly.</p>
+<p>In order to decide what to print out, we have to cast the &ldquo;in-memory&rdquo; array of
+bits to Xs and Os to print out. This is actually rather straightforward. Given
+in 1$ the pointer to player 1&rsquo;s square, and 2$ the pointer to player 2&rsquo;s, and
+in 3$ the pointer to the board string, we can compute</p>
+<pre><code>&quot;%1$s&quot; (repeated 47 times) &quot;%2$s&quot; (repeated 56 times) %1$32d%3$hhn&quot;
+</code></pre>
+<p>which will, in effect, compute</p>
+<pre><code>*r3 = (*r1) * 47 + (*r2) * 56 + 32
+</code></pre>
+<p>which will output ' ' if neither are true, &lsquo;X&rsquo; if r1 is, or &lsquo;O&rsquo; if r2 is.</p>
+<h3 id="further-obfuscations">Further Obfuscations</h3>
+<p>In order to be able to finally display the board, while still only using one
+printf statement, we finish the statement with</p>
+<pre><code>&quot;\n\033[2J\n%26$s&quot;
+</code></pre>
+<p>which is the escape sequence to clear the screen, and then prints argument 26.
+Argument 26 is a pointer to a char* in memory, that initially is undefined,
+but within the printf statement we will construct this string to look like a
+tic-tac-toe board.</p>
+<p>After the board, we need to print one of the following strings:</p>
+<pre><code>P1&gt;_
+P2&gt;_
+P1 WINS
+P2 WINS
+P1 TIES
+P2 TIES
+</code></pre>
+<p>Depending on if it&rsquo;s P1 or P2&rsquo;s turn to move, the game is over and someone
+won, or the game is over and it is a draw.</p>
+<p>This turns out not to be as hard as it might look. Using the same trick as
+before, we set byte for to be</p>
+<pre><code>*byte4 = is_win * 'W' + is_tie * 'T'
+</code></pre>
+<p>The byte <code>'I'</code> and <code>'S'</code> can always be the same, and we do the same for <code>'E'</code>/<code>'N'</code>.</p>
+<p>We do this same on-the-fly creation of the <code>scanf()</code> format string, but for a
+different reason. We first want to run <code>printf()</code> to show the first board, and
+then alternate between runs to <code>scanf()</code> and <code>printf()</code> reading and then displaying
+moves. importantly, we <em>do not</em> want a final scanf when the game ends. It should
+just exit.</p>
+<p>One option would be to implement the logic as</p>
+<pre><code>printf()
+while (*ok) {
+    scanf();
+    printf();
+}
+</code></pre>
+<p>but this would DOUBLE the number of calls to printf we require. So instead we
+implement it like this</p>
+<pre><code>while (*ok) {
+    scanf();
+    printf();
+}
+</code></pre>
+<p>(In reality we actually pass <code>scanf()</code> as an argument to avoid the extra
+statement, but it has the same effect.)</p>
+<p>Notice there is now no initial <code>printf()</code>. In order make sure the program doesn&rsquo;t
+block before the first <code>printf()</code>, but we initialize the <code>scanf()</code> format to the null
+string so that it returns right away without blocking. The first time the <code>printf()</code>
+call runs, it writes out <code>&quot;%hhd&quot;</code> to create the create the <code>scanf()</code> format string.</p>
+<h2 id="license">LICENSE</h2>
+<p>This program is clearly some groundbreaking achievement the likes of which have
+never been seen before. Therefore, if you would like to use this program in
+anything, it&rsquo;s licensed under the GPL v3.</p>
+<p>This program is free software: you can redistribute it and/or modify<br>
+it under the terms of the GNU General Public License as published by<br>
+the Free Software Foundation, version 3.</p>
+<p>This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details.</p>
+<p>You should have received a copy of the GNU General Public License
+along with this program. If not, see <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>.</p>
+</article></div>
+<div class="article bottom"><section class="article navigation"><p><a class="link" href="/engines/"><span class="iconfont icon-article"></span>Next Article:&nbsp;&nbsp;HOW to DESIGN, BUILD and TEST SMALL LIQUID-FUEL ROCKET ENGINES</a></p></section><section class="article discussion"><div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "xiee" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></section></div></section><section id="footer"><div class="footer-wrap">
+    <p class="copyright">Waterbuffalo Posts</p>
+    <p class="powerby" style="font-size:7px;"><span>Powered by </span><a href="https://gohugo.io" 
+        target="_blank">Hugo</a><span> and </span><a href="https://themes.gohugo.io/hugo-notepadium/" 
+        target="_blank">Notepadium</a></p>
+</div></section><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/&#43;DiW/UqRcLbRjq" crossorigin="anonymous"><script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l&#43;B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd&#43;qj&#43;o24G5ZU2zJz" crossorigin="anonymous"></script><script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+            onload="renderMathInElement(document.body);"></script><script src="/js/hljs.min.0799348a91dce12c6be4a73f943cfe78f181f4e6f6ec35c4af0fca1de377879f77cfab03c30f03a174d675737b5a9314.js" integrity="sha384-B5k0ipHc4Sxr5Kc/lDz&#43;ePGB9Ob27DXErw/KHeN3h593z6sDww8DoXTWdXN7WpMU"></script><script>hljs.initHighlightingOnLoad();</script></body>
+
+</html>

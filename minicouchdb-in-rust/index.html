@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en"><meta charset="utf-8"><meta name="generator" content="Hugo 0.72.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark"><title>MiniCouchDB in Rust&nbsp;&ndash;&nbsp;Waterbuffalo Posts</title><link rel="stylesheet" href="/css/core.min.c208fa0587ec5fc82784f905103d462872daed7adcb50f71dbbd39818c904fcb5f0df067adf68e8049d68401a71f436e.css" integrity="sha384-wgj6BYfsX8gnhPkFED1GKHLa7XrctQ9x2705gYyQT8tfDfBnrfaOgEnWhAGnH0Nu"><meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="MiniCouchDB in Rust" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+<link href="/al.css" rel="stylesheet"><body><section id="header">
+    <div class="header wrap"><span class="header left-side"><a class="site home" href="/"><img class="site logo" src="/favicon.png" alt /><span class="site name">Waterbuffalo Posts</span></a></span>
+        <span class="header right-side"><div class="nav wrap"><nav class="nav"><a class="nav item" href="/categories/">Categories</a><a class="nav item" href="/tags/">Tags</a><a class="nav item" href="/about">About</a><a class="nav item" href="https://gohugo%2eio/"target="_blank">News</a><a class="nav item" href="/AI">AI</a><a class="nav item" href="/Crypto">Crypto</a><a class="nav item" href="/Coding">Coding</a><a class="nav item" href="/Startups">Startups</a><a class="nav item" href="/Coronavirus">Coronavirus</a><a class="nav item" href="/Learn">Learn</a><a class="nav item" href="/Future">Future</a><a class="nav item" href="/login">Login</a></nav></div></span></div></section><section id="content"><div class="article-container"><section class="article header">
+    <h1 class="article title">MiniCouchDB in Rust</h1><p class="article date">Monday, June 8, 2020<span class="reading-time"> • 4 minutes to read</span></p><style type="text/css">
+
+.resp-sharing-button__link,
+.resp-sharing-button__icon {
+  display: inline-block
+}
+
+.resp-sharing-button__link {
+  text-decoration: none;
+  color: #fff;
+  margin-top: 0.5em;
+}
+
+.resp-sharing-button {
+  border-radius: 5px;
+  transition: 25ms ease-out;
+  padding: 0.1em 0.5em 0.2em 0.5em;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif
+}
+
+.resp-sharing-button__icon svg {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.4em;
+  vertical-align: top
+}
+
+.resp-sharing-button--small svg {
+  margin: 0;
+  vertical-align: middle
+}
+
+ 
+.resp-sharing-button__icon {
+  stroke: #fff;
+  fill: none
+}
+
+ 
+.resp-sharing-button__icon--solid,
+.resp-sharing-button__icon--solidcircle {
+  fill: #fff;
+  stroke: none
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee
+}
+
+.resp-sharing-button--twitter:hover {
+  background-color: #2795e9
+}
+
+.resp-sharing-button--pinterest {
+  background-color: #bd081c
+}
+
+.resp-sharing-button--pinterest:hover {
+  background-color: #8c0615
+}
+
+.resp-sharing-button--facebook {
+  background-color: #3b5998
+}
+
+.resp-sharing-button--facebook:hover {
+  background-color: #2d4373
+}
+
+.resp-sharing-button--tumblr {
+  background-color: #35465C
+}
+
+.resp-sharing-button--tumblr:hover {
+  background-color: #222d3c
+}
+
+.resp-sharing-button--reddit {
+  background-color: #5f99cf
+}
+
+.resp-sharing-button--reddit:hover {
+  background-color: #3a80c1
+}
+
+.resp-sharing-button--google {
+  background-color: #dd4b39
+}
+
+.resp-sharing-button--google:hover {
+  background-color: #c23321
+}
+
+.resp-sharing-button--linkedin {
+  background-color: #0077b5
+}
+
+.resp-sharing-button--linkedin:hover {
+  background-color: #046293
+}
+
+.resp-sharing-button--email {
+  background-color: #777
+}
+
+.resp-sharing-button--email:hover {
+  background-color: #5e5e5e
+}
+
+.resp-sharing-button--xing {
+  background-color: #1a7576
+}
+
+.resp-sharing-button--xing:hover {
+  background-color: #114c4c
+}
+
+.resp-sharing-button--whatsapp {
+  background-color: #25D366
+}
+
+.resp-sharing-button--whatsapp:hover {
+  background-color: #1da851
+}
+
+.resp-sharing-button--hackernews {
+background-color: #FF6600
+}
+.resp-sharing-button--hackernews:hover, .resp-sharing-button--hackernews:focus {   background-color: #FB6200 }
+
+.resp-sharing-button--vk {
+  background-color: #507299
+}
+
+.resp-sharing-button--vk:hover {
+  background-color: #43648c
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee;
+  border-color: #55acee;
+}
+
+.resp-sharing-button--twitter:hover,
+.resp-sharing-button--twitter:active {
+  background-color: #2795e9;
+  border-color: #2795e9;
+}
+
+.resp-sharing-button--email {
+  background-color: #777777;
+  border-color: #777777;
+}
+
+.resp-sharing-button--email:hover,
+.resp-sharing-button--email:active {
+  background-color: #5e5e5e;
+  border-color: #5e5e5e;
+}
+
+.resp-sharing-button--reddit {
+  background-color: #5f99cf;
+  border-color: #5f99cf;
+}
+
+.resp-sharing-button--reddit:hover,
+.resp-sharing-button--reddit:active {
+  background-color: #3a80c1;
+  border-color: #3a80c1;
+}
+
+.resp-sharing-button--hackernews {
+  background-color: #FF6600;
+  border-color: #FF6600;
+}
+
+.resp-sharing-button--hackernews:hover
+.resp-sharing-button--hackernews:active {
+  background-color: #FB6200;
+  border-color: #FB6200;
+}
+
+
+
+</style>
+
+<div class="social-links">
+
+<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;url=http%3A%2F%2Fsharingbuttons.io" target="_blank" rel="noopener" aria-label="">
+  <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm5.26 9.38v.34c0 3.48-2.64 7.5-7.48 7.5-1.48 0-2.87-.44-4.03-1.2 1.37.17 2.77-.2 3.9-1.08-1.16-.02-2.13-.78-2.46-1.83.38.1.8.07 1.17-.03-1.2-.24-2.1-1.3-2.1-2.58v-.05c.35.2.75.32 1.18.33-.7-.47-1.17-1.28-1.17-2.2 0-.47.13-.92.36-1.3C7.94 8.85 9.88 9.9 12.06 10c-.04-.2-.06-.4-.06-.6 0-1.46 1.18-2.63 2.63-2.63.76 0 1.44.3 1.92.82.6-.12 1.95-.27 1.95-.27-.35.53-.72 1.66-1.24 2.04z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="mailto:?subject=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking.&amp;body=http%3A%2F%2Fsharingbuttons.io" target="_self" rel="noopener" aria-label="">
+  <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm8 16c0 1.1-.9 2-2 2H6c-1.1 0-2-.9-2-2V8c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2v8z"/><path d="M17.9 8.18c-.2-.2-.5-.24-.72-.07L12 12.38 6.82 8.1c-.22-.16-.53-.13-.7.08s-.15.53.06.7l3.62 2.97-3.57 2.23c-.23.14-.3.45-.15.7.1.14.25.22.42.22.1 0 .18-.02.27-.08l3.85-2.4 1.06.87c.1.04.2.1.32.1s.23-.06.32-.1l1.06-.9 3.86 2.4c.08.06.17.1.26.1.17 0 .33-.1.42-.25.15-.24.08-.55-.15-.7l-3.57-2.22 3.62-2.96c.2-.2.24-.5.07-.72z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=http%3A%2F%2Fsharingbuttons.io&amp;resubmit=true&amp;title=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking." target="_blank" rel="noopener" aria-label="">
+  <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="9.391" cy="13.392" r=".978"/><path d="M14.057 15.814c-1.14.66-2.987.655-4.122-.004-.238-.138-.545-.058-.684.182-.13.24-.05.545.19.685.72.417 1.63.646 2.568.646.93 0 1.84-.228 2.558-.642.24-.13.32-.44.185-.68-.14-.24-.445-.32-.683-.18zM5 12.086c0 .41.23.78.568.978.27-.662.735-1.264 1.353-1.774-.2-.207-.48-.334-.79-.334-.62 0-1.13.507-1.13 1.13z"/><path d="M12 0C5.383 0 0 5.383 0 12s5.383 12 12 12 12-5.383 12-12S18.617 0 12 0zm6.673 14.055c.01.104.022.208.022.314 0 2.61-3.004 4.73-6.695 4.73s-6.695-2.126-6.695-4.74c0-.105.013-.21.022-.313C4.537 13.73 4 12.97 4 12.08c0-1.173.956-2.13 2.13-2.13.63 0 1.218.29 1.618.757 1.04-.607 2.345-.99 3.77-1.063.057-.803.308-2.33 1.388-2.95.633-.366 1.417-.323 2.322.085.302-.81 1.076-1.397 1.99-1.397 1.174 0 2.13.96 2.13 2.13 0 1.177-.956 2.133-2.13 2.133-1.065 0-1.942-.79-2.098-1.81-.734-.4-1.315-.506-1.716-.276-.6.346-.818 1.395-.88 2.087 1.407.08 2.697.46 3.728 1.065.4-.468.987-.756 1.617-.756 1.17 0 2.13.953 2.13 2.13 0 .89-.54 1.65-1.33 1.97z"/><circle cx="14.609" cy="13.391" r=".978"/><path d="M17.87 10.956c-.302 0-.583.128-.79.334.616.51 1.082 1.112 1.352 1.774.34-.197.568-.566.568-.978 0-.623-.507-1.13-1.13-1.13z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://news.ycombinator.com/submitlink?u=http%3A%2F%2Fsharingbuttons.io&amp;t=Super%20fast%20and%20easy%20Social%20Media%20Sharing%20Buttons.%20No%20JavaScript.%20No%20tracking." target="_blank" rel="noopener" aria-label="">
+  <div class="resp-sharing-button resp-sharing-button--hackernews resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solidcircle">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path fill-rule="evenodd" d="M128 256c70.692 0 128-57.308 128-128C256 57.308 198.692 0 128 0 57.308 0 0 57.308 0 128c0 70.692 57.308 128 128 128zm-9.06-113.686L75 60h20.08l25.85 52.093c.397.927.86 1.888 1.39 2.883.53.994.995 2.02 1.393 3.08.265.4.463.764.596 1.095.13.334.262.63.395.898.662 1.325 1.26 2.618 1.79 3.877.53 1.26.993 2.42 1.39 3.48 1.06-2.254 2.22-4.673 3.48-7.258 1.26-2.585 2.552-5.27 3.877-8.052L161.49 60h18.69l-44.34 83.308v53.087h-16.9v-54.08z"/></svg>
+    </div>
+  </div>
+</a>
+
+</div>
+</section><article class="article markdown-body"><p><strong>Waterbuffalo Posts -</strong> Recently we had a Hack Week, where we could work on anything we liked for the week. Since I’m enjoying programming in Rust, I took some inspiration from <a href="https://github.com/tokio-rs/mini-redis"target="_blank">mini-redis</a> and tried to build a <a href="https://github.com/garrensmith/couch_hack_week"target="_blank">mini-CouchDB</a> in Rust.</p>
+<p>In case you don’t know, the next big release of CouchDB, version 4.x, will be built on top of FoundationDB (FDB). FoundationDB is a distributed, transactional Key/Value store. For this hack week, I decided to follow the design of CouchDB implemented on FoundationDB and see if I could get my Rust implementation to read the data that CouchDB stores in FoundationDB.</p>
+<p>The code has three main sections. The Fdb layer, error handling, and the HTTP layer.</p>
+<h2 id="foundationdb-layer">FoundationDB Layer</h2>
+<p>The first step was to implement <a href="https://github.com/garrensmith/couch_hack_week/blob/master/src/couch.rs"target="_blank">reading</a> from FoundationDB (FDB). I was really interested to see how reading and unpacking the data from FoundationDB in Rust would compare to doing the same in Erlang.</p>
+<p>The <a href="https://github.com/Clikengo/foundationdb-rs"target="_blank">FoundationDB Rust client</a> doesn’t yet have support for the directory layer in FDB. However, it turned out to be quite trivial to read the directory layer section to determine how to read from CouchDB. What I found interesting was that packing/unpacking data from FoundationDB with the Rust client looked very similar yo Erlang. Below is the code to pack/unpack the database name in Erlang:</p>
+<pre><code>Prefix = erlfdb_tuple:pack({?ALL_DBS}, LayerPrefix), {DbName} = erlfdb_tuple:unpack(K, Prefix),
+</code></pre>
+<p>In Rust it would look like this:</p>
+<pre><code>let (start_key, end_key) = fdb::pack_key_range(&amp;ALL_DBS, couch_directory); let (_, _, db_bytes): (Element, Element, Bytes) = unpack(kv.key())?;
+</code></pre>
+<p>The obvious difference being that in Rust I have to specify a type for each field in the tuple. Initially doing it like this was fine, but it felt way to basic and I wanted to push my knowledge of types in Rust to see if I can implement a better unpacking design. This lead me to defining types that I could convert the FoundationDB <code>Bytes</code> type into. Here is an example:</p>
+<pre><code>type EncodedRev = (i16, Bytes); type EncodedChangeValue = (Bytes, bool, EncodedRev); #[derive(Serialize)] pub struct Rev(String); impl From&lt;(i16, Bytes)&gt; for Rev { fn from((num, str): (i16, Bytes)) -&gt; Self { Rev(format!(&quot;{}-{}&quot;, num, hex::encode(str.as_ref()))) } }
+</code></pre>
+<p>This meant that I could then take an <code>EncodedRev</code> variable and convert it straight into a Rev:</p>
+<pre><code>let rev_tuple: EncodedRev = unpack(kv.value())?; let rev: Rev = rev_tuple.into();
+</code></pre>
+<p>This worked quite well. The next step, which I unfortunately did not have time to do, would be to take the types a step further and instead of having the Tuple types defined above, rather implement the <code>Unpack</code> trait for the Rev so that the unpack would look like this:</p>
+<pre><code>let rev: Rev = unpack(kv.value())?;
+</code></pre>
+<p>This makes the code a lot simpler to read and would be making better use of Rust’s powerful type system.</p>
+<h2 id="http-layer">Http Layer</h2>
+<p>For the <a href="https://github.com/garrensmith/couch_hack_week/blob/master/src/http.rs"target="_blank">Http Layer</a> , I decided to use <a href="https://github.com/seanmonstar/warp/"target="_blank">warp.rs</a>. I’ve used Hyper before but wanted to use something with a bit more functionality. Warp is a functional web framework that handles requests by filtering the request to the correct route. It is well written and is very powerful. I found it was a pretty big learning curve in the beginning and I had to spend a good day and a bit to fully understand what I was doing. The community in the Tokio discord channel were incredibly patient and helped me overcome a few sticking points. I’m still a little bit on the fence on whether I would use it again. It is really powerful but is at times frustrating to get working.</p>
+<h2 id="error-handling">Error handling</h2>
+<p>The final part of miniCouchDB was to implement some <a href="https://github.com/garrensmith/couch_hack_week/blob/master/src/lib.rs"target="_blank">error handling</a>. Rust’s error handling is something that amazes me every time. It’s easy to set up and use throughout the app. I was able to quickly implement a common <code>CouchError</code> that all FDB errors, standard errors, and custom errors could be converted too. I then implemented a <code>handle_rejection</code> function that would map all <code>CouchError</code>’s into HTTP error codes and messages. This was all easy to do and I think the code is easy to read and maintain.</p>
+<p>In the end I managed to implement the <code>_all_dbs</code>, <code>db_info</code> , <code>_all_docs</code>, and <code>_changes</code> endpoint. For a week and a bit of time, I thought that was pretty good. I learnt a lot on how to use the FoundationDB-rs library and had a ton of fun writing code in Rust again. I did find I still need to learn more about Rust’s advanced topics like Trait objects and get a better understanding of lifetimes and borrowing.</p>
+<p>Rust is a language I would like to use more. The ecosystem is really good and the community is very welcoming. If you haven’t yet dipped your toes into exploring Rust. I can’t recommend it enough. There are plenty of great resources to get started and the Rust <a href="https://doc.rust-lang.org/book/"target="_blank">book</a> is really helpful.</p>
+</article></div>
+<div class="article bottom"><section class="article navigation"><p><a class="link" href="/ungoogled-chromium/"><span class="iconfont icon-article"></span>Next Article:&nbsp;&nbsp;Ungoogled Chromium</a></p><p><a class="link" href="/zettelkasten-note-taking-in-10-minutes/"><span class="iconfont icon-article"></span>Last Article:&nbsp;&nbsp;Zettelkasten Note Taking in 10 Minutes</a></p></section><section class="article discussion"><div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "xiee" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></section></div></section><section id="footer"><div class="footer-wrap">
+    <p class="copyright">Waterbuffalo Posts</p>
+    <p class="powerby" style="font-size:7px;"><span>Powered by </span><a href="https://gohugo.io" 
+        target="_blank">Hugo</a><span> and </span><a href="https://themes.gohugo.io/hugo-notepadium/" 
+        target="_blank">Notepadium</a></p>
+</div></section><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/&#43;DiW/UqRcLbRjq" crossorigin="anonymous"><script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l&#43;B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd&#43;qj&#43;o24G5ZU2zJz" crossorigin="anonymous"></script><script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+            onload="renderMathInElement(document.body);"></script><script src="/js/hljs.min.0799348a91dce12c6be4a73f943cfe78f181f4e6f6ec35c4af0fca1de377879f77cfab03c30f03a174d675737b5a9314.js" integrity="sha384-B5k0ipHc4Sxr5Kc/lDz&#43;ePGB9Ob27DXErw/KHeN3h593z6sDww8DoXTWdXN7WpMU"></script><script>hljs.initHighlightingOnLoad();</script></body>
+
+</html>

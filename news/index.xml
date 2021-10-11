@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>News on Waterbuffalo Posts</title>
+    <link>/news/</link>
+    <description>Recent content in News on Waterbuffalo Posts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 08 Jun 2019 13:49:03 +0800</lastBuildDate>
+    
+        <atom:link href="/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Finding the genre of a song with Deep Learning — A.I. Odyssey part. 1</title>
+      <link>/news/2019-06-08-finding-the-genre-of-a-song-with-deep-learning-a.i.-odyssey-part.-1/</link>
+      <pubDate>Sat, 08 Jun 2019 13:49:03 +0800</pubDate>
+      
+      <guid>/news/2019-06-08-finding-the-genre-of-a-song-with-deep-learning-a.i.-odyssey-part.-1/</guid>
+      <description>A step-by-step guide to make your computer a music expert.
+One of the things we, humans, are particularly good at is classifying songs. In just a few seconds we can tell whether we’re listening to Classical music, Rap, Blues or EDM. However, as simple as this task is for us, millions of people still live with unclassifed digital music libraries.
+The average library is estimated to have about 7,160 songs. If it takes 3 seconds to classify a song (either by listening or because you already know), a quick back-of-the-envelope calculation gives around 6 hours to classify them all.</description>
+      
+      <content:encoded><![CDATA[<p><img  src="https://hackernoon.com/hn-images/1*_SLyjgV6vspBMD_w-lfFvQ.gif"
+        alt="img"/></p>
+<p>A step-by-step guide to make your computer a music expert.</p>
+<p>One of the things we, humans, are particularly good at is classifying songs. In just a few seconds we can tell whether we’re listening to Classical music, Rap, Blues or EDM. However, as simple as this task is for us, millions of people still live with unclassifed digital music libraries.</p>
+<p>The average library is estimated to have about 7,160 songs. If it takes 3 seconds to classify a song (either by listening or because you already know), a quick back-of-the-envelope calculation gives around 6 hours to classify them all.</p>
+<p>If you add the time it takes to manually label the song, this can easily go up to 10+ hours of manual work. <strong>No one wants to do that.</strong></p>
+<p><img  src="https://hackernoon.com/hn-images/1*nU9v9AQFJm0YwBv2-5DkXQ.jpeg"
+        alt="img"/></p>
+<p>In this post, we’ll see how we can use <strong>Deep Learning</strong> to help us in this labour-intensive task.</p>
+<p>Here’s a general overview of what we will do:</p>
+<ul>
+<li>Extract a simplified representation of each song in the library</li>
+<li>Train a deep neural network to classify the songs</li>
+<li>Use the classifier to fill in the mising genres of our library</li>
+</ul>
+<h4 id="the-data">The data</h4>
+<p>First of all, we’re going to need a dataset. For that I have started with my own iTunes library — which is already labelled due to my slightly obsessive passion for order. Although it is not as diverse, complete or even as big as other datasets we could find, it is a good start. Note that I have only used 2,000 songs as it already represents a lot of data.</p>
+<h4 id="refining-the-dataset">Refining the dataset</h4>
+<p>The first observation is that there are too many genres and <strong>subgenres</strong>, or to put it differently, genres with too few examples. This needs to be corrected, either by removing the examples from the dataset, or by assigning them to a broader genre. We don’t really need this <em>Concertos</em> genre, <em>Classical</em> will do the trick.</p>
+<p><img  src="https://hackernoon.com/hn-images/1*3-5BrEnYL723NrvLkiLK_w.png"
+        alt="img"/>Creating super genres</p>
+<h4 id="too-much-informationwaaaaaay-to-much">Too much information — Waaaaaay to much</h4>
+<p>Once we have a decent number of genres, with enough songs each, we can start to extract the important information from the data. A song is nothing but a very, very long series of values. The classic sampling frequency is 44100Hz — there are 44100 values stored for every second of audio, and twice as much for stereo.</p>
+<p>This means that a <strong>3 minute</strong> long stereo song contains <strong>7,938,000 samples</strong>. That’s a lot of information, and we need to reduce this to a more manageable level if we want to do anything with it. We can start by <em>discarding the stereo channel</em> as it contains highly redundant information.</p>
+<p><img  src="https://hackernoon.com/hn-images/1*xbiQh8B_KJaMFU193I9mwA.gif"
+        alt="img"/>DeepMind —<a href="https://deepmind.com/blog/wavenet-generative-model-raw-audio/?ref=hackernoon.com"target="_blank"> WaveNet</a></p>
+<p>We will use <em>Fourier’s Transform</em> to convert our audio data to the frequency domain. This allows for a much more simple and compact representation of the data, which we will export as a <strong>spectrogram</strong>. This process will give us a PNG file containing the evolution of all the frequencies of our song through time.</p>
+<p>The 44100Hz sampling rate we talked about earlier allows us to reconstruct frequencies up to 22050Hz — see <a href="https://en.wikipedia.org/wiki/Nyquist%e2%80%93Shannon_sampling_theorem?ref=hackernoon.com#Aliasing"target="_blank">Nyquist-Shannon sampling theorem</a> — but now that the frequencies are extracted, we can use a much lower resolution. Here, we’ll use 50 pixel per second (20ms per pixel), which is more than enough to be sure to use all the information we need.</p>
+<p><strong>NB:</strong> If you know a genre characterized by ~20ms frequency variations, you got me.</p>
+<p>Here’s what our song looks like after the process (12.8s sample shown here).</p>
+<p><img  src="https://hackernoon.com/hn-images/1*Fd_IRjlygBvJy5ivbsfarw.png"
+        alt="img"/>Spectrogram of an extract of the song</p>
+<p><strong>Time</strong> is on the x axis, and <strong>frequency</strong> on the y axis. The highest frequencies are at the top and the lowest at the bottom. The scaled amplitude of the frequency is shown in greyscale, with white being the maximum and black the minimum.</p>
+<p>I have used use a spectrogram with 128 frequency levels, because it contains all the relevant information of the song — we can easily distinguish different notes/frequencies.</p>
+<h4 id="further-processing">Further processing</h4>
+<p>The next thing we have to do is to deal with the length of the songs. There are two approaches for this problem. The first one would be to use a <em>recurrent neural network</em> with wich we would feed each column of the image in order. Instead, I have chosen to exploit even further the fact that humans are able to classify songs with <strong>short extracts</strong>.</p>
+<blockquote>
+<p>If we can classify songs by ear in under 3 seconds, why couldn’t machines do the same ?</p>
+</blockquote>
+<p>We can create <em>fixed length</em> slices of the spectrogram, and consider them as independent samples representing the genre. We can use <strong>square slices</strong> for convenience, which means that we will cut down the spectrogram into 128x128 pixel slices. This represents 2.56s worth of data in each slice.</p>
+<p><img  src="https://hackernoon.com/hn-images/1*WsJNdWQCU7QFpWK4DbVSig.png"
+        alt="img"/>Sliced spectrogram</p>
+<p>At this point, we could use <strong>data augmentation</strong> to expand the dataset even more (we won’t here because we aready have a lot of data). We could for instance add random noise to the images, or slightly stretch them horizontally and then crop them.</p>
+<p>However, we have to make sure that we do not break the patterns of the data. We can’t <em>rotate</em> the images, nor <em>flip</em> them horizontally because sounds are not symmetrical.</p>
+<p><em>E.g,</em> see those <em>white fading lines</em>? These are decaying sounds which cannot be reversed.</p>
+<p><img  src="https://hackernoon.com/hn-images/1*ZG5ScpOX5MejoejUgHOTbg.png"
+        alt="img"/>Decaying sound</p>
+<h4 id="choice-of-the-modellets-build-a-classifier">Choice of the model — Let’s build a classifier!</h4>
+<p>After we have sliced all our songs into square spectral images, we have a dataset containing tens of thousands of samples for each genre. We can now train a <strong>Deep Convolutional Neural Network</strong> to classify these samples. For this purpose, I have used Tensorflow’s wrapper TFLearn.</p>
+<p><img  src="https://hackernoon.com/hn-images/1*FQyTMv3f7m2WHFWz5gCy9g.png"
+        alt="img"/>Convolutional neural network</p>
+<h4 id="implementation-details">Implementation details</h4>
+<ul>
+<li><em>Dataset split: T</em>raining (70%), validation (20%), testing (10%)</li>
+<li><em>Model</em>: Convolutional neural network.</li>
+<li><em>Layers</em>: Kernels of size 2x2 with stride of 2</li>
+<li><em>Optimizer</em>: <em>RMSProp.</em></li>
+<li><em>Activation function:</em> ELU (Exponential Linear Unit), because of the <a href="https://arxiv.org/pdf/1511.07289.pdf?ref=hackernoon.com"target="_blank">performance it has shown when compared to ReLUs</a></li>
+<li><em>Initialization</em>: Xavier for the weights matrices in all layers.</li>
+<li><em>Regularization</em>: Dropout with probability 0.5</li>
+</ul>
+<h4 id="resultsdoes-this-thing-work">Results — Does this thing work?</h4>
+<p>With 2,000 songs split between 6 genres — <em>Hardcore, Dubstep, Electro, Classical, Soundtrack and Rap</em>, and using more than 12,000 128x128 spectrogram slices in total, the model reached *<strong>90% accuracy*</strong> on the validation set. This is pretty good, especially considering that we are processing the songs tiny bits at a time. Note that <strong>this is not the final accuracy</strong> we’ll have on classifying whole songs (it will be even better). We’re only talking <em>slices</em> here.</p>
+<h4 id="time-to-classify-some-files">Time to classify some files!</h4>
+<p>So far, we have converted our songs from stereo to mono and created a spectrogram, which we sliced into small bits. We then used these slices to train a deep neural network. We can now use the model to classify a new song that we have <em>never seen</em>.</p>
+<p>We start off by generating the spectrogram the same way we did with the training data. Because of the slicing, we cannot predict the class of the song in one go. We have to slice the new song, and then put together the predicted classes for all the slices.</p>
+<p>To do that, we will use a <strong>voting system</strong>. Each sample of the track will “vote” for a genre, and we choose the genre with the most votes. This will increase our accuracy as we’ll get rid of many classifications errors with this ensemble learning-<em>esque</em> method.</p>
+<p><strong>NB:</strong> a 3 minute long track has about 70 slices.</p>
+<p><img  src="https://hackernoon.com/hn-images/1*flj7wvpYCYFKbtxHcmC7Nw.png"
+        alt="img"/>Voting system</p>
+<p>With this pipeline, we can now classify the unlabelled songs from our library. We could simply run the voting system on all the songs for which we need a genre, and take the word of the classifier. This would give good results but we might want to improve our voting system.</p>
+<p><img  src="https://hackernoon.com/hn-images/1*Q9ShITwmtB8kCOJ6EnC8vg.png"
+        alt="img"/>Full classification pipeline</p>
+<h4 id="a-better-voting-system">A better voting system</h4>
+<p>The last layer of the classifier we have built is a <strong>softmax</strong> <em>layer.</em> This means that it doesn’t really output the detected genre, but rather the probabilities of each. This is what we call the classification <strong>confidence</strong>.</p>
+<p><img  src="https://hackernoon.com/hn-images/1*bJ0Gc9GxHmjVwh9lLfzaQA.png"
+        alt="img"/>Classification confidence</p>
+<p>We can use this to improve our voting system. For instance, we could reject votes from slices with low confidence. If there is no clear winner, we reject the vote.</p>
+<blockquote>
+<p>It’s better to say “I don’t know” than to give a answer we’re not sure of.</p>
+</blockquote>
+<p><img  src="https://hackernoon.com/hn-images/1*BGo9AGDNp0aoCC5W3PBzaA.png"
+        alt="img"/>Classification rejected because of the low confidence</p>
+<p>Similarly, we could leave unlabelled the songs for which no genre received more than a certain fraction -<em>70%?-</em> of the votes. This way, we will avoid mislabeling songs, which we can still label later by hand.</p>
+<p><img  src="https://hackernoon.com/hn-images/1*RAChvpql8BEqbVSDkqP26w.png"
+        alt="img"/>Track left unlabeled because of low voting system confidence</p>
+<h3 id="conclusions">Conclusions</h3>
+<p>In this post, we have seen how we could extract important information from redundant and high dimensional data structure — <em>tracks</em>. We have taken advantage of short patterns in the data which allowed us to classify 2.56 second long extracts. Finally, we have used our model to fill in the blanks in a digital library.</p>
+<blockquote>
+<p>*<strong>If you like Artificial Intelligence,*</strong> <a href="http://eepurl.com/cATXvT?ref=hackernoon.com"target="_blank">*<strong>subscribe to the newsletter*</strong></a> *<strong>to receive updates on articles and much more!*</strong></p>
+</blockquote>
+<p>*<strong>(Psst!*</strong> <a href="https://medium.com/@juliendespois/talk-to-you-computer-with-you-eyes-and-deep-learning-a-i-odyssey-part-2-7d3405ab8be1?ref=hackernoon.com#.j6htbas27"target="_blank">*<strong>part. 2*</strong></a> *<strong>is out!)*</strong></p>
+<p>You can play with the code here:</p>
+<p><a href="https://github.com/despoisj/DeepAudioClassification?ref=hackernoon.com"target="_blank">despoisj/DeepAudioClassification</a></p>
+<p>If you want to go further on audio classification, there are other approaches which yield impressive results, such as <a href="https://www.toptal.com/algorithms/shazam-it-music-processing-fingerprinting-and-recognition?ref=hackernoon.com"target="_blank">Shazam’s fingerprinting technique</a> or <a href="http://blog.themusio.com/2016/11/04/dilated-causal-convolutions-for-audio-and-text-generation/?ref=hackernoon.com"target="_blank">dilated convolutions</a>.</p>
+<p>Thanks for reading this post, stay tuned for more !</p>
+]]></content:encoded>
+      
+    </item>
+    
+    <item>
+      <title>What’s really wrong with node_modules and why this is your fault</title>
+      <link>/news/hackernoon1/</link>
+      <pubDate>Mon, 27 Nov 2017 18:12:17 +0800</pubDate>
+      
+      <guid>/news/hackernoon1/</guid>
+      <description>Originally published by Mateusz Morszczyznaon November 27th 2017   I was never really concerned about the size of node_modules — my thinking was that you should not care too much about the tools you need to do the job. If you need a 20 kg hammer to drive a nail, you just take it. The same story with the node_modules, it may weight a few kilobytes or a few megabytes because our imaginary hammer comes with a set of heavy nails, right?</description>
+      
+      <content:encoded><![CDATA[<p><span><main class="sc-fzokOt hLgJkJ">
+<div class="sc-fznxsB sc-fzoyTs jQVRSh">
+<div class="sc-fzoyAV jxhexg">
+<div>
+<span class="byline">Originally published by <!-- -->Mateusz Morszczyzna<!-- --> on</span> November 27th 2017<!-- -->
+</div>
+</div>
+<br/>
+<p class="paragraph">I was never really concerned about the size of <code class="markup--code markup--p-code">node_modules</code> — my thinking was that you should not care too much about the tools you need to do the job. If you need a 20 kg hammer to drive a nail, you just take it. The same story with the <code class="markup--code markup--p-code">node_modules</code>, it may weight a few kilobytes or a few megabytes because our imaginary hammer comes with a set of heavy nails, right? Well, maybe, in theory.</p>
+<figure>
+<div class="aspectRatioPlaceholder is-locked">
+<div class="aspectRatioPlaceholder-fill"></div><img data-height="360" data-image-id="1*QxMRl-ibGJJt3ZF4B1WGJg.jpeg" data-width="480" src="https://hackernoon.com/hn-images/1*QxMRl-ibGJJt3ZF4B1WGJg.jpeg"></div>
+</figure>
+<p class="paragraph">Let’s drop that fancy analogy and look at real-world examples. I will examine some @angular/cli dependencies — but only because it’s quite a big library. I don’t want to make it look bad — it’s just a good representation of an average package. I installed it in the empty directory using <a href="mailto:npm@5.5.1">npm@5.5.1</a>. Npm reported “added 976 packages in 107.13s” after installation (that’s 141 megabytes on disk).</p>
+<p class="paragraph">Okay so cli package it’s quite a robust library and its list of dependencies is a bit too long but perhaps all of them are needed. Let’s focus at the first selected package <code class="markup--code markup--p-code">common-tags</code>. Quick look at its documentation and you can say that it’s some kind of utils library with a number of common methods to work with the text. So far so good — general methods, easy to reuse.</p>
+<p class="paragraph">Just one little flaw — in deps of <code class="markup--code markup--p-code">common-tags</code> we see <code class="markup--code markup--p-code">babel-runtime</code>. A bit surprising, we just need some common text functions but — hey — it’s 2017 JS for you. Oh wait, it turns out that it wants <code class="markup--code markup--p-code">core-js</code> and <code class="markup--code markup--p-code">regenerator-runtime</code>. Fortunately it ends here and — what’s more — <code class="markup--code markup--p-code">core-js</code> is also utils library, quite a big one honestly! It has so many functions inside I bet a lot of other packages will be using it!</p>
+<p class="paragraph">Not really. Only <code class="markup--code markup--p-code">babel-runtime</code> has it in its deps. <em>Oopsie.</em><br>
+And returning to the starting point, cli uses only 3 (trivial) methods from <code class="markup--code markup--p-code">common-tags</code> — <code class="markup--code markup--p-code">stripIndents</code>, <code class="markup--code markup--p-code">stripIndent</code>, <code class="markup--code markup--p-code">oneLine</code>. <em>Oopsie daisy.</em></p>
+<p class="paragraph">In order to use these 3 methods <code class="markup--code markup--p-code">node_modules</code> needs 1826 files. And that’s just 4 of mentioned 976 installed packages.</p>
+<figure>
+<div class="aspectRatioPlaceholder is-locked">
+<div class="aspectRatioPlaceholder-fill"></div><img data-height="400" data-image-id="1*5shXPVs_DHy0V57FrMiysw.jpeg" data-width="600" src="https://hackernoon.com/hn-images/1*5shXPVs_DHy0V57FrMiysw.jpeg"></div>
+<figcaption class="imageCaption">
+This is your dream about lightweight package collapsing
+</figcaption>
+</figure>
+<p class="paragraph">The next dependency is <code class="markup--code markup--p-code">core-object</code> — it downloaded in total of 8 packages and 45 files — so not so bad. And other packages use these files too, mostly <code class="markup--code markup--p-code">chalk</code>.<br>
+The real bummer is 6 of these 8 are dependencies of <code class="markup--code markup--p-code">chalk</code> and <code class="markup--code markup--p-code">chalk</code> is used only once in <code class="markup--code markup--p-code">core-object</code> to paint yellow deprecation message.</p>
+<p class="paragraph">Other random findings:</p>
+<ul>
+<li>few packages to tackle the topic of “querystring”</li>
+<li>some attempts for assert methods varying in complexity from <code class="markup--code markup--li-code">minimalistic-assert</code> to <code class="markup--code markup--li-code">assert-plus</code></li>
+<li>dozens of various <code class="markup--code markup--li-code">is-*</code> packages</li>
+<li><strong>a lot</strong> of <strong></strong>packages to “prettifyfifafiying-whatever” errors and console prints</li>
+<li>hundreds of polyfills/shims or reimplementation of native methods</li>
+<li>of course previous asserts sit in <code class="markup--code markup--li-code">node_modules</code> next to full <code class="markup--code markup--li-code">lodash</code></li>
+<li>… and some partial methods from <code class="markup--code markup--li-code">lodash</code> as separate deps</li>
+</ul>
+<p class="paragraph">And, by random, I mean just picking some packages and brief searching for similar ones which was often really easy because the packages had similar names.</p>
+<figure>
+<div class="aspectRatioPlaceholder is-locked">
+<div class="aspectRatioPlaceholder-fill"></div><img data-action="zoom" data-action-value="1*KWX2SF2O2hVxDQQ66ZOA3g.png" data-height="321" data-image-id="1*KWX2SF2O2hVxDQQ66ZOA3g.png" data-width="1050" src="https://hackernoon.com/hn-images/1*KWX2SF2O2hVxDQQ66ZOA3g.png"></div>
+<figcaption class="imageCaption">
+Some of the found duplicates
+</figcaption>
+</figure>
+<p class="paragraph">Let’s stop here. I bet other dependencies are <em>necessary and well thought</em>.</p>
+<p class="paragraph">That is nothing new for JS devs, it has been like that for a while now and this situation shouldn’t be accepted— size of <code class="markup--code markup--p-code">node_modules</code> is a topic of jokes and removal of packages like “left pad” is the cause of disasters.</p>
+<p class="paragraph">So how can it be fixed? By creating the <em>proper</em> Standard Library.</p>
+<p class="paragraph"><em>Proper</em> means that it should be complete, containing a variety of common functions to operate on text, numbers, collections and a lot of functions, so that during 99.99% of the time you won’t need any other library. Is that fantasy? I don’t think so. Taking as the base some of the mentioned utils libraries and merging it with others would be a great start.</p>
+<p class="paragraph">There is only one problem and that’s not even a technical problem — creating such a package would need someone to take a position of the leader. I think rather about absolute power than democracy — if you want to know how democracy handles this problem look again at your node_modules. It needs a powerful leader because it needs a solid plan, not just months of discussions. We already have all packages implemented, we just need to glue it together in a logical way.</p>
+<p class="paragraph">Right now, in pursuit of reusability and “keeping it DRY” typical <code class="markup--code markup--p-code">node_modules</code> directory ended up being completely WET. Just because we thought that dozen of packages with overlapping functionalities were better than one well planned library.</p>
+<figure>
+<div class="aspectRatioPlaceholder is-locked">
+<div class="aspectRatioPlaceholder-fill"></div><img data-action="zoom" data-action-value="1*6YSZXcV1ajvVNOmUBY-G_Q.jpeg" data-height="446" data-image-id="1*6YSZXcV1ajvVNOmUBY-G_Q.jpeg" data-is-featured="true" data-width="952" src="https://hackernoon.com/hn-images/1*6YSZXcV1ajvVNOmUBY-G_Q.jpeg"></div>
+<figcaption class="imageCaption">
+Which is the bigger number, five or one? One army, a real army, united behind one leader with one purpose.
+</figcaption>
+</figure>
+<p class="paragraph">Just a small note about jQuery — not so long ago, jQuery was in almost every project. Why? There were a number of solid reasons:</p>
+<ul>
+<li>It provides a set to commonly used functions in a convenient to use form. jQuery methods were easily chainable with each other (as result of being developed by one organization).</li>
+<li>It was widely known by everyone, so joining a project was easy, as there was no extra learning curve.</li>
+<li>Although some people complained about the size of jQuery it was mostly irrelevant as it was often loaded from CDN — so the for 90% of time it was already present on user’s computer.</li>
+</ul>
+<p class="paragraph">The last point is very important — it really doesn’t matter how big some library is if you don’t need to download it. I think about <code class="markup--code markup--p-code">lodash</code> — it really has tons of functions that can replace a lot of unnecessary dependencies. With its modular structure and lack of dependencies is a great library to choose if you need something that is missing in JavaScript.</p>
+<p class="paragraph">Picking some smaller library only because of its size is the same level of evil that you do when with some premature optimization practices — ending up with no performance gain and the confusing code. Same here — smaller, unorganized packages leads to redundancy, incompatibility and overall much bigger <code class="markup--code markup--p-code">node_modules</code> size.</p>
+<figure>
+<div class="aspectRatioPlaceholder is-locked">
+<div class="aspectRatioPlaceholder-fill"></div><img data-action="zoom" data-action-value="1*KakQvka8phL2CFstj3ihdw.png" data-height="458" data-image-id="1*KakQvka8phL2CFstj3ihdw.png" data-width="916" src="https://hackernoon.com/hn-images/1*KakQvka8phL2CFstj3ihdw.png"></div>
+<figcaption class="imageCaption">
+On the vertical axis is a size in KB, on horizontal individual packages
+</figcaption>
+</figure>
+<p class="paragraph">At the beginning I said that I don’t care about the size of <code class="markup--code markup--p-code">node_modules</code> and this is partly true — I don’t care so much about space it takes, but I do care about the number of files. In case of @angular/cli almost 70% of disk space is the 20 biggest packages (<a href="https://en.wikipedia.org/wiki/Pareto_principle" target="_blank">Pareto principle</a> works everywhere!).</p>
+<p class="paragraph">What’s more — if you take a look at WinDirStat’s report below you will see that a lot of packages contain big files (for example sourcemaps, these are green). And in terms of copying files computers works better in case of a few big files than thousands of tiny ones.</p>
+<figure>
+<div class="aspectRatioPlaceholder is-locked">
+<div class="aspectRatioPlaceholder-fill"></div><img data-action="zoom" data-action-value="1*PtO0y-8kRLFxDnO2kllevw.png" data-height="960" data-image-id="1*PtO0y-8kRLFxDnO2kllevw.png" data-width="1920" src="https://hackernoon.com/hn-images/1*PtO0y-8kRLFxDnO2kllevw.png"></div>
+<figcaption class="imageCaption">
+The node_modules report from WinDirStat. Packages in the right bottom corner can have only fractions of Planck length
+</figcaption>
+</figure>
+<p class="paragraph">A large number of packages has one more drawback —the potential version incompatibility. Let’s assume each package has two versions 1.0 and 2.0. In the worst scenario some packages may need 1.0 and the others 2.0. The more packages are in our app, the more possible combinations you get. Resolving those combinations takes time, CPU and space to keep every occurrence of the old version needed by some equally old package.</p>
+<h4>Epilogue</h4>
+<p class="paragraph">This is the world we live in. The worst thing is that “it kinda works” so it’s not going to change anytime soon. Creating JS Standard Library would help but a real change is needed in developers mindset.</p>
+<p class="paragraph">So if you can remember one thing from my looong article, let it be “use lodash”. And if you can, take also “use popular packages that already are used by others”. Programming is not an Individuality Contest so choose tested, war-seasoned libraries and do not increase JavaScript entropy.</p>
+<figure>
+<div class="aspectRatioPlaceholder is-locked">
+<div class="aspectRatioPlaceholder-fill"></div><img data-action="zoom" data-action-value="1*tLmdca91O3WXf_ZTiy8JFA.jpeg" data-height="712" data-image-id="1*tLmdca91O3WXf_ZTiy8JFA.jpeg" data-width="990" src="https://hackernoon.com/hn-images/1*tLmdca91O3WXf_ZTiy8JFA.jpeg"></div>
+<figcaption class="imageCaption">
+Mandatory joke, I almost forgot about it
+</figcaption>
+</figure>
+</div></p>
+</main></span>]]></content:encoded>
+      
+    </item>
+    
+    <item>
+      <title>Choose Boring Technology</title>
+      <link>/news/hackernews1/</link>
+      <pubDate>Mon, 30 Mar 2015 08:54:56 +0800</pubDate>
+      
+      <guid>/news/hackernews1/</guid>
+      <description>Probably the single best thing to happen to me in my career was having had Kellan placed in charge of me. I stuck around long enough to see Kellan’s technical decisionmaking start to bear fruit. I learned a great deal from this, but I also learned a great deal as a result of this. I would not have been free to become the engineer that wrote Data Driven Products Now! if Kellan had not been there to so thoroughly stick the landing on technology choices.</description>
+      
+      <content:encoded><![CDATA[<p>Probably the single best thing to happen to me in my career was having had <a href="http://laughingmeme.org/"target="_blank">Kellan</a> placed in charge of me. I stuck around long enough to see Kellan’s technical decisionmaking start to bear fruit. I learned a great deal <em>from</em> this, but I also learned a great deal as a <em>result</em> of this. I would not have been free to become the engineer that wrote <a href="https://mcfunley.com/data-driven-products-lean-startup-2014"target="_blank">Data Driven Products Now!</a> if Kellan had not been there to so thoroughly stick the landing on technology choices.</p>
+<p><img  src="http://i.imgur.com/FRQKLCy.jpg"
+        alt/></p>
+<p>Being inspirational as always.</p>
+<p>In the year since leaving Etsy, I’ve resurrected my ability to care about technology. And my thoughts have crystallized to the point where I can write them down coherently. What follows is a distillation of the Kellan gestalt, which will hopefully serve to horrify him only slightly.</p>
+<h5 id="embrace-boredom">Embrace Boredom.</h5>
+<p>Let’s say every company gets about three innovation tokens. You can spend these however you want, but the supply is fixed for a long while. You might get a few more <em>after</em> you achieve a <a href="http://rc3.org/2015/03/24/the-pleasure-of-building-big-things/"target="_blank">certain level of stability and maturity</a>, but the general tendency is to overestimate the contents of your wallet. Clearly this model is approximate, but I think it helps.</p>
+<p>If you choose to write your website in NodeJS, you just spent one of your innovation tokens. If you choose to use <a href="https://mcfunley.com/why-mongodb-never-worked-out-at-etsy"target="_blank">MongoDB</a>, you just spent one of your innovation tokens. If you choose to use <a href="https://consul.io/"target="_blank">service discovery tech that’s existed for a year or less</a>, you just spent one of your innovation tokens. If you choose to write your own database, oh god, you’re in trouble.</p>
+<p>Any of those choices might be sensible if you’re a javascript consultancy, or a database company. But you’re probably not. You’re probably working for a company that is at least ostensibly <a href="https://www.etsy.com/"target="_blank">rethinking global commerce</a> or <a href="https://stripe.com/"target="_blank">reinventing payments on the web</a> or pursuing some other suitably epic mission. In that context, devoting any of your limited attention to innovating ssh is an excellent way to fail. Or at best, delay success <a href="https://mcfunley.com/choose-boring-technology#f1"target="_blank">[1]</a>.</p>
+<p>What counts as boring? That’s a little tricky. “Boring” should not be conflated with “bad.” There is technology out there that is both boring and bad <a href="https://mcfunley.com/choose-boring-technology#f2"target="_blank">[2]</a>. You should not use any of that. But there are many choices of technology that are boring and good, or at least good enough. MySQL is boring. Postgres is boring. PHP is boring. Python is boring. Memcached is boring. Squid is boring. Cron is boring.</p>
+<p>The nice thing about boringness (so constrained) is that the capabilities of these things are well understood. But more importantly, their failure modes are well understood. Anyone who knows me well will understand that it’s only with a overwhelming sense of malaise that I now invoke the spectre of Don Rumsfeld, but I must.</p>
+<p><img  src="http://i.imgur.com/n8ElWr3.jpg"
+        alt/></p>
+<p>To be clear, fuck this guy.</p>
+<p>When choosing technology, you have both known unknowns and unknown unknowns <a href="https://mcfunley.com/choose-boring-technology#f3"target="_blank">[3]</a>.</p>
+<ul>
+<li>A known unknown is something like: <em>we don’t know what happens when this database hits 100% CPU.</em></li>
+<li>An unknown unknown is something like: <em>geez it didn’t even occur to us that <a href="http://www.evanjones.ca/jvm-mmap-pause.html"target="_blank">writing stats would cause GC pauses</a>.</em></li>
+</ul>
+<p>Both sets are typically non-empty, even for tech that’s existed for decades. But for shiny new technology the magnitude of unknown unknowns is significantly larger, and this is important.</p>
+<h5 id="optimize-globally">Optimize Globally.</h5>
+<p>I unapologetically think a bias in favor of boring technology is a good thing, but it’s not the only factor that needs to be considered. Technology choices don’t happen in isolation. They have a scope that touches your entire team, organization, and the system that emerges from the sum total of your choices.</p>
+<p>Adding technology to your company comes with a cost. As an abstract statement this is obvious: if we’re already using Ruby, adding Python to the mix doesn’t feel sensible because the resulting complexity would outweigh Python’s marginal utility. But somehow when we’re talking about Python and Scala or MySQL and Redis people <a href="http://martinfowler.com/bliki/PolyglotPersistence.html"target="_blank">lose their minds</a>, discard all constraints, and start raving about using the best tool for the job.</p>
+<p><a href="https://twitter.com/coda/status/580531932393504768"target="_blank">Your function in a nutshell</a> is to map business problems onto a solution space that involves choices of software. If the choices of software were truly without baggage, you could indeed pick a whole mess of locally-the-best tools for your assortment of problems.</p>
+<p>ProblemsTechnical SolutionsThe way you might choose technology in a world where choices are cheap: &ldquo;pick the right tool for the job.&rdquo;</p>
+<p>But of course, the baggage exists. We call the baggage “operations” and to a lesser extent “cognitive overhead.” You have to monitor the thing. You have to figure out unit tests. You need to know the first thing about it to hack on it. You need an init script. I could go on for days here, and all of this adds up fast.</p>
+<p>ProblemsTechnical SolutionsThe way you choose technology in the world where operations are a serious concern (i.e., &ldquo;reality&rdquo;).</p>
+<p>The problem with “best tool for the job” thinking is that it takes a myopic view of the words “best” and “job.” Your job is keeping the company in business, god damn it. And the “best” tool is the one that occupies the “least worst” position for as many of your problems as possible.</p>
+<p>It is basically always the case that the long-term costs of keeping a system working reliably vastly exceed any inconveniences you encounter while building it. Mature and productive developers understand this.</p>
+<h5 id="choose-new-technology-sometimes">Choose New Technology, Sometimes.</h5>
+<p>Taking this reasoning to its <em>reductio ad absurdum</em> would mean picking Java, and then trying to implement a website without using anything else at all. And that would be crazy. You need some means to add things to your toolbox.</p>
+<p>An important first step is to acknowledge that this is a process, and a conversation. New tech eventually has company-wide effects, so adding tech is a decision that requires company-wide visibility. Your organizational specifics may force the conversation, or <a href="https://twitter.com/mcfunley/status/578603932949164032"target="_blank">they may facilitate developers adding new databases and queues without talking to anyone</a>. One way or another you have to set cultural expectations that <strong>this is something we all talk about</strong>.</p>
+<p>One of the most worthwhile exercises I recommend here is to <strong>consider how you would solve your immediate problem without adding anything new</strong>. First, posing this question should detect the situation where the “problem” is that someone really wants to use the technology. If that is the case, you should immediately abort.</p>
+<p><img  src="http://i.imgur.com/rmdSx.gif"
+        alt/></p>
+<p>I just watched a webinar about this graph database, we should try it out.</p>
+<p>It can be amazing how far a small set of technology choices can go. The answer to this question in practice is almost never “we can’t do it,” it’s usually just somewhere on the spectrum of “well, we could do it, but it would be too hard” <a href="https://mcfunley.com/choose-boring-technology#f4"target="_blank">[4]</a>. If you think you can’t accomplish your goals with what you’ve got now, you are probably just not thinking creatively enough.</p>
+<p>It’s helpful to <strong>write down exactly what it is about the current stack that makes solving the problem prohibitively expensive and difficult.</strong> This is related to the previous exercise, but it’s subtly different.</p>
+<p>New technology choices might be purely additive (for example: “we don’t have caching yet, so let’s add memcached”). But they might also overlap or replace things you are already using. If that’s the case, you should <strong>set clear expectations about migrating old functionality to the new system.</strong> The policy should typically be “we’re committed to migrating,” with a proposed timeline. The intention of this step is to keep wreckage at manageable levels, and to avoid proliferating locally-optimal solutions.</p>
+<p>This process is not daunting, and it’s not much of a hassle. It’s a handful of questions to fill out as homework, followed by a meeting to talk about it. I think that if a new technology (or a new service to be created on your infrastructure) can pass through this gauntlet unscathed, adding it is fine.</p>
+<h5 id="just-ship">Just Ship.</h5>
+<p>Polyglot programming is sold with the promise that letting developers choose their own tools with complete freedom will make them more effective at solving problems. This is a naive definition of the problems at best, and motivated reasoning at worst. The weight of day-to-day operational <a href="https://twitter.com/handler"target="_blank">toil</a> this creates crushes you to death.</p>
+<p>Mindful choice of technology gives engineering minds real freedom: the freedom to <a href="https://mcfunley.com/effective-web-experimentation-as-a-homo-narrans"target="_blank">contemplate bigger questions</a>. Technology for its own sake is snake oil.</p>
+<p><em>Update, July 27th 2015: I wrote a talk based on this article. You can see it <a href="http://boringtechnology.club/"target="_blank">here</a>.</em></p>
+<hr>
+<ol>
+<li>Etsy in its early years suffered from this pretty badly. We hired a bunch of Python programmers and decided that we needed to find something for them to do in Python, and the only thing that came to mind was creating a pointless middle layer that <a href="https://www.youtube.com/watch?v=eenrfm50mXw"target="_blank">required years of effort to amputate</a>. Meanwhile, the 90th percentile search latency was about two minutes. <a href="http://www.sec.gov/Archives/edgar/data/1370637/000119312515077045/d806992ds1.htm"target="_blank">Etsy didn&rsquo;t fail</a>, but it went several years without shipping anything at all. So it took longer to succeed than it needed to.</li>
+<li>We often casually refer to the boring/bad intersection of doom as “enterprise software,” but that terminology may be imprecise.</li>
+<li>In saying this Rumsfeld was either intentionally or unintentionally alluding to <a href="http://en.wikipedia.org/wiki/I_know_that_I_know_nothing"target="_blank">the Socratic Paradox</a>. Socrates was by all accounts a thoughtful individual in a number of ways that Rumsfeld is not.</li>
+<li>A good example of this from my experience is <a href="https://speakerdeck.com/mcfunley/etsy-activity-feed-architecture"target="_blank">Etsy’s activity feeds</a>. When we built this feature, we were working pretty hard to consolidate most of Etsy onto PHP, MySQL, Memcached, and Gearman (a PHP job server). It was much more complicated to implement the feature on that stack than it might have been with something like Redis (or <a href="https://aphyr.com/posts/283-call-me-maybe-redis"target="_blank">maybe not</a>). But it is absolutely possible to build activity feeds on that stack.</li>
+</ol>
+<p>An amazing thing happened with that project: our attention turned elsewhere for several years. During that time, activity feeds scaled up 20x while <em>nobody was watching it at all.</em> We made no changes whatsoever specifically targeted at activity feeds, but everything worked out fine as usage exploded because we were using a shared platform. This is the long-term benefit of restraint in technology choices in a nutshell.</p>
+<p>This isn’t an absolutist position&ndash;while activity feeds stored in memcached was judged to be practical, implementing full text search with faceting in raw PHP wasn&rsquo;t. So Etsy used Solr.</p>
+]]></content:encoded>
+      
+    </item>
+    
+  </channel>
+</rss>
